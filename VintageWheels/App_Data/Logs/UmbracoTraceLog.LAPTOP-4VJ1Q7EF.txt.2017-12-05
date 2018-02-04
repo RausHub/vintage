@@ -1,0 +1,1069 @@
+﻿ 2017-12-05 22:33:27,549 [P1188/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.7.6 application starting on LAPTOP-4VJ1Q7EF
+ 2017-12-05 22:33:27,598 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-12-05 22:33:27,626 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 27ms)
+ 2017-12-05 22:33:27,701 [P1188/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-12-05 22:33:27,704 [P1188/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-12-05 22:33:27,707 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 22:33:28,207 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 499ms)
+ 2017-12-05 22:33:28,207 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-12-05 22:33:28,213 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 6ms)
+ 2017-12-05 22:33:28,235 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 22:33:28,235 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 22:33:28,236 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-12-05 22:33:28,242 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 5ms)
+ 2017-12-05 22:33:28,242 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 22:33:28,242 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 22:33:28,243 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-12-05 22:33:28,250 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 6ms)
+ 2017-12-05 22:33:28,264 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 22:33:28,264 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 22:33:28,264 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-12-05 22:33:28,272 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 7ms)
+ 2017-12-05 22:33:28,273 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 22:33:28,273 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 22:33:28,274 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-12-05 22:33:28,280 [P1188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 6ms)
+ 2017-12-05 22:33:30,286 [P1188/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-12-05 22:33:30,750 [P1188/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-12-05 22:33:31,175 [P1188/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-12-05 22:33:31,176 [P1188/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-12-05 22:33:31,313 [P1188/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3885ms)
+ 2017-12-05 22:33:31,585 [P1188/D2/T5] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50743/umbraco (UmbracoModule request)
+ 2017-12-05 22:33:32,022 [P1188/D2/T5] INFO  umbraco.content - Load Xml from file...
+ 2017-12-05 22:33:32,063 [P1188/D2/T5] INFO  umbraco.content - Loaded Xml from file.
+ 2017-12-05 22:33:32,894 [P1188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 22:33:32,895 [P1188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 22:33:32,895 [P1188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-12-05 22:33:32,902 [P1188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 7ms)
+ 2017-12-05 22:33:37,900 [P1188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 22:33:37,901 [P1188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 22:33:37,901 [P1188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2017-12-05 22:33:37,909 [P1188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 8ms)
+ 2017-12-05 22:33:41,922 [P1188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 22:33:41,922 [P1188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 22:33:41,922 [P1188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-12-05 22:33:41,931 [P1188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 8ms)
+ 2017-12-05 22:33:42,196 [P1188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 22:33:42,196 [P1188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 22:33:42,196 [P1188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-12-05 22:33:42,196 [P1188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2017-12-05 22:33:42,229 [P1188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 22:33:42,229 [P1188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 22:33:42,229 [P1188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving umbraco.cms.businesslogic.macro.IMacroEngine
+ 2017-12-05 22:33:42,236 [P1188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved umbraco.cms.businesslogic.macro.IMacroEngine (took 6ms)
+ 2017-12-05 22:34:34,309 [P1188/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-12-04 22:34:32
+ 2017-12-05 22:37:48,804 [P1188/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 22:37:48,804 [P1188/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 22:37:48,804 [P1188/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-12-05 22:37:48,813 [P1188/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 8ms)
+ 2017-12-05 22:37:49,121 [P1188/D2/T33] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 22:37:49,122 [P1188/D2/T33] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 22:37:49,122 [P1188/D2/T33] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2017-12-05 22:37:49,132 [P1188/D2/T33] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 9ms)
+ 2017-12-05 22:38:14,210 [P1188/D2/T23] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rausjelle@hotmail.com from IP address ::1
+ 2017-12-05 22:38:14,213 [P1188/D2/T23] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rausjelle@hotmail.com logged in from IP address ::1
+ 2017-12-05 22:38:14,972 [P1188/D2/T27] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 22:38:14,973 [P1188/D2/T27] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2017-12-05 22:38:14,973 [P1188/D2/T27] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2017-12-05 22:38:14,989 [P1188/D2/T27] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 15ms)
+ 2017-12-05 22:38:14,989 [P1188/D2/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 22:38:14,989 [P1188/D2/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 22:38:14,990 [P1188/D2/T28] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-12-05 22:38:14,990 [P1188/D2/T28] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-12-05 22:38:14,994 [P1188/D2/T29] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 22:38:14,994 [P1188/D2/T29] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 22:38:14,995 [P1188/D2/T29] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2017-12-05 22:38:15,006 [P1188/D2/T29] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 11ms)
+ 2017-12-05 22:38:15,051 [P1188/D2/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 22:38:15,052 [P1188/D2/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 22:38:15,052 [P1188/D2/T28] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2017-12-05 22:38:15,077 [P1188/D2/T28] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 24ms)
+ 2017-12-05 22:39:52,448 [P1188/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Products' with Id '1104' has been unpublished.
+ 2017-12-05 22:39:52,590 [P1188/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Knitted West' with Id '1112' has been unpublished.
+ 2017-12-05 22:39:52,679 [P1188/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Banjo' with Id '1111' has been unpublished.
+ 2017-12-05 22:39:52,752 [P1188/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jumpsuit' with Id '1110' has been unpublished.
+ 2017-12-05 22:39:52,825 [P1188/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bowling Ball' with Id '1109' has been unpublished.
+ 2017-12-05 22:39:52,914 [P1188/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ping Pong Ball' with Id '1108' has been unpublished.
+ 2017-12-05 22:39:52,986 [P1188/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Unicorn' with Id '1107' has been unpublished.
+ 2017-12-05 22:39:53,080 [P1188/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Tattoo' with Id '1106' has been unpublished.
+ 2017-12-05 22:39:53,150 [P1188/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Biker Jacket' with Id '1105' has been unpublished.
+ 2017-12-05 22:39:53,467 [P1188/D2/T19] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 22:39:53,467 [P1188/D2/T19] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 22:39:53,467 [P1188/D2/T19] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2017-12-05 22:39:53,480 [P1188/D2/T19] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 13ms)
+ 2017-12-05 22:40:02,082 [P1188/D2/T14] INFO  umbraco.content - Save Xml to file...
+ 2017-12-05 22:40:02,094 [P1188/D2/T14] INFO  umbraco.content - Saved Xml to file.
+ 2017-12-05 22:40:02,173 [P1188/D2/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1103' has been unpublished.
+ 2017-12-05 22:40:02,262 [P1188/D2/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '1126' has been unpublished.
+ 2017-12-05 22:40:02,335 [P1188/D2/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Blog' with Id '1122' has been unpublished.
+ 2017-12-05 22:40:02,409 [P1188/D2/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1119' has been unpublished.
+ 2017-12-05 22:40:02,424 [P1188/D2/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'People' with Id '1113' has been unpublished.
+ 2017-12-05 22:40:02,492 [P1188/D2/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jeroen Breuer' with Id '1118' has been unpublished.
+ 2017-12-05 22:40:02,563 [P1188/D2/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jeavon Leopold' with Id '1117' has been unpublished.
+ 2017-12-05 22:40:02,642 [P1188/D2/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lee Kelleher' with Id '1116' has been unpublished.
+ 2017-12-05 22:40:02,713 [P1188/D2/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'This will be great' with Id '1125' has been unpublished.
+ 2017-12-05 22:40:02,782 [P1188/D2/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Matt Brailsford' with Id '1115' has been unpublished.
+ 2017-12-05 22:40:02,856 [P1188/D2/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Todo list for the Starter Kit' with Id '1121' has been unpublished.
+ 2017-12-05 22:40:02,924 [P1188/D2/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Another one' with Id '1124' has been unpublished.
+ 2017-12-05 22:40:02,990 [P1188/D2/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jan Skovgaard' with Id '1114' has been unpublished.
+ 2017-12-05 22:40:03,083 [P1188/D2/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About this Starter Kit' with Id '1120' has been unpublished.
+ 2017-12-05 22:40:03,150 [P1188/D2/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'My Blog Post' with Id '1123' has been unpublished.
+ 2017-12-05 22:40:14,294 [P1188/D2/T28] INFO  umbraco.content - Save Xml to file...
+ 2017-12-05 22:40:14,314 [P1188/D2/T28] INFO  umbraco.content - Saved Xml to file.
+ 2017-12-05 22:57:45,437 [P1188/D2/T86] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: rausjelle@hotmail.com, IP Address: ::1
+ 2017-12-05 23:01:46,466 [P1188/D2/T56] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rausjelle@hotmail.com from IP address ::1
+ 2017-12-05 23:01:46,466 [P1188/D2/T56] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rausjelle@hotmail.com logged in from IP address ::1
+ 2017-12-05 23:01:46,551 [P1188/D2/T66] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rausjelle@hotmail.com from IP address ::1
+ 2017-12-05 23:01:46,551 [P1188/D2/T66] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rausjelle@hotmail.com logged in from IP address ::1
+ 2017-12-05 23:03:15,062 [P1188/D2/T75] INFO  umbraco.content - Loading content from database...
+ 2017-12-05 23:03:19,423 [P1188/D2/T56] INFO  umbraco.content - Save Xml to file...
+ 2017-12-05 23:03:19,433 [P1188/D2/T56] INFO  umbraco.content - Saved Xml to file.
+ 2017-12-05 23:03:22,352 [P1188/D2/T66] INFO  umbraco.content - Loading content from database...
+ 2017-12-05 23:03:26,661 [P1188/D2/T66] INFO  umbraco.content - Save Xml to file...
+ 2017-12-05 23:03:26,686 [P1188/D2/T66] INFO  umbraco.content - Saved Xml to file.
+ 2017-12-05 23:03:31,295 [P1188/D2/T76] INFO  umbraco.content - Loading content from database...
+ 2017-12-05 23:03:35,687 [P1188/D2/T66] INFO  umbraco.content - Save Xml to file...
+ 2017-12-05 23:03:35,696 [P1188/D2/T66] INFO  umbraco.content - Saved Xml to file.
+ 2017-12-05 23:03:37,741 [P1188/D2/T72] INFO  umbraco.content - Loading content from database...
+ 2017-12-05 23:03:41,405 [P1188/D2/T76] INFO  umbraco.content - Loading content from database...
+ 2017-12-05 23:03:45,809 [P1188/D2/T96] INFO  umbraco.content - Save Xml to file...
+ 2017-12-05 23:03:45,821 [P1188/D2/T96] INFO  umbraco.content - Saved Xml to file.
+ 2017-12-05 23:03:46,557 [P1188/D2/T56] INFO  umbraco.content - Loading content from database...
+ 2017-12-05 23:03:50,900 [P1188/D2/T56] INFO  umbraco.content - Save Xml to file...
+ 2017-12-05 23:03:50,911 [P1188/D2/T56] INFO  umbraco.content - Saved Xml to file.
+ 2017-12-05 23:03:52,761 [P1188/D2/T72] INFO  umbraco.content - Loading content from database...
+ 2017-12-05 23:03:57,134 [P1188/D2/T56] INFO  umbraco.content - Save Xml to file...
+ 2017-12-05 23:03:57,149 [P1188/D2/T56] INFO  umbraco.content - Saved Xml to file.
+ 2017-12-05 23:04:05,489 [P1188/D2/T56] ERROR Umbraco.Core.Persistence.UmbracoDatabase - Exception (faaf2973).
+System.Data.SqlServerCe.SqlCeException (0x80004005): A duplicate value cannot be inserted into a unique index. [ Table name = umbracoRelation,Constraint name = IX_umbracoRelation_parentChildType ]
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQuery() in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 266
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass2_0.<ExecuteNonQueryWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.Insert(String tableName, String primaryKeyName, Boolean autoIncrement, Object poco)
+ 2017-12-05 23:04:05,647 [P1188/D2/T56] ERROR Umbraco.Web.Editors.ContentTypeController - Unhandled controller exception occurred
+System.Data.SqlServerCe.SqlCeException (0x80004005): A duplicate value cannot be inserted into a unique index. [ Table name = umbracoRelation,Constraint name = IX_umbracoRelation_parentChildType ]
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQuery() in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 266
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass2_0.<ExecuteNonQueryWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.Insert(String tableName, String primaryKeyName, Boolean autoIncrement, Object poco)
+   at Umbraco.Core.Persistence.Database.Insert(Object poco)
+   at Umbraco.Core.Persistence.Repositories.RelationRepository.PersistNewItem(IRelation entity)
+   at Umbraco.Core.Cache.NoRepositoryCachePolicy`2.Create(TEntity entity, Action`1 persistNew)
+   at Umbraco.Core.Persistence.Repositories.RepositoryBase`2.PersistNewItem(IEntity entity)
+   at Umbraco.Core.Persistence.UnitOfWork.ScopeUnitOfWork.Commit(Action`1 transactionCompleting)
+   at Umbraco.Core.Persistence.UnitOfWork.ScopeUnitOfWork.Commit()
+   at Umbraco.Core.Services.RelationService.Save(IRelation relation)
+   at Umbraco.Core.Strategies.RelateOnTrashHandler.ContentService_Trashed(IContentService sender, MoveEventArgs`1 e)
+   at Umbraco.Core.Events.TypedEventHandler`2.Invoke(TSender sender, TEventArgs e)
+   at Umbraco.Core.Events.EventDefinition`2.RaiseEvent()
+   at Umbraco.Core.Events.ScopeEventDispatcher.ScopeExitCompleted()
+   at Umbraco.Core.Events.ScopeEventDispatcherBase.ScopeExit(Boolean completed)
+   at Umbraco.Core.Scoping.Scope.<>c__DisplayClass70_0.<RobustExit>b__1()
+   at Umbraco.Core.Scoping.Scope.TryFinally(Int32 index, Action[] actions)
+   at Umbraco.Core.Scoping.Scope.TryFinally(Int32 index, Action[] actions)
+   at Umbraco.Core.Scoping.Scope.RobustExit(Boolean completed, Boolean onException)
+   at Umbraco.Core.Scoping.Scope.DisposeLastScope()
+   at Umbraco.Core.Scoping.Scope.Dispose()
+   at Umbraco.Core.Persistence.UnitOfWork.ScopeUnitOfWork.DisposeResources()
+   at Umbraco.Core.DisposableObject.Dispose(Boolean disposing)
+   at Umbraco.Core.DisposableObject.Dispose()
+   at Umbraco.Core.Services.ContentTypeService.Delete(IContentType contentType, Int32 userId)
+   at Umbraco.Web.Editors.ContentTypeController.DeleteById(Int32 id)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ 2017-12-05 23:04:18,048 [P1188/D2/T56] INFO  umbraco.content - Loading content from database...
+ 2017-12-05 23:04:22,311 [P1188/D2/T75] INFO  umbraco.content - Save Xml to file...
+ 2017-12-05 23:04:22,354 [P1188/D2/T75] INFO  umbraco.content - Saved Xml to file.
+ 2017-12-05 23:04:54,305 [P1188/D2/T74] INFO  umbraco.content - Loading content from database...
+ 2017-12-05 23:04:58,616 [P1188/D2/T75] INFO  umbraco.content - Save Xml to file...
+ 2017-12-05 23:04:58,625 [P1188/D2/T75] INFO  umbraco.content - Saved Xml to file.
+ 2017-12-05 23:04:59,319 [P1188/D2/T56] INFO  umbraco.content - Loading content from database...
+ 2017-12-05 23:05:03,519 [P1188/D2/T56] INFO  umbraco.content - Save Xml to file...
+ 2017-12-05 23:05:03,533 [P1188/D2/T56] INFO  umbraco.content - Saved Xml to file.
+ 2017-12-05 23:05:03,583 [P1188/D2/T66] INFO  umbraco.content - Loading content from database...
+ 2017-12-05 23:05:07,800 [P1188/D2/T72] INFO  umbraco.content - Save Xml to file...
+ 2017-12-05 23:05:07,814 [P1188/D2/T72] INFO  umbraco.content - Saved Xml to file.
+ 2017-12-05 23:09:28,585 [P1188/D2/T76] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:09:28,586 [P1188/D2/T76] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:09:28,586 [P1188/D2/T76] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.HealthCheck.HealthCheck
+ 2017-12-05 23:09:28,596 [P1188/D2/T76] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.HealthCheck.HealthCheck (took 9ms)
+ 2017-12-05 23:09:45,021 [P1188/D2/T74] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-12-05 23:09:45,035 [P1188/D2/T74] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-12-05 23:09:45,037 [P1188/D2/T74] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-12-05 23:09:45,037 [P1188/D2/T74] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-12-05 23:09:45,037 [P1188/D2/T74] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
+ 2017-12-05 23:09:45,038 [P1188/D2/T74] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
+ 2017-12-05 23:09:45,038 [P1188/D2/T74] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
+ 2017-12-05 23:09:45,039 [P1188/D2/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-12-05 23:09:45,039 [P1188/D2/T74] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-12-05 23:09:45,040 [P1188/D2/T74] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-12-05 23:09:45,041 [P1188/D2/T84] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-12-05 23:09:45,047 [P1188/D2/T74] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-12-05 23:09:45,048 [P1188/D2/T74] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-12-05 23:09:45,048 [P1188/D2/T74] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-12-05 23:09:45,050 [P1188/D2/T74] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-12-05 23:09:45,051 [P1188/D2/T74] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-12-05 23:09:45,051 [P1188/D2/T74] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-12-05 23:09:45,049 [P1188/D2/T90] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-12-05 23:09:45,052 [P1188/D2/T90] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-12-05 23:09:45,053 [P1188/D2/T90] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-12-05 23:09:54,681 [P1188/D6/T28] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.7.6 application starting on LAPTOP-4VJ1Q7EF
+ 2017-12-05 23:09:54,727 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-12-05 23:09:54,742 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Hash determined (took 14ms)
+ 2017-12-05 23:09:54,800 [P1188/D6/T28] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-12-05 23:09:54,802 [P1188/D6/T28] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-12-05 23:09:54,804 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:09:55,186 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 381ms)
+ 2017-12-05 23:09:55,186 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-12-05 23:09:55,197 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 10ms)
+ 2017-12-05 23:09:55,218 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:09:55,218 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:09:55,219 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-12-05 23:09:55,226 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 7ms)
+ 2017-12-05 23:09:55,227 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:09:55,227 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:09:55,227 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-12-05 23:09:55,236 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 8ms)
+ 2017-12-05 23:09:55,256 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:09:55,256 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:09:55,256 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-12-05 23:09:55,263 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 6ms)
+ 2017-12-05 23:09:55,264 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:09:55,264 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:09:55,264 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-12-05 23:09:55,274 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 9ms)
+ 2017-12-05 23:09:56,837 [P1188/D6/T28] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-12-05 23:09:57,174 [P1188/D6/T28] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-12-05 23:09:57,208 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2017-12-05 23:09:57,212 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2017-12-05 23:09:57,442 [P1188/D6/T28] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (141ms)
+ 2017-12-05 23:09:57,492 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 16
+ 2017-12-05 23:09:57,503 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = default Folder = ~/uSync/data/ Force = False
+ 2017-12-05 23:09:57,521 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2017-12-05 23:09:57,531 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-12-05 23:09:57,533 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2017-12-05 23:09:57,534 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-12-05 23:09:57,538 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2017-12-05 23:09:57,539 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-12-05 23:09:57,540 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2017-12-05 23:09:57,541 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-12-05 23:09:57,542 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2017-12-05 23:09:57,543 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-12-05 23:09:57,543 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2017-12-05 23:09:57,545 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-12-05 23:09:57,545 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2017-12-05 23:09:57,546 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-12-05 23:09:57,556 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running full Umbraco Export
+ 2017-12-05 23:09:57,557 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.Handlers.DataTypeHandler - Exporting all DataTypes.
+ 2017-12-05 23:09:57,577 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:09:57,578 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:09:57,578 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-12-05 23:09:57,590 [P1188/D6/T28] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 11ms)
+ 2017-12-05 23:10:06,982 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Exporting all Templates
+ 2017-12-05 23:10:07,042 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Exporting all ContentTypes (DocTypes)
+ 2017-12-05 23:10:07,136 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.Handlers.MediaTypeHandler - Exporting all MediaTypes
+ 2017-12-05 23:10:07,942 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.Handlers.LanguageHandler - Exporting all Langauges
+ 2017-12-05 23:10:07,956 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.Handlers.DictionaryHandler - Exporting all Dictionary Items
+ 2017-12-05 23:10:08,010 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.Handlers.MacroHandler - Exporting all Macros
+ 2017-12-05 23:10:08,153 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events default
+ 2017-12-05 23:10:08,162 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 51 items with 51 changes ###
+ 2017-12-05 23:10:08,165 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export List View - Members Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\list-view-members\ListViewMembers.config
+ 2017-12-05 23:10:08,165 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export List View - Media Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\list-view-media\ListViewMedia.config
+ 2017-12-05 23:10:08,165 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export List View - Content Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\list-view-content\ListViewContent.config
+ 2017-12-05 23:10:08,165 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Numeric Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\numeric\Numeric.config
+ 2017-12-05 23:10:08,165 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export True/false Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\true-false\Truefalse.config
+ 2017-12-05 23:10:08,166 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Checkbox list Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\checkbox-list\CheckboxList.config
+ 2017-12-05 23:10:08,166 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Dropdown Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\dropdown\Dropdown.config
+ 2017-12-05 23:10:08,166 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Date Picker Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\date-picker\DatePicker.config
+ 2017-12-05 23:10:08,166 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Radiobox Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\radiobox\Radiobox.config
+ 2017-12-05 23:10:08,166 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Dropdown multiple Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\dropdown-multiple\DropdownMultiple.config
+ 2017-12-05 23:10:08,166 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Approved Color Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\approved-color\ApprovedColor.config
+ 2017-12-05 23:10:08,166 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Date Picker with time Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\date-picker-with-time\DatePickerWithTime.config
+ 2017-12-05 23:10:08,166 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Tags Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\tags\Tags.config
+ 2017-12-05 23:10:08,167 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Image Cropper Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\image-cropper\ImageCropper.config
+ 2017-12-05 23:10:08,167 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Content Picker Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\content-picker\ContentPicker.config
+ 2017-12-05 23:10:08,167 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Member Picker Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\member-picker\MemberPicker.config
+ 2017-12-05 23:10:08,167 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Media Picker Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\media-picker\MediaPicker.config
+ 2017-12-05 23:10:08,167 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Multiple Media Picker Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\multiple-media-picker\MultipleMediaPicker.config
+ 2017-12-05 23:10:08,167 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Related Links Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\related-links\RelatedLinks.config
+ 2017-12-05 23:10:08,167 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Richtext editor Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\richtext-editor\RichtextEditor.config
+ 2017-12-05 23:10:08,167 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Home - Description - Rich Text Editor Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\home-description-rich-text-editor\HomeDescriptionRichTextEditor.config
+ 2017-12-05 23:10:08,168 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Home - Call To Action Link - Content Picker Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\home-call-to-action-link-content-picker\HomeCallToActionLinkContentPicker.config
+ 2017-12-05 23:10:08,168 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Home - Design - Media Picker Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\home-design-media-picker\HomeDesignMediaPicker.config
+ 2017-12-05 23:10:08,168 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Content Base - Content - Grid layout Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\content-base-content-grid-layout\ContentBaseContentGridLayout.config
+ 2017-12-05 23:10:08,168 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Products - Default Currency - Dropdown list Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\products-default-currency-dropdown-list\ProductsDefaultCurrencyDropdownList.config
+ 2017-12-05 23:10:08,168 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Person - Photo - Media Picker Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\person-photo-media-picker\PersonPhotoMediaPicker.config
+ 2017-12-05 23:10:08,168 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Contact - Contact Intro - Rich Text Editor Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\contact-contact-intro-rich-text-editor\ContactContactIntroRichTextEditor.config
+ 2017-12-05 23:10:08,168 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Contact - Your Address - Terratype Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\contact-your-address-terratype\ContactYourAddressTerratype.config
+ 2017-12-05 23:10:08,168 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Textstring Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\textstring\Textstring.config
+ 2017-12-05 23:10:08,169 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export People - Featured People - Multinode Treepicker Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\people-featured-people-multinode-treepicker\PeopleFeaturedPeopleMultinodeTreepicker.config
+ 2017-12-05 23:10:08,169 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Textarea Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\textarea\Textarea.config
+ 2017-12-05 23:10:08,169 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Home - Color Theme - Radio button list Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\home-color-theme-radio-button-list\HomeColorThemeRadioButtonList.config
+ 2017-12-05 23:10:08,169 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Upload Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\upload\Upload.config
+ 2017-12-05 23:10:08,169 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Home - Font - Radio button list Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\home-font-radio-button-list\HomeFontRadioButtonList.config
+ 2017-12-05 23:10:08,169 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Label Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\label\Label.config
+ 2017-12-05 23:10:08,169 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Home - Content - Grid layout Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\home-content-grid-layout\HomeContentGridLayout.config
+ 2017-12-05 23:10:08,169 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Employee - Department - Tags Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\employee-department-tags\EmployeeDepartmentTags.config
+ 2017-12-05 23:10:08,170 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Product - Features - Nested Content Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\product-features-nested-content\ProductFeaturesNestedContent.config
+ 2017-12-05 23:10:08,170 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Product - Price - Decimal Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\product-price-decimal\ProductPriceDecimal.config
+ 2017-12-05 23:10:08,170 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Blog - How many posts should be shown - Slider Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\blog-how-many-posts-should-be-shown-slider\BlogHowManyPostsShouldBeShownSlider.config
+ 2017-12-05 23:10:08,170 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Products - Featured Products - Multinode Treepicker Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\products-featured-products-multinode-treepicker\ProductsFeaturedProductsMultinodeTreepicker.config
+ 2017-12-05 23:10:08,170 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Product - Photos - Media Picker Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\product-photos-media-picker\ProductPhotosMediaPicker.config
+ 2017-12-05 23:10:08,170 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export List View - products Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\list-view-products\ListViewProducts.config
+ 2017-12-05 23:10:08,170 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Contact - Pick a Contact Form - Form Picker Umbraco.Core.Models.IDataTypeDefinition  D:\grote test\VintageWheels\VintageWheels\uSync\data\DataType\contact-pick-a-contact-form-form-picker\ContactPickAContactFormFormPicker.config
+ 2017-12-05 23:10:08,170 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Folder Umbraco.Core.Models.IMedia  D:\grote test\VintageWheels\VintageWheels\uSync\data\MediaType\folder\def.config
+ 2017-12-05 23:10:08,171 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Image Umbraco.Core.Models.IMedia  D:\grote test\VintageWheels\VintageWheels\uSync\data\MediaType\image\def.config
+ 2017-12-05 23:10:08,171 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export File Umbraco.Core.Models.IMedia  D:\grote test\VintageWheels\VintageWheels\uSync\data\MediaType\file\def.config
+ 2017-12-05 23:10:08,171 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export en-US Umbraco.Core.Models.ILanguage  D:\grote test\VintageWheels\VintageWheels\uSync\data\Languages\enUS.config
+ 2017-12-05 23:10:08,171 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Select Featured Products Umbraco.Core.Models.IMacro  D:\grote test\VintageWheels\VintageWheels\uSync\data\macro\featuredProducts.config
+ 2017-12-05 23:10:08,171 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Get Latest Blogposts Umbraco.Core.Models.IMacro  D:\grote test\VintageWheels\VintageWheels\uSync\data\macro\latestBlogposts.config
+ 2017-12-05 23:10:08,172 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Export Showcase Product Umbraco.Core.Models.IMacro  D:\grote test\VintageWheels\VintageWheels\uSync\data\macro\featuredProduct.config
+ 2017-12-05 23:10:08,176 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncActionLogger - Saving uSync Report: D:\grote test\VintageWheels\VintageWheels\App_Data\temp\uSync\20171205_231008_Startup.config
+ 2017-12-05 23:10:08,189 [P1188/D6/T28] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (10977ms)
+ 2017-12-05 23:10:08,332 [P1188/D6/T28] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-12-05 23:10:08,518 [P1188/D6/T28] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-12-05 23:10:08,530 [P1188/D6/T28] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 13933ms)
+ 2017-12-05 23:10:08,750 [P1188/D6/T66] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50743/umbraco (UmbracoModule request)
+ 2017-12-05 23:10:10,727 [P1188/D6/T76] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:10,727 [P1188/D6/T76] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:10,727 [P1188/D6/T76] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2017-12-05 23:10:10,759 [P1188/D6/T76] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 30ms)
+ 2017-12-05 23:10:10,775 [P1188/D6/T23] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:10,775 [P1188/D6/T23] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:10,775 [P1188/D6/T23] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-12-05 23:10:10,775 [P1188/D6/T23] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 8ms)
+ 2017-12-05 23:10:10,916 [P1188/D6/T72] ERROR Umbraco.Web.Editors.ContentController - Unhandled controller exception occurred
+System.Web.Http.HttpResponseException: Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+   at Umbraco.Web.Editors.ContentController.CheckPermissions(IDictionary`2 storage, IUser user, IUserService userService, IContentService contentService, IEntityService entityService, Int32 nodeId, Char[] permissionsToCheck, IContent contentItem)
+   at Umbraco.Web.WebApi.Filters.EnsureUserPermissionForContentAttribute.OnActionExecuting(HttpActionContext actionContext)
+   at System.Web.Http.Filters.ActionFilterAttribute.OnActionExecutingAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ 2017-12-05 23:10:11,378 [P1188/D6/T66] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:11,379 [P1188/D6/T66] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:11,379 [P1188/D6/T66] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-12-05 23:10:11,416 [P1188/D6/T66] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 35ms)
+ 2017-12-05 23:10:11,424 [P1188/D6/T66] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:11,425 [P1188/D6/T66] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:11,425 [P1188/D6/T66] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2017-12-05 23:10:11,436 [P1188/D6/T66] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 10ms)
+ 2017-12-05 23:10:11,734 [P1188/D6/T75] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:11,734 [P1188/D6/T75] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:11,734 [P1188/D6/T75] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IPackageAction
+ 2017-12-05 23:10:11,741 [P1188/D6/T75] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IPackageAction (took 6ms)
+ 2017-12-05 23:10:11,760 [P1188/D6/T76] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-12-05 23:10:11,761 [P1188/D6/T76] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-12-05 23:10:11,763 [P1188/D6/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-12-05 23:10:11,764 [P1188/D6/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-12-05 23:10:11,774 [P1188/D6/T94] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-12-05 23:10:11,779 [P1188/D6/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-12-05 23:10:11,780 [P1188/D6/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-12-05 23:10:11,781 [P1188/D6/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-12-05 23:10:11,786 [P1188/D6/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-12-05 23:10:11,787 [P1188/D6/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-12-05 23:10:11,787 [P1188/D6/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-12-05 23:10:11,788 [P1188/D6/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-12-05 23:10:11,788 [P1188/D6/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
+ 2017-12-05 23:10:11,788 [P1188/D6/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
+ 2017-12-05 23:10:11,788 [P1188/D6/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
+ 2017-12-05 23:10:11,789 [P1188/D6/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-12-05 23:10:11,789 [P1188/D6/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-12-05 23:10:11,789 [P1188/D6/T94] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-12-05 23:10:11,789 [P1188/D6/T94] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-12-05 23:10:11,790 [P1188/D6/T94] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-12-05 23:10:13,844 [P1188/D8/T28] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.7.6 application starting on LAPTOP-4VJ1Q7EF
+ 2017-12-05 23:10:13,858 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-12-05 23:10:13,876 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2017-12-05 23:10:13,937 [P1188/D8/T28] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-12-05 23:10:13,940 [P1188/D8/T28] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-12-05 23:10:13,943 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:14,531 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 588ms)
+ 2017-12-05 23:10:14,532 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-12-05 23:10:14,533 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 1ms)
+ 2017-12-05 23:10:14,596 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:14,597 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:14,597 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-12-05 23:10:14,597 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2017-12-05 23:10:14,598 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:14,598 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:14,599 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-12-05 23:10:14,601 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
+ 2017-12-05 23:10:14,617 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:14,617 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:14,617 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-12-05 23:10:14,618 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2017-12-05 23:10:14,618 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:14,619 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:14,619 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-12-05 23:10:14,619 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
+ 2017-12-05 23:10:15,123 [P1188/D2/T72] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+User code called UnloadAppDomain
+Change in C:\Users\Jelle\AppData\Local\Temp\Temporary ASP.NET Files\vs\87ddfdfe\8d01b165\hash\hash.web
+Change in C:\Users\Jelle\AppData\Local\Temp\Temporary ASP.NET Files\vs\87ddfdfe\8d01b165\hash\hash.web
+CONFIG change
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-12-05 23:10:17,690 [P1188/D8/T28] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-12-05 23:10:18,064 [P1188/D8/T28] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-12-05 23:10:18,106 [P1188/D8/T28] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2017-12-05 23:10:18,180 [P1188/D8/T28] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2017-12-05 23:10:20,619 [P1188/D8/T28] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (2370ms)
+ 2017-12-05 23:10:20,680 [P1188/D8/T28] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 16
+ 2017-12-05 23:10:20,695 [P1188/D8/T28] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = default Folder = ~/uSync/data/ Force = False
+ 2017-12-05 23:10:20,706 [P1188/D8/T28] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2017-12-05 23:10:23,292 [P1188/D8/T28] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 44 Items 0 changes 0 failures
+ 2017-12-05 23:10:23,293 [P1188/D8/T28] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2017-12-05 23:10:23,294 [P1188/D8/T28] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-12-05 23:10:23,295 [P1188/D8/T28] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2017-12-05 23:10:23,296 [P1188/D8/T28] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-12-05 23:10:23,296 [P1188/D8/T28] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2017-12-05 23:10:23,729 [P1188/D8/T28] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2017-12-05 23:10:23,729 [P1188/D8/T28] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2017-12-05 23:10:23,808 [P1188/D8/T28] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2017-12-05 23:10:23,809 [P1188/D8/T28] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2017-12-05 23:10:23,810 [P1188/D8/T28] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-12-05 23:10:23,811 [P1188/D8/T28] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2017-12-05 23:10:23,827 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:23,828 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:23,828 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-12-05 23:10:23,829 [P1188/D8/T28] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2017-12-05 23:10:24,255 [P1188/D8/T28] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2017-12-05 23:10:24,265 [P1188/D8/T28] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events default
+ 2017-12-05 23:10:24,278 [P1188/D8/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 51 items with 0 changes ###
+ 2017-12-05 23:10:24,279 [P1188/D8/T28] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (6097ms)
+ 2017-12-05 23:10:24,433 [P1188/D8/T28] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-12-05 23:10:24,599 [P1188/D8/T28] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-12-05 23:10:24,614 [P1188/D8/T28] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 10878ms)
+ 2017-12-05 23:10:24,860 [P1188/D8/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50743/umbraco (UmbracoModule request)
+ 2017-12-05 23:10:26,224 [P1188/D8/T84] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:26,225 [P1188/D8/T84] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:26,225 [P1188/D8/T84] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-12-05 23:10:26,229 [P1188/D8/T84] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 4ms)
+ 2017-12-05 23:10:26,640 [P1188/D8/T6] INFO  Umbraco.Core.Configuration.ClientDependencyConfiguration - Updated version number from 1 to 168576523
+ 2017-12-05 23:10:26,646 [P1188/D8/T6] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:26,646 [P1188/D8/T6] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:26,647 [P1188/D8/T6] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2017-12-05 23:10:26,654 [P1188/D8/T86] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-12-05 23:10:26,654 [P1188/D8/T86] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-12-05 23:10:26,658 [P1188/D8/T86] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-12-05 23:10:26,658 [P1188/D8/T86] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-12-05 23:10:26,658 [P1188/D8/T86] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-12-05 23:10:26,658 [P1188/D8/T86] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-12-05 23:10:26,660 [P1188/D8/T86] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-12-05 23:10:26,661 [P1188/D8/T86] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-12-05 23:10:26,661 [P1188/D8/T86] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
+ 2017-12-05 23:10:26,662 [P1188/D8/T86] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
+ 2017-12-05 23:10:26,662 [P1188/D8/T86] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
+ 2017-12-05 23:10:26,663 [P1188/D8/T94] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-12-05 23:10:26,663 [P1188/D8/T86] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-12-05 23:10:26,663 [P1188/D8/T86] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-12-05 23:10:26,664 [P1188/D8/T86] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-12-05 23:10:26,664 [P1188/D8/T86] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-12-05 23:10:26,666 [P1188/D8/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-12-05 23:10:26,666 [P1188/D8/T23] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-12-05 23:10:26,667 [P1188/D8/T83] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-12-05 23:10:26,663 [P1188/D8/T94] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-12-05 23:10:26,713 [P1188/D8/T6] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 66ms)
+ 2017-12-05 23:10:26,736 [P1188/D8/T6] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:26,736 [P1188/D8/T6] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:26,736 [P1188/D8/T6] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-12-05 23:10:26,738 [P1188/D8/T6] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 1ms)
+ 2017-12-05 23:10:26,743 [P1188/D8/T6] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:26,743 [P1188/D8/T6] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:26,744 [P1188/D8/T6] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2017-12-05 23:10:26,744 [P1188/D8/T6] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 0ms)
+ 2017-12-05 23:10:26,827 [P1188/D8/T6] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:26,828 [P1188/D8/T6] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:26,828 [P1188/D8/T6] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2017-12-05 23:10:26,840 [P1188/D8/T6] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 12ms)
+ 2017-12-05 23:10:28,923 [P1188/D10/T28] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.7.6 application starting on LAPTOP-4VJ1Q7EF
+ 2017-12-05 23:10:28,947 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-12-05 23:10:28,960 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Hash determined (took 13ms)
+ 2017-12-05 23:10:29,012 [P1188/D10/T28] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-12-05 23:10:29,014 [P1188/D10/T28] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-12-05 23:10:29,017 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:30,030 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1013ms)
+ 2017-12-05 23:10:30,031 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-12-05 23:10:30,033 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 1ms)
+ 2017-12-05 23:10:30,100 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:30,101 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:30,101 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-12-05 23:10:30,101 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2017-12-05 23:10:30,102 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:30,102 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:30,102 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-12-05 23:10:30,104 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
+ 2017-12-05 23:10:30,120 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:30,120 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:30,120 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-12-05 23:10:30,120 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2017-12-05 23:10:30,121 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:30,121 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:30,121 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-12-05 23:10:30,122 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
+ 2017-12-05 23:10:32,010 [P1188/D10/T28] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-12-05 23:10:32,364 [P1188/D10/T28] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-12-05 23:10:32,401 [P1188/D10/T28] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2017-12-05 23:10:32,462 [P1188/D10/T28] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2017-12-05 23:10:34,475 [P1188/D10/T28] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (1944ms)
+ 2017-12-05 23:10:34,530 [P1188/D10/T28] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 16
+ 2017-12-05 23:10:34,541 [P1188/D10/T28] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = default Folder = ~/uSync/data/ Force = False
+ 2017-12-05 23:10:34,551 [P1188/D10/T28] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2017-12-05 23:10:36,669 [P1188/D10/T28] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 44 Items 0 changes 0 failures
+ 2017-12-05 23:10:36,670 [P1188/D10/T28] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2017-12-05 23:10:36,671 [P1188/D10/T28] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-12-05 23:10:36,672 [P1188/D10/T28] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2017-12-05 23:10:36,672 [P1188/D10/T28] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-12-05 23:10:36,673 [P1188/D10/T28] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2017-12-05 23:10:37,039 [P1188/D10/T28] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2017-12-05 23:10:37,040 [P1188/D10/T28] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2017-12-05 23:10:37,105 [P1188/D10/T28] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2017-12-05 23:10:37,106 [P1188/D10/T28] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2017-12-05 23:10:37,106 [P1188/D10/T28] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-12-05 23:10:37,107 [P1188/D10/T28] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2017-12-05 23:10:37,120 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:37,120 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:37,120 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-12-05 23:10:37,121 [P1188/D10/T28] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2017-12-05 23:10:37,471 [P1188/D10/T28] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2017-12-05 23:10:37,478 [P1188/D10/T28] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events default
+ 2017-12-05 23:10:37,487 [P1188/D10/T28] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 51 items with 0 changes ###
+ 2017-12-05 23:10:37,489 [P1188/D10/T28] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (5026ms)
+ 2017-12-05 23:10:37,610 [P1188/D10/T28] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-12-05 23:10:37,758 [P1188/D10/T28] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-12-05 23:10:37,772 [P1188/D10/T28] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 8964ms)
+ 2017-12-05 23:10:37,965 [P1188/D10/T74] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50743/umbraco (UmbracoModule request)
+ 2017-12-05 23:10:38,955 [P1188/D10/T74] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:38,956 [P1188/D10/T74] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:38,956 [P1188/D10/T74] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-12-05 23:10:38,956 [P1188/D10/T74] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-12-05 23:10:38,961 [P1188/D10/T74] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:38,962 [P1188/D10/T74] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:38,962 [P1188/D10/T74] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2017-12-05 23:10:38,962 [P1188/D10/T74] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 0ms)
+ 2017-12-05 23:10:39,367 [P1188/D10/T84] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:39,367 [P1188/D10/T84] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:39,367 [P1188/D10/T84] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-12-05 23:10:39,368 [P1188/D10/T84] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2017-12-05 23:10:41,859 [P1188/D6/T72] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+CONFIG change
+CONFIG change
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Configuration.HttpConfigurationSystem.OnConfigurationChanged(Object sender, InternalConfigEventArgs e)
+   at System.Configuration.Internal.InternalConfigRoot.OnConfigChanged(InternalConfigEventArgs e)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.Configuration.WebConfigurationHostFileChange.OnFileChanged(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-12-05 23:10:49,630 [P1188/D10/T56] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:49,630 [P1188/D10/T56] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:49,630 [P1188/D10/T56] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2017-12-05 23:10:49,645 [P1188/D10/T56] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 10ms)
+ 2017-12-05 23:10:52,335 [P1188/D10/T56] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:10:52,335 [P1188/D10/T56] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:10:52,335 [P1188/D10/T56] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2017-12-05 23:10:52,345 [P1188/D10/T56] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 8ms)
+ 2017-12-05 23:10:52,688 [P1188/D10/T56] ERROR Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor - Could not parse image cropper value "/media/1030/16403439029_f500be349b_o.jpg"
+Newtonsoft.Json.JsonReaderException: Error parsing comment. Expected: *, got m. Path '', line 1, position 1.
+   at Newtonsoft.Json.JsonTextReader.ParseComment(Boolean setToken)
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor.GetJObject(String value, Boolean writeLog)
+ 2017-12-05 23:10:52,691 [P1188/D10/T56] ERROR Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor - Could not parse image cropper value "/media/1006/18720470241_ff77768544_h.jpg"
+Newtonsoft.Json.JsonReaderException: Error parsing comment. Expected: *, got m. Path '', line 1, position 1.
+   at Newtonsoft.Json.JsonTextReader.ParseComment(Boolean setToken)
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor.GetJObject(String value, Boolean writeLog)
+ 2017-12-05 23:10:52,692 [P1188/D10/T56] ERROR Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor - Could not parse image cropper value "/media/1003/18531852339_981b067419_h.jpg"
+Newtonsoft.Json.JsonReaderException: Error parsing comment. Expected: *, got m. Path '', line 1, position 1.
+   at Newtonsoft.Json.JsonTextReader.ParseComment(Boolean setToken)
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor.GetJObject(String value, Boolean writeLog)
+ 2017-12-05 23:10:52,693 [P1188/D10/T56] ERROR Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor - Could not parse image cropper value "/media/1004/18531854019_351c579559_h.jpg"
+Newtonsoft.Json.JsonReaderException: Error parsing comment. Expected: *, got m. Path '', line 1, position 1.
+   at Newtonsoft.Json.JsonTextReader.ParseComment(Boolean setToken)
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor.GetJObject(String value, Boolean writeLog)
+ 2017-12-05 23:10:52,694 [P1188/D10/T56] ERROR Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor - Could not parse image cropper value "/media/1001/4730684907_8a7f8759cb_b.jpg"
+Newtonsoft.Json.JsonReaderException: Error parsing comment. Expected: *, got m. Path '', line 1, position 1.
+   at Newtonsoft.Json.JsonTextReader.ParseComment(Boolean setToken)
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor.GetJObject(String value, Boolean writeLog)
+ 2017-12-05 23:10:52,695 [P1188/D10/T56] ERROR Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor - Could not parse image cropper value "/media/1002/18095416144_44a566a5f4_h.jpg"
+Newtonsoft.Json.JsonReaderException: Error parsing comment. Expected: *, got m. Path '', line 1, position 1.
+   at Newtonsoft.Json.JsonTextReader.ParseComment(Boolean setToken)
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor.GetJObject(String value, Boolean writeLog)
+ 2017-12-05 23:10:52,696 [P1188/D10/T56] ERROR Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor - Could not parse image cropper value "/media/1012/7371127652_e01b6ab56f_b.jpg"
+Newtonsoft.Json.JsonReaderException: Error parsing comment. Expected: *, got m. Path '', line 1, position 1.
+   at Newtonsoft.Json.JsonTextReader.ParseComment(Boolean setToken)
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor.GetJObject(String value, Boolean writeLog)
+ 2017-12-05 23:10:52,696 [P1188/D10/T56] ERROR Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor - Could not parse image cropper value "/media/1005/18530280048_459b8b61b2_h.jpg"
+Newtonsoft.Json.JsonReaderException: Error parsing comment. Expected: *, got m. Path '', line 1, position 1.
+   at Newtonsoft.Json.JsonTextReader.ParseComment(Boolean setToken)
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor.GetJObject(String value, Boolean writeLog)
+ 2017-12-05 23:10:52,697 [P1188/D10/T56] ERROR Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor - Could not parse image cropper value "/media/1016/14272036539_469ca21d5c_h.jpg"
+Newtonsoft.Json.JsonReaderException: Error parsing comment. Expected: *, got m. Path '', line 1, position 1.
+   at Newtonsoft.Json.JsonTextReader.ParseComment(Boolean setToken)
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor.GetJObject(String value, Boolean writeLog)
+ 2017-12-05 23:10:52,698 [P1188/D10/T56] ERROR Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor - Could not parse image cropper value "/media/1011/5852022211_9028df67c0_b.jpg"
+Newtonsoft.Json.JsonReaderException: Error parsing comment. Expected: *, got m. Path '', line 1, position 1.
+   at Newtonsoft.Json.JsonTextReader.ParseComment(Boolean setToken)
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor.GetJObject(String value, Boolean writeLog)
+ 2017-12-05 23:10:52,699 [P1188/D10/T56] ERROR Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor - Could not parse image cropper value "/media/1010/5852022091_87c5d045ab_b.jpg"
+Newtonsoft.Json.JsonReaderException: Error parsing comment. Expected: *, got m. Path '', line 1, position 1.
+   at Newtonsoft.Json.JsonTextReader.ParseComment(Boolean setToken)
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor.GetJObject(String value, Boolean writeLog)
+ 2017-12-05 23:10:52,699 [P1188/D10/T56] ERROR Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor - Could not parse image cropper value "/media/1015/7377957524_347859faac_b.jpg"
+Newtonsoft.Json.JsonReaderException: Error parsing comment. Expected: *, got m. Path '', line 1, position 1.
+   at Newtonsoft.Json.JsonTextReader.ParseComment(Boolean setToken)
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor.GetJObject(String value, Boolean writeLog)
+ 2017-12-05 23:10:52,701 [P1188/D10/T56] ERROR Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor - Could not parse image cropper value "/media/1014/7373036290_5e8420bf36_b.jpg"
+Newtonsoft.Json.JsonReaderException: Error parsing comment. Expected: *, got m. Path '', line 1, position 1.
+   at Newtonsoft.Json.JsonTextReader.ParseComment(Boolean setToken)
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor.GetJObject(String value, Boolean writeLog)
+ 2017-12-05 23:10:52,704 [P1188/D10/T56] ERROR Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor - Could not parse image cropper value "/media/1013/7373036208_30257976a0_b.jpg"
+Newtonsoft.Json.JsonReaderException: Error parsing comment. Expected: *, got m. Path '', line 1, position 1.
+   at Newtonsoft.Json.JsonTextReader.ParseComment(Boolean setToken)
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Umbraco.Web.PropertyEditors.ImageCropperPropertyEditor.GetJObject(String value, Boolean writeLog)
+ 2017-12-05 23:20:36,226 [P1188/D8/T75] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Configuration.HttpConfigurationSystem.OnConfigurationChanged(Object sender, InternalConfigEventArgs e)
+   at System.Configuration.Internal.InternalConfigRoot.OnConfigChanged(InternalConfigEventArgs e)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.Configuration.WebConfigurationHostFileChange.OnFileChanged(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-12-05 23:20:51,089 [P1188/D10/T56] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rausjelle@hotmail.com from IP address ::1
+ 2017-12-05 23:20:51,104 [P1188/D10/T56] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rausjelle@hotmail.com logged in from IP address ::1
+ 2017-12-05 23:20:51,674 [P1188/D10/T72] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:20:51,675 [P1188/D10/T72] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:20:51,675 [P1188/D10/T72] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2017-12-05 23:20:51,689 [P1188/D10/T72] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 14ms)
+ 2017-12-05 23:22:58,328 [P2488/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.7.6 application starting on LAPTOP-4VJ1Q7EF
+ 2017-12-05 23:22:58,350 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-12-05 23:22:58,361 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 11ms)
+ 2017-12-05 23:22:58,443 [P2488/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-12-05 23:22:58,444 [P2488/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-12-05 23:22:58,447 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:22:59,660 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1213ms)
+ 2017-12-05 23:22:59,660 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-12-05 23:22:59,667 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 6ms)
+ 2017-12-05 23:22:59,685 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:22:59,686 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:22:59,686 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-12-05 23:22:59,692 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 5ms)
+ 2017-12-05 23:22:59,693 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:22:59,693 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:22:59,693 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-12-05 23:22:59,699 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 6ms)
+ 2017-12-05 23:22:59,713 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:22:59,714 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:22:59,714 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-12-05 23:22:59,720 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 6ms)
+ 2017-12-05 23:22:59,721 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:22:59,721 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:22:59,721 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-12-05 23:22:59,727 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 6ms)
+ 2017-12-05 23:23:01,273 [P2488/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-12-05 23:23:01,583 [P2488/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-12-05 23:23:01,611 [P2488/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2017-12-05 23:23:01,614 [P2488/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2017-12-05 23:23:01,823 [P2488/D2/T1] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (139ms)
+ 2017-12-05 23:23:01,870 [P2488/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 16
+ 2017-12-05 23:23:01,879 [P2488/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = default Folder = ~/uSync/data/ Force = False
+ 2017-12-05 23:23:01,891 [P2488/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2017-12-05 23:23:03,908 [P2488/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 44 Items 0 changes 0 failures
+ 2017-12-05 23:23:03,909 [P2488/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2017-12-05 23:23:03,910 [P2488/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-12-05 23:23:03,910 [P2488/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2017-12-05 23:23:03,911 [P2488/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-12-05 23:23:03,911 [P2488/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2017-12-05 23:23:04,289 [P2488/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2017-12-05 23:23:04,289 [P2488/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2017-12-05 23:23:04,353 [P2488/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2017-12-05 23:23:04,353 [P2488/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2017-12-05 23:23:04,354 [P2488/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-12-05 23:23:04,354 [P2488/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2017-12-05 23:23:04,367 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:23:04,368 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:23:04,368 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-12-05 23:23:04,377 [P2488/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 9ms)
+ 2017-12-05 23:23:04,668 [P2488/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2017-12-05 23:23:04,676 [P2488/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events default
+ 2017-12-05 23:23:04,686 [P2488/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 51 items with 0 changes ###
+ 2017-12-05 23:23:04,687 [P2488/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (3073ms)
+ 2017-12-05 23:23:04,810 [P2488/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-12-05 23:23:04,941 [P2488/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-12-05 23:23:04,953 [P2488/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6709ms)
+ 2017-12-05 23:23:05,157 [P2488/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50743/umbraco (UmbracoModule request)
+ 2017-12-05 23:23:05,436 [P2488/D2/T7] INFO  umbraco.content - Load Xml from file...
+ 2017-12-05 23:23:05,437 [P2488/D2/T7] INFO  umbraco.content - Loaded Xml from file.
+ 2017-12-05 23:23:05,442 [P2488/D2/T7] WARN  Umbraco.Web.UmbracoModule - Umbraco has no content
+ 2017-12-05 23:23:15,594 [P2488/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:23:15,594 [P2488/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:23:15,594 [P2488/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-12-05 23:23:15,602 [P2488/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 7ms)
+ 2017-12-05 23:23:15,847 [P2488/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:23:15,848 [P2488/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:23:15,848 [P2488/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2017-12-05 23:23:15,854 [P2488/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 6ms)
+ 2017-12-05 23:23:15,907 [P2488/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:23:15,907 [P2488/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:23:15,907 [P2488/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-12-05 23:23:15,917 [P2488/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 9ms)
+ 2017-12-05 23:23:17,459 [P2488/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:23:17,460 [P2488/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:23:17,460 [P2488/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2017-12-05 23:23:17,468 [P2488/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 8ms)
+ 2017-12-05 23:23:17,485 [P2488/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:23:17,485 [P2488/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:23:17,485 [P2488/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-12-05 23:23:17,485 [P2488/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-12-05 23:23:17,485 [P2488/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:23:17,485 [P2488/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:23:17,485 [P2488/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2017-12-05 23:23:17,485 [P2488/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 8ms)
+ 2017-12-05 23:23:17,565 [P2488/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:23:17,565 [P2488/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:23:17,565 [P2488/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2017-12-05 23:23:17,574 [P2488/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 8ms)
+ 2017-12-05 23:24:15,926 [P2488/D2/T10] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-12-04 23:24:15
+ 2017-12-05 23:25:09,908 [P2488/D2/T16] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:25:09,908 [P2488/D2/T16] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:25:09,908 [P2488/D2/T16] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.HealthCheck.HealthCheck
+ 2017-12-05 23:25:09,918 [P2488/D2/T16] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.HealthCheck.HealthCheck (took 10ms)
+ 2017-12-05 23:29:06,538 [P2488/D2/T22] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-05 23:29:06,538 [P2488/D2/T22] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-05 23:29:06,538 [P2488/D2/T22] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2017-12-05 23:29:06,549 [P2488/D2/T22] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 10ms)

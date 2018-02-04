@@ -1,0 +1,1 @@
+﻿ 2018-01-23 00:37:26,686 [P13396/D2/T107] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-22 00:37:26

@@ -1,0 +1,17 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.BrommersVerkocht>
+@using ClientDependency.Core.Mvc;
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+
+@{
+    Layout = "Master.cshtml";
+    
+    // var childs = Model.Content.Site().Children().Where(x => x.IsVisible());
+	var childs = Model.Content.Children().Where(x => x.IsVisible());
+
+    // var backgroundImage = Model.Content.HeroBackgroundImage != null ? Model.Content.HeroBackgroundImage.Url : String.Empty;
+}
+
+@foreach(var child in childs)
+{	
+	@Html.Partial(child.GetTemplateAlias(), child)
+}

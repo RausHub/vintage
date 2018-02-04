@@ -1,0 +1,61 @@
+﻿@*@using Umbraco.Core*@
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+
+    // Get basic design settings from the homepage
+    // ContentModels.Home home = Model.Content.Site() as ContentModels.Home;
+    // var colorTheme = Umbraco.GetPreValueAsString(home.ColorTheme);
+    // var font = Umbraco.GetPreValueAsString(home.Font);
+}
+
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Vintage Wheels</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.ico">
+
+    <link rel="stylesheet" href="@Url.Content("/css/slick.css")">
+    <link rel="stylesheet" href="@Url.Content("/css/slick-theme.css")">
+    <link rel="stylesheet" href="@Url.Content("/css/animate.css")">
+    <link rel="stylesheet" href="@Url.Content("/css/font-awesome.min.css")">
+    <link rel="stylesheet" href="@Url.Content("/css/bootstrap.css")">
+    <link rel="stylesheet" href="@Url.Content("/css/magnific-popup.css")">
+    <link rel="stylesheet" href="@Url.Content("/css/bootsnav.css")">
+    <link rel="stylesheet" href="@Url.Content("/css/style.css")">
+    <link rel="stylesheet" href="@Url.Content("/css/responsive.css")">
+    
+    <script src="@Url.Content("/scripts/modernizr-2.8.3-respond-1.4.2.min.js")"></script>
+    
+</head>
+
+<body data-spy="scroll" data-target=".navbar-collapse">
+
+    @{Html.RenderPartial("Loading");}
+
+    <div class="culmn">
+        
+        @RenderBody()
+    
+        @{Html.RenderPartial("Footer");}
+    </div>
+    
+    <script src="@Url.Content("~/scripts/jquery-1.11.2.min.js")"></script>
+    <script src="@Url.Content("~/scripts/bootstrap.min.js")"></script>
+
+    <script src="@Url.Content("~/scripts/jquery.magnific-popup.js")"></script>
+    <script src="@Url.Content("~/scripts/jquery.easing.1.3.js")"></script>
+    <script src="@Url.Content("~/scripts/slick.min.js")"></script>
+    <script src="@Url.Content("~/scripts/jquery.collapse.js")"></script>
+    <script src="@Url.Content("~/scripts/bootsnav.js")"></script>
+    <script src="@Url.Content("~/scripts/bootsnav.js")"></script>
+
+    <script src="@Url.Content("~/scripts//plugins.js")"></script>
+    <script src="@Url.Content("~/scripts/main.js")"></script>
+
+</body>
+
+</html>

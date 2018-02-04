@@ -1,0 +1,137 @@
+﻿ 2017-12-31 13:10:01,739 [P18900/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.7.6 application starting on LAPTOP-4VJ1Q7EF
+ 2017-12-31 13:10:01,808 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-12-31 13:10:01,879 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 69ms)
+ 2017-12-31 13:10:02,029 [P18900/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-12-31 13:10:02,032 [P18900/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-12-31 13:10:02,038 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-31 13:10:02,847 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 808ms)
+ 2017-12-31 13:10:02,847 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-12-31 13:10:02,862 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 14ms)
+ 2017-12-31 13:10:02,910 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-31 13:10:02,911 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2017-12-31 13:10:02,911 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-12-31 13:10:02,923 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 12ms)
+ 2017-12-31 13:10:02,925 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-31 13:10:02,926 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2017-12-31 13:10:02,926 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-12-31 13:10:02,941 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 14ms)
+ 2017-12-31 13:10:02,969 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-31 13:10:02,969 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-31 13:10:02,969 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-12-31 13:10:02,980 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 10ms)
+ 2017-12-31 13:10:02,981 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-31 13:10:02,981 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-31 13:10:02,982 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-12-31 13:10:03,031 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 49ms)
+ 2017-12-31 13:10:06,906 [P18900/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-12-31 13:10:07,507 [P18900/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-12-31 13:10:07,555 [P18900/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2017-12-31 13:10:07,558 [P18900/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2017-12-31 13:10:07,961 [P18900/D2/T1] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (273ms)
+ 2017-12-31 13:10:08,039 [P18900/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 16
+ 2017-12-31 13:10:08,052 [P18900/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = default Folder = ~/uSync/data/ Force = False
+ 2017-12-31 13:10:08,069 [P18900/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2017-12-31 13:10:13,164 [P18900/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 44 Items 0 changes 0 failures
+ 2017-12-31 13:10:13,165 [P18900/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2017-12-31 13:10:13,166 [P18900/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-12-31 13:10:13,166 [P18900/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2017-12-31 13:10:13,167 [P18900/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-12-31 13:10:13,167 [P18900/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2017-12-31 13:10:13,833 [P18900/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2017-12-31 13:10:13,833 [P18900/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2017-12-31 13:10:13,940 [P18900/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2017-12-31 13:10:13,940 [P18900/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2017-12-31 13:10:13,942 [P18900/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-12-31 13:10:13,943 [P18900/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2017-12-31 13:10:13,979 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-31 13:10:13,979 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-31 13:10:13,979 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-12-31 13:10:13,993 [P18900/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 14ms)
+ 2017-12-31 13:10:14,533 [P18900/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2017-12-31 13:10:14,555 [P18900/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events default
+ 2017-12-31 13:10:14,569 [P18900/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 51 items with 0 changes ###
+ 2017-12-31 13:10:14,570 [P18900/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (7011ms)
+ 2017-12-31 13:10:14,972 [P18900/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-12-31 13:10:16,028 [P18900/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-12-31 13:10:16,071 [P18900/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 14509ms)
+ 2017-12-31 13:10:16,864 [P18900/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50743/umbraco (UmbracoModule request)
+ 2017-12-31 13:10:17,934 [P18900/D2/T6] INFO  umbraco.content - Load Xml from file...
+ 2017-12-31 13:10:18,083 [P18900/D2/T6] INFO  umbraco.content - Loaded Xml from file.
+ 2017-12-31 13:10:18,090 [P18900/D2/T6] WARN  Umbraco.Web.UmbracoModule - Umbraco has no content
+ 2017-12-31 13:28:00,371 [P18900/D2/T47] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-31 13:28:00,372 [P18900/D2/T47] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-31 13:28:00,372 [P18900/D2/T47] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-12-31 13:28:00,382 [P18900/D2/T47] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 10ms)
+ 2017-12-31 13:28:00,776 [P18900/D2/T54] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-31 13:28:00,776 [P18900/D2/T54] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-31 13:28:00,777 [P18900/D2/T54] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2017-12-31 13:28:00,788 [P18900/D2/T54] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 11ms)
+ 2017-12-31 13:28:00,898 [P18900/D2/T54] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-31 13:28:00,898 [P18900/D2/T54] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-31 13:28:00,899 [P18900/D2/T54] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-12-31 13:28:00,907 [P18900/D2/T54] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 8ms)
+ 2017-12-31 13:28:25,279 [P18900/D2/T47] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rausjelle@hotmail.com from IP address ::1
+ 2017-12-31 13:28:25,283 [P18900/D2/T47] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rausjelle@hotmail.com logged in from IP address ::1
+ 2017-12-31 13:28:26,642 [P18900/D2/T53] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-31 13:28:26,695 [P18900/D2/T53] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 52ms)
+ 2017-12-31 13:28:26,695 [P18900/D2/T53] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2017-12-31 13:28:26,728 [P18900/D2/T53] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 32ms)
+ 2017-12-31 13:28:26,760 [P18900/D2/T47] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-31 13:28:26,760 [P18900/D2/T47] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-31 13:28:26,761 [P18900/D2/T47] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2017-12-31 13:28:26,777 [P18900/D2/T47] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 16ms)
+ 2017-12-31 13:28:26,777 [P18900/D2/T55] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-31 13:28:26,778 [P18900/D2/T55] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-31 13:28:26,778 [P18900/D2/T55] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-12-31 13:28:26,780 [P18900/D2/T55] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 2ms)
+ 2017-12-31 13:28:26,807 [P18900/D2/T55] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-31 13:28:26,808 [P18900/D2/T55] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2017-12-31 13:28:26,809 [P18900/D2/T55] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2017-12-31 13:28:26,843 [P18900/D2/T55] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 34ms)
+ 2017-12-31 13:29:00,870 [P18900/D2/T49] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-12-30 13:29:00
+ 2017-12-31 13:34:44,794 [P18900/D2/T31] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-31 13:34:44,795 [P18900/D2/T31] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-31 13:34:44,795 [P18900/D2/T31] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2017-12-31 13:34:44,804 [P18900/D2/T31] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 9ms)
+ 2017-12-31 14:24:25,750 [P18900/D2/T21] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: rausjelle@hotmail.com, IP Address: ::1
+ 2017-12-31 14:25:08,443 [P18900/D2/T76] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rausjelle@hotmail.com from IP address ::1
+ 2017-12-31 14:25:08,444 [P18900/D2/T76] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rausjelle@hotmail.com logged in from IP address ::1
+ 2017-12-31 15:01:53,143 [P18900/D2/T80] WARN  Umbraco.Web.UmbracoModule - Umbraco has no content
+ 2017-12-31 15:13:16,121 [P18900/D2/T45] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-31 15:13:16,122 [P18900/D2/T45] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-31 15:13:16,122 [P18900/D2/T45] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.HealthCheck.HealthCheck
+ 2017-12-31 15:13:16,138 [P18900/D2/T45] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.HealthCheck.HealthCheck (took 16ms)
+ 2017-12-31 15:21:34,629 [P18900/D2/T110] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: Master
+ 2017-12-31 15:23:57,507 [P18900/D2/T97] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: Home
+ 2017-12-31 15:24:26,087 [P18900/D2/T100] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: Parts
+ 2017-12-31 15:25:04,511 [P18900/D2/T100] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: BrommersVerkocht
+ 2017-12-31 15:25:24,832 [P18900/D2/T25] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: BrommersVerkocht
+ 2017-12-31 15:25:52,603 [P18900/D2/T96] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: BrommersTeKoop
+ 2017-12-31 15:34:06,851 [P18900/D2/T16] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: Banner
+ 2017-12-31 15:35:36,638 [P18900/D2/T54] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: BannerSmall
+ 2017-12-31 15:35:54,519 [P18900/D2/T44] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Search.ISearchableTree
+ 2017-12-31 15:35:54,537 [P18900/D2/T44] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Search.ISearchableTree (took 17ms)
+ 2017-12-31 15:36:13,494 [P18900/D2/T129] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: Contact
+ 2017-12-31 15:36:55,325 [P18900/D2/T128] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: Info
+ 2017-12-31 15:37:20,471 [P18900/D2/T129] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: NavBarMain
+ 2017-12-31 15:46:12,106 [P18900/D2/T17] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: NavBarSecond
+ 2017-12-31 15:54:40,839 [P18900/D2/T30] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: NavBarSecond
+ 2017-12-31 16:09:08,292 [P18900/D2/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2017-12-31 16:09:33,048 [P18900/D2/T36] INFO  Jumoo.uSync.BackOffice.Handlers.DataTypeHandler - Save: Saving uSync file for item: Banner - BackgroundImage - Media Picker
+ 2017-12-31 16:10:11,580 [P18900/D2/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2017-12-31 16:12:54,829 [P18900/D2/T45] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-31 16:12:54,829 [P18900/D2/T45] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-31 16:12:54,829 [P18900/D2/T45] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Editors.IEditorValidator
+ 2017-12-31 16:12:54,842 [P18900/D2/T45] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Editors.IEditorValidator (took 11ms)
+ 2017-12-31 16:12:55,392 [P18900/D2/T45] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Save: Saving uSync files for Item: Banner
+ 2017-12-31 16:12:56,500 [P18900/D2/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2017-12-31 16:14:17,059 [P18900/D2/T33] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Save: Saving uSync files for Item: BrommersTeKoop
+ 2017-12-31 16:24:20,816 [P18900/D2/T128] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Save: Saving uSync files for Item: BrommersTeKoop
+ 2017-12-31 16:24:58,759 [P18900/D2/T68] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Save: Saving uSync files for Item: BrommersVerkocht
+ 2017-12-31 16:27:51,128 [P18900/D2/T59] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Save: Saving uSync files for Item: Contact
+ 2017-12-31 16:28:35,401 [P18900/D2/T129] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Save: Saving uSync files for Item: Home
+ 2017-12-31 16:34:14,874 [P18900/D2/T52] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Save: Saving uSync files for Item: Info
+ 2017-12-31 16:35:25,292 [P18900/D2/T129] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Save: Saving uSync files for Item: NavBarMain
+ 2017-12-31 16:36:00,123 [P18900/D2/T59] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Save: Saving uSync files for Item: NavBarSecond
+ 2017-12-31 16:36:17,593 [P18900/D2/T59] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Save: Saving uSync files for Item: NavBarSecond
+ 2017-12-31 16:36:58,553 [P18900/D2/T59] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Save: Saving uSync files for Item: Parts

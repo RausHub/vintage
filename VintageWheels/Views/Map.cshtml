@@ -1,0 +1,21 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = null;
+}
+
+@* the fun starts here *@
+
+
+<!-- Start map section -->
+<div class="main_maps text-center fix">
+    <div class="overlay"></div>
+    <div class="maps_text">
+        <h3 class="text-white" onclick="showmap()">
+            @Umbraco.GetDictionaryValue("MapPagina")
+            <i class="fa fa-angle-down"></i>
+        </h3>
+        <div id="map_canvas" class="mapheight">
+        </div>
+    </div>
+</div>
+<!-- End map section -->

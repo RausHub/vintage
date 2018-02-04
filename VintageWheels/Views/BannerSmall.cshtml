@@ -1,0 +1,24 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = null;
+	var bannerId = Umbraco.Field("BackgroundImage"); 
+	var bannerImage = Umbraco.Media(bannerId.ToString());
+    var bannerUrl = bannerImage.Url;
+	// var bannerId = Umbraco.Field("BackgroundImage").ToString();
+	// style:"background-image: url("@Model.Umbraco.TypedMedia(mediaId).Url")"
+}
+
+        <!--Home Sections-->
+
+        <section id="home" class="home2 bg-mega" style="background-image: url(@bannerUrl);">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="main_home2">
+                        <div class="home2_text">
+                            <h1 class="text-white">@Umbraco.Field("bannerText")</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>

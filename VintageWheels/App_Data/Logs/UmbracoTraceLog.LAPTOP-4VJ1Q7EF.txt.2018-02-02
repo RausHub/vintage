@@ -1,0 +1,42 @@
+﻿ 2018-02-02 18:22:33,692 [P3648/D2/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-02-02 18:22:33,692 [P3648/D2/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-02-02 18:22:33,692 [P3648/D2/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-02-02 18:22:33,692 [P3648/D2/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-02-02 18:22:33,692 [P3648/D2/T116] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-02-02 18:22:33,692 [P3648/D2/T79] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-02-02 18:22:33,707 [P3648/D2/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-02-02 18:22:33,707 [P3648/D2/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-02-02 18:22:33,707 [P3648/D2/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-02-02 18:22:33,707 [P3648/D2/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-02-02 18:22:33,707 [P3648/D2/T156] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-02-02 18:22:33,707 [P3648/D2/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-02-02 18:22:33,707 [P3648/D2/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-02-02 18:22:33,707 [P3648/D2/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
+ 2018-02-02 18:22:33,707 [P3648/D2/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
+ 2018-02-02 18:22:33,707 [P3648/D2/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
+ 2018-02-02 18:22:33,707 [P3648/D2/T116] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2018-02-02 18:22:33,707 [P3648/D2/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2018-02-02 18:22:33,707 [P3648/D2/T33] INFO  Umbraco.Core.MainDom - Stopping...
+ 2018-02-02 18:22:33,723 [P3648/D2/T33] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2018-02-02 18:23:03,831 [P3648/D2/T116] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BuildManagerChange
+
+_shutDownMessage=Change in C:\Users\Jelle\AppData\Local\Temp\Temporary ASP.NET Files\vs\87ddfdfe\8d01b165\hash\hash.web
+HostingEnvironment initiated shutdown
+File Change Notification Error in C:\Users\Jelle\AppData\Local\Temp\Temporary ASP.NET Files\vs\87ddfdfe\8d01b165\hash
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.BuildManager.OnWebHashFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()

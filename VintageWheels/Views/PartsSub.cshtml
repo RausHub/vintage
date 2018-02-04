@@ -25,15 +25,11 @@
                 <div class="main_parts roomy-100">
                     <div class="col-md-8 col-md-offset-2 col-sm-12">
                         <div class="head_title text-center">
-                            <h2>OUR PARTS</h2>
+                            <h2>@Umbraco.GetDictionaryValue("Onze onderdelen")</h2>
                             <div class="separator_auto"></div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                                sed diam nonummy nibh euismod tincidunt tation ullamcorper
-                                suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                            </p>
+                            <p>@Umbraco.GetDictionaryValue("Onze onderdelen uitleg")</p>
                         </div>
-                    </div>  
+                    </div>
                     @if (parts != null && parts.Count > 0)
                     {
                     foreach (ContentModels.Part part in parts)
@@ -58,7 +54,7 @@
                             <div class="parts_body">
                                 <p>@*<i class="fa fa-check-circle text-primary"></i>*@ <span>@Umbraco.Truncate(@part.PartDescriptionEn,120)</span> </p>
                                 <div class="parts_btn text-center">
-                                    <a href="" class="btn btn-primary">Order</a>
+                                    <a href="" class="btn btn-primary">@Umbraco.GetDictionaryValue("Informeren")</a>
                                 </div>
                             </div>
                         </div>

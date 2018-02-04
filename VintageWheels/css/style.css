@@ -285,7 +285,7 @@ h5,
 h6 {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    color: #1a1a1a;
+    color: #4a4a4a;
     margin-bottom: 10px;
 }
 
@@ -863,7 +863,7 @@ textarea::-ms-input-placeholder {
         font-family: 'Open Sans', sans-serif;
         font-weight: 600;
         font-size: 2.286rem;
-        color: #1a1a1a;
+        color: #4a4a4a;
     }
 
     .head_title p {
@@ -1141,20 +1141,30 @@ Nav Menu style
         background-color: #ff7854 !important;
     }
 
-.divleft img {
-    display: inline;
-    text-align: left;
+.languageNav {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.divright {
-    text-align: right;
-}
+    .languageNav .divleft {
+        width: 40px;
+        height: 30px;
+        align-self: center;
+    }
 
-.languageNav div img {
-    height: 20px;
-    width: 20px,
-}
+        .languageNav .divleft img {
+            text-align: left;
+            height: 20px;
+            width: 20px,
+        }
 
+    .languageNav .divright {
+        align-self: center;
+        text-align: right;
+        width: 100px;
+        height: 30px;
+    }
 
 /*
 Home Section style
@@ -1402,29 +1412,46 @@ Featured section style
 
 .featured_slider {
     width: 100%;
-    height: 250px;
+    /*height: 250px;*/
     margin: 20px auto;
     text-align: center;
 }
 
 .featured_img img {
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: inherit;
+    /*max-height: 50%;*/
 }
 
 .featured_slider div {
     margin-right: 5px;
 }
 
+.slick-track{
+    display: flex;
+    height: 260px;
+}
+
 .slick-slide {
     opacity: .6;
+    align-self:center;
 }
 
 .slick-center {
+    height: 250px;
+    width:auto;
     display: block;
-    max-width: 10% !important;
-    max-height: 20% !important;
+    /*max-width: 10% !important;*/
+    /*max-height: 20% !important;*/
     opacity: 1;
+}
+
+.featured_img {
+    width: auto;
+    height: 250px;
+    padding-left: 25%;
+    padding-right:25%;
+    /*max-height: 50%;*/
 }
 
 
@@ -1690,6 +1717,7 @@ parts Section style
 .parts_head {
     background-color: #f7f7f7;
 }
+
     .parts_head h3 {
         color: #E7AE54;
     }

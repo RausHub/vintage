@@ -1,6 +1,13 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
 	Layout = null;
+    var nodeLang = Model.Content.Parent.Parent.Name;
+    var location = Model.Content.Parent.Name;
+    if(nodeLang == null || nodeLang == string.Empty){
+        nodeLang = "En";
+    }
+    @*System.Diagnostics.Debug.WriteLine(nodeLang);
+    System.Diagnostics.Debug.WriteLine(location);*@
 }
 
 <nav class="navbar navbar-default navbar-fixed white no-background bootsnav">
@@ -10,7 +17,7 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                 <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand" href="/">
+            <a class="navbar-brand" href="/@nodeLang">
                 @{
                 var darklogo = Umbraco.Media(1157).UmbracoFile;
                 var brightlogo = Umbraco.Media(1154).UmbracoFile;
@@ -30,29 +37,29 @@
                 var britishflag = Umbraco.Media(1151).UmbracoFile;
                 var usflag = Umbraco.Media(1152).UmbracoFile;
                 }
-                <li><a href="/">@Umbraco.GetDictionaryValue("Home")</a></li>
+                <li><a class="nav-item" href="/@nodeLang">@Umbraco.GetDictionaryValue("Home")</a></li>
                 <!-- <li><a href="/">Info</a></li> -->
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle">@Umbraco.GetDictionaryValue("Brommers")</a>
+                    <span class="dropdown-toggle nav-item">@Umbraco.GetDictionaryValue("Brommers")</span>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="/brommerstekoop">@Umbraco.GetDictionaryValue("Te koop")</a>
+                            <a href="/@nodeLang/brommerstekoop">@Umbraco.GetDictionaryValue("Te koop")</a>
                         </li>
                         <li>
-                            <a href="/brommersverkocht">@Umbraco.GetDictionaryValue("Verkocht")</a>
+                            <a href="/@nodeLang/brommersverkocht">@Umbraco.GetDictionaryValue("Verkocht")</a>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="/parts">@Umbraco.GetDictionaryValue("Onderdelen")</a>
+                    <a class="nav-item" href="/@nodeLang/parts">@Umbraco.GetDictionaryValue("Onderdelen")</a>
                 </li>
                 <!-- <li><a href="/">Contact</a></li> -->
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle">@Umbraco.GetDictionaryValue("Kies taal")</a>
+                    <span class="dropdown-toggle nav-item">@Umbraco.GetDictionaryValue("Kies taal")</span>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="#" class="languageNav">
-                                <div class="divleft col-md-6">
+                            <a href="/nl/@location" class="languageNav">
+                                <div class="divleft">
                                     <img src="@netherlandflag" class="cart-thumb" alt="" />
                                     <img src="@belgiumflag" class="cart-thumb" alt="" />
                                 </div>
@@ -62,8 +69,8 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="languageNav">
-                                <div class="divleft col-md-6">
+                            <a href="/fr/@location" class="languageNav">
+                                <div class="divleft">
                                     <img src="@frenceflag" class="cart-thumb" alt="" />
                                     <img src="@belgiumflag" class="cart-thumb" alt="" />
                                 </div>
@@ -73,8 +80,8 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="languageNav">
-                                <div class="divleft col-md-6">
+                            <a href="/en/@location" class="languageNav">
+                                <div class="divleft">
                                     <img src="@britishflag" class="cart-thumb" alt="" />
                                     <img src="@usflag" class="cart-thumb" alt="" />
                                 </div>

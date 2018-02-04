@@ -224,8 +224,8 @@
                     $(".dropdown-menu", this).removeClass(getOut);
                     
                     // Dropdown Fade Toggle
-                    $("a.dropdown-toggle", this).off('click');
-                    $("a.dropdown-toggle", this).on('click', function (e) {
+                    $(".nav-item.dropdown-toggle", this).off('click');
+                    $(".nav-item.dropdown-toggle", this).on('click', function (e) {
                         e.stopPropagation();
                         $(this).closest("li.dropdown").find(".dropdown-menu").first().stop().fadeToggle().toggleClass(getIn);
                         $(this).closest("li.dropdown").first().toggleClass("on");                        
@@ -280,8 +280,8 @@
                     $(".dropdown-menu", this).removeClass("animated");
                     $("li.dropdown", this).off("mouseenter");
                     $("li.dropdown", this).off("mouseleave");                    
-                    $("a.dropdown-toggle", this).off('click');
-                    $("a.dropdown-toggle", this).on('click', function (e) {
+                    $(".nav-item.dropdown-toggle", this).off('click');
+                    $(".nav-item.dropdown-toggle", this).on('click', function (e) {
                         e.stopPropagation();
                         $(this).closest("li.dropdown").find(".dropdown-menu").first().stop().fadeToggle();
                         $(".navbar-toggle").each(function(){
@@ -351,8 +351,8 @@
                 }else{
                     // Hover effect Default Menu
                     $("nav.navbar.bootsnav ul.nav").each(function(){  
-                        $("a.dropdown-toggle", this).off('click');
-                        $("a.dropdown-toggle", this).on('click', function (e) {
+                        $(".nav-item.dropdown-toggle", this).off('click');
+                        $(".nav-item.dropdown-toggle", this).on('click', function (e) {
                             e.stopPropagation();
                         }); 
 

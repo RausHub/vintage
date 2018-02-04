@@ -370,6 +370,7 @@
     <Content Include="uSync\data\MediaType\folder\def.config" />
     <Content Include="uSync\data\MediaType\image\def.config" />
     <Content Include="Views\Partials\ContactView.cshtml" />
+    <Content Include="Views\Slider.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

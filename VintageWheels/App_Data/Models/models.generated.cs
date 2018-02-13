@@ -19,7 +19,7 @@ using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "4ff9e7242460d7e5")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "9f8d3f0a8c59ce0e")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.2")]
 
 namespace Umbraco.Web.PublishedContentModels
@@ -461,6 +461,15 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
+		/// UrlBrommer
+		///</summary>
+		[ImplementPropertyType("urlBrommer")]
+		public string UrlBrommer
+		{
+			get { return this.GetPropertyValue<string>("urlBrommer"); }
+		}
+
+		///<summary>
 		/// Verkocht: Is deze brommer verkocht
 		///</summary>
 		[ImplementPropertyType("verkocht")]
@@ -643,6 +652,32 @@ namespace Umbraco.Web.PublishedContentModels
 		public IEnumerable<IPublishedContent> MeetingMedia
 		{
 			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("meetingMedia"); }
+		}
+	}
+
+	/// <summary>BrommerDetail</summary>
+	[PublishedContentModel("brommerDetail")]
+	public partial class BrommerDetail : PublishedContentModel
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "brommerDetail";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public BrommerDetail(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<BrommerDetail, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
 		}
 	}
 

@@ -1,0 +1,110 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+    var nodeLang = Umbraco.TypedContentAtRoot().First().Name;
+    var location = Model.Content.Name;
+}
+
+<nav class="navbar navbar-default navbar-fixed white no-background bootsnav">
+    <div class="container">
+        <!-- Start Header Navigation -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="/@nodeLang">
+                @{
+                    var darklogo = Umbraco.Media(1157).UmbracoFile;
+                    var brightlogo = Umbraco.Media(1154).UmbracoFile;
+                }
+                <img src="@brightlogo" class="logo logo-display m-top-10" alt="">
+                <img src="@darklogo" class="logo logo-scrolled" alt="">
+            </a>
+        </div>
+        <!-- End Header Navigation -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                @{
+                    var belgiumflag = Umbraco.Media(1148).UmbracoFile;
+                    var netherlandflag = Umbraco.Media(1150).UmbracoFile;
+                    var frenceflag = Umbraco.Media(1149).UmbracoFile;
+                    var britishflag = Umbraco.Media(1151).UmbracoFile;
+                    var usflag = Umbraco.Media(1152).UmbracoFile;
+                }
+                <li><a class="nav-item" href="/@nodeLang">@Umbraco.GetDictionaryValue("Home")</a></li>
+                <!-- <li><a href="/">Info</a></li> -->
+                <li class="dropdown">
+                    <span class="dropdown-toggle nav-item">@Umbraco.GetDictionaryValue("Brommers")</span>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="/@nodeLang/brommerswinkel">@Umbraco.GetDictionaryValue("Te koop")</a>
+                        </li>
+                        <li>
+                            <a href="/@nodeLang/brommersverkocht">@Umbraco.GetDictionaryValue("Verkocht")</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="nav-item" href="/@nodeLang/parts">@Umbraco.GetDictionaryValue("Onderdelen")</a>
+                </li>
+                <!-- <li><a href="/">Contact</a></li> -->
+                <li class="dropdown">
+                    <span class="dropdown-toggle nav-item">@Umbraco.GetDictionaryValue("Kies taal")</span>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="/nl/@location" class="languageNav">
+                                <div class="divleft">
+                                    <img src="@netherlandflag" class="cart-thumb" alt="" />
+                                    <img src="@belgiumflag" class="cart-thumb" alt="" />
+                                </div>
+                                <div class="divright">
+                                    Nederlands
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/fr/@location" class="languageNav">
+                                <div class="divleft">
+                                    <img src="@frenceflag" class="cart-thumb" alt="" />
+                                    <img src="@belgiumflag" class="cart-thumb" alt="" />
+                                </div>
+                                <div class="divright">
+                                    Francais
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/en/@location" class="languageNav">
+                                <div class="divleft">
+                                    <img src="@britishflag" class="cart-thumb" alt="" />
+                                    <img src="@usflag" class="cart-thumb" alt="" />
+                                </div>
+                                <div class="divright">
+                                    English
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</nav>
+
+<section id="home" class="home2 bg-mega">
+    @*<section id="home" class="home2 bg-mega" style="background-image: url(@bannerUrl);">*@
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="main_home2">
+                <div class="home2_text">
+                    <h1 class="text-white">@Umbraco.Field("bannerText")</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@RenderBody();

@@ -32,7 +32,7 @@ namespace VintageWheels.Controllers
             }
 
             //Generate an email message object to send
-            MailMessage email = new MailMessage(model.Email, "rausjelle@hotmail.com");
+            MailMessage email = new MailMessage(model.Email, "info@vintage-wheels.be");
             email.Subject = "Contact Form Request";
             email.Body = model.Message;
 

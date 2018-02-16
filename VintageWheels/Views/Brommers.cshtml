@@ -32,23 +32,23 @@
                 {
                     foreach (ContentModels.Brommer brommer in brommers)
                     {
-                        <div class="col-md-4">
-                            <div class="blog_item m-top-20">
-                                <div class="blog_item_img">
-                                    @{
-                                        var mediaItem = Umbraco.Media(brommer.PrimaireFoto.Id);
-                                        var file = mediaItem.UmbracoFile;
-                                        var extraText = brommer.ExtraTekst;
-                                    }
-                                    <img src="@file" alt="" />
-                                </div>
-                                <div class="blog_text roomy-40">
-                                    <h6>@brommer.Fabrikant @brommer.Model</h6>
-                                    <p><em><a href="">@brommer.Bouwjaar</a> / @extraText</em></p>
+                        <a href="@brommer.Url">
+                            <div class="col-md-4">
+                                <div class="blog_item m-top-20">
+                                    <div class="blog_item_img">
+                                        @{
+                                            var mediaItem = Umbraco.Media(brommer.PrimaireFoto.Id);
+                                            var file = mediaItem.UmbracoFile;
+                                        }
+                                        <img src="@file" alt="" />
+                                    </div>
+                                    <div class="blog_text roomy-40">
+                                        <h6>@brommer.Fabrikant @brommer.Model</h6>
+                                        <p><em><a href="">@brommer.Bouwjaar</a> / @brommer.ExtraTekst</em></p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-
+                        </a>
                      }
                  }
                  else

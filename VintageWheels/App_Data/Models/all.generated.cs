@@ -8,8 +8,8 @@ using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "3f9c632a89f40dfd")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "33f27957675f0340")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.3")]
 
 
 // FILE: models.generated.cs
@@ -398,21 +398,21 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
+		/// Prijs
+		///</summary>
+		[ImplementPropertyType("prijs")]
+		public string Prijs
+		{
+			get { return this.GetPropertyValue<string>("prijs"); }
+		}
+
+		///<summary>
 		/// PrimaireFoto: Belangrijkste foto van de brommer
 		///</summary>
 		[ImplementPropertyType("primaireFoto")]
 		public IPublishedContent PrimaireFoto
 		{
 			get { return this.GetPropertyValue<IPublishedContent>("primaireFoto"); }
-		}
-
-		///<summary>
-		/// UrlBrommer
-		///</summary>
-		[ImplementPropertyType("urlBrommer")]
-		public string UrlBrommer
-		{
-			get { return this.GetPropertyValue<string>("urlBrommer"); }
 		}
 
 		///<summary>
@@ -519,6 +519,32 @@ namespace Umbraco.Web.PublishedContentModels
 		public IEnumerable<IPublishedContent> MeetingMedia
 		{
 			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("meetingMedia"); }
+		}
+	}
+
+	/// <summary>notfound</summary>
+	[PublishedContentModel("notfound")]
+	public partial class Notfound : PublishedContentModel
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "notfound";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public Notfound(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Notfound, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
 		}
 	}
 

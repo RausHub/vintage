@@ -1336,7 +1336,6 @@ FAQ Page
     color: #4a4a4a;
 }
 
-
 /*
 Video Section style
 ======================*/
@@ -1516,6 +1515,7 @@ Portfolio section style
 .portfolio_item {
     position: relative;
     overflow: hidden;
+    margin-bottom:10px;
 }
 
     .portfolio_item:hover img {

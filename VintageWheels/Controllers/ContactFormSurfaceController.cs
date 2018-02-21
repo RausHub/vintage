@@ -32,9 +32,9 @@ namespace VintageWheels.Controllers
             }
 
             //Generate an email message object to send
-            MailMessage email = new MailMessage(model.Email, "info@vintage-wheels.be");
-            email.Subject = "Contact Form Request";
-            email.Body = model.Message;
+            MailMessage email = new MailMessage(model.Email, "info@vintage-wheels.be");            
+            email.Subject = string.IsNullOrEmpty(model.Subject) ? "Contact Form Request" : model.Subject;
+            email.Body = model.Message + Environment.NewLine + model.Name;
 
             try
             {

@@ -4,6 +4,17 @@ namespace VintageWheels.Models
 {
     public class ContactFormViewModel
     {
+        public ContactFormViewModel()
+        {
+
+        }
+
+        public ContactFormViewModel(string subject): base()
+        {
+            this.Subject = subject;
+        }
+
+
         [Required]
         public string Name { get; set; }
 
@@ -13,5 +24,7 @@ namespace VintageWheels.Models
 
         [Required]
         public string Message { get; set; }
+
+        public string Subject { get; set; }
     }
 }

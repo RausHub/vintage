@@ -12,12 +12,13 @@
     }
 }
 
-<!--parts Section-->
-<section class="parts lightbg">
+<section id="blog" class="blog">
+    <!--container Section-->
     <div class="container">
+        <!--row Section-->
         <div class="row">
-            <div class="main_parts roomy-100">
-                <div class="col-md-8 col-md-offset-2 col-sm-12">
+            <div class="main_blog text-center roomy-100">
+                <div class="col-sm-8 col-sm-offset-2">
                     <div class="head_title text-center">
                         <h2>@Umbraco.GetDictionaryValue("Onze onderdelen")</h2>
                         <div class="separator_auto"></div>
@@ -28,43 +29,36 @@
                 {
                     foreach (ContentModels.Part part in parts)
                     {
-                        <div class="col-md-4 col-sm-12">
-                            <div class="parts_item">
-                                <div class="parts_head p-top-30 p-bottom-20 text-center">
-                                    <h3 class="text-uppercase">@part.PartName</h3>
-                                </div>
-
-                                @{
-                                    var mediaItem = Umbraco.Media(part.PartPicture.Id);
-                                    var file = mediaItem.UmbracoFile;
-                                }
-
-                                <div class="parts_part_border">
-                                    <p class="text-center">
+                        <a href="@part.Url">
+                            <div class="col-md-4">
+                                <div class="blog_item m-top-20">
+                                    <div class="blog_item_img">
+                                        @{
+                                            var mediaItem = Umbraco.Media(part.PartPicture.Id);
+                                            var file = mediaItem.UmbracoFile;
+                                        }
                                         <img src="@file" alt="" />
-                                    </p>
-                                </div>
-
-                                <div class="parts_body">
-                                    <p>@*<i class="fa fa-check-circle text-primary"></i>*@ <span>@Umbraco.Truncate(@part.PartDescription, 120)</span> </p>
-                                    <div class="parts_btn text-center">
-                                        <a href="" class="btn btn-primary">@Umbraco.GetDictionaryValue("Informeren")</a>
+                                    </div>
+                                    <div class="blog_text roomy-40">
+                                        <h6>@part.Name</h6>
+                                        <p><em>@Umbraco.Truncate(@part.PartDescription, 140)</em></p>
                                     </div>
                                 </div>
                             </div>
-                        </div><!-- End off col-md-4 -->
-                                        }
-                                    }
-                                    else
-                                    {
-                                        <div class="col-sm-8 col-sm-offset-2">
-                                            <div class="head_title text-center">
-                                                <h2>@Umbraco.GetDictionaryValue("Geen brommers te koop")</h2>
-                                            </div>
-                                        </div>
-                                    }
-
+                        </a>
+                     }
+                 }
+                 else
+                 {
+                     <div class="col-sm-8 col-sm-offset-2">
+                         <div class="head_title text-center">
+                             <h2>@Umbraco.GetDictionaryValue("Geen onderdelen te koop")</h2>
+                         </div>
+                     </div>
+                 }
             </div>
-        </div><!--End off row-->
+        </div><!--End off row -->
     </div><!--End off container -->
-</section> <!--End off parts section -->
+</section><!-- End off forsale section-->
+
+<!--End off parts section -->

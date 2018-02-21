@@ -769,6 +769,9 @@ Terratype.TerratypePropertyEditor, Terratype, Version=1.0.13.0, Culture=neutral,
 Umbraco.Core.PropertyEditors.ParameterEditor, Umbraco.Core, Version=1.0.6528.26344, Culture=neutral, PublicKeyToken=null
 Umbraco.Core.PropertyEditors.PropertyEditor, Umbraco.Core, Version=1.0.6528.26344, Culture=neutral, PublicKeyToken=null
 
+Umbraco.Core.Deploy.IServiceConnector
+
+
 Umbraco.Web.Trees.TreeController
 Umbraco.Web.Trees.TreeAttribute
 Umbraco.Web.Trees.UserTreeController, umbraco, Version=1.0.6528.26354, Culture=neutral, PublicKeyToken=null
@@ -860,17 +863,6 @@ umbraco.cms.presentation.Trees.LegacyTree, umbraco, Version=1.0.6528.26354, Cult
 umbraco.editorControls.MultiNodeTreePicker.FilteredContentTree, umbraco.editorControls, Version=1.0.6528.26358, Culture=neutral, PublicKeyToken=null
 umbraco.editorControls.MultiNodeTreePicker.FilteredMediaTree, umbraco.editorControls, Version=1.0.6528.26358, Culture=neutral, PublicKeyToken=null
 
-umbraco.interfaces.ITree
-umbraco.businesslogic.TreeAttribute
-umbraco.loadRelationTypes, umbraco, Version=1.0.6528.26354, Culture=neutral, PublicKeyToken=null
-umbraco.loadDictionary, umbraco, Version=1.0.6528.26354, Culture=neutral, PublicKeyToken=null
-umbraco.loadMacros, umbraco, Version=1.0.6528.26354, Culture=neutral, PublicKeyToken=null
-umbraco.loadMemberGroups, umbraco, Version=1.0.6528.26354, Culture=neutral, PublicKeyToken=null
-umbraco.loadPython, umbraco, Version=1.0.6528.26354, Culture=neutral, PublicKeyToken=null
-umbraco.loadStylesheetProperty, umbraco, Version=1.0.6528.26354, Culture=neutral, PublicKeyToken=null
-umbraco.loadStylesheets, umbraco, Version=1.0.6528.26354, Culture=neutral, PublicKeyToken=null
-umbraco.loadXslt, umbraco, Version=1.0.6528.26354, Culture=neutral, PublicKeyToken=null
-
 umbraco.interfaces.IApplication
 umbraco.businesslogic.ApplicationAttribute
 umbraco.businesslogic.ContentApplicationDefinition, businesslogic, Version=1.0.6528.26351, Culture=neutral, PublicKeyToken=null
@@ -881,8 +873,16 @@ umbraco.businesslogic.UsersApplicationDefinition, businesslogic, Version=1.0.652
 umbraco.businesslogic.MembersApplicationDefinition, businesslogic, Version=1.0.6528.26351, Culture=neutral, PublicKeyToken=null
 umbraco.businesslogic.TranslationApplicationDefinition, businesslogic, Version=1.0.6528.26351, Culture=neutral, PublicKeyToken=null
 
-Umbraco.Core.Deploy.IServiceConnector
-
+umbraco.interfaces.ITree
+umbraco.businesslogic.TreeAttribute
+umbraco.loadRelationTypes, umbraco, Version=1.0.6528.26354, Culture=neutral, PublicKeyToken=null
+umbraco.loadDictionary, umbraco, Version=1.0.6528.26354, Culture=neutral, PublicKeyToken=null
+umbraco.loadMacros, umbraco, Version=1.0.6528.26354, Culture=neutral, PublicKeyToken=null
+umbraco.loadMemberGroups, umbraco, Version=1.0.6528.26354, Culture=neutral, PublicKeyToken=null
+umbraco.loadPython, umbraco, Version=1.0.6528.26354, Culture=neutral, PublicKeyToken=null
+umbraco.loadStylesheetProperty, umbraco, Version=1.0.6528.26354, Culture=neutral, PublicKeyToken=null
+umbraco.loadStylesheets, umbraco, Version=1.0.6528.26354, Culture=neutral, PublicKeyToken=null
+umbraco.loadXslt, umbraco, Version=1.0.6528.26354, Culture=neutral, PublicKeyToken=null
 
 Umbraco.Web.HealthCheck.HealthCheck
 
@@ -898,10 +898,4 @@ Umbraco.Web.HealthCheck.Checks.Config.TrySkipIisCustomErrorsCheck, umbraco, Vers
 Umbraco.Web.HealthCheck.Checks.Config.CustomErrorsCheck, umbraco, Version=1.0.6528.26354, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.HealthCheck.Checks.Config.TraceCheck, umbraco, Version=1.0.6528.26354, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.HealthCheck.Checks.Config.CompilationDebugCheck, umbraco, Version=1.0.6528.26354, Culture=neutral, PublicKeyToken=null
-
-Umbraco.Web.Editors.IEditorValidator
-
-Umbraco.ModelsBuilder.Validation.ContentTypeModelValidator, Umbraco.ModelsBuilder, Version=3.0.7.99, Culture=neutral, PublicKeyToken=null
-Umbraco.ModelsBuilder.Validation.MediaTypeModelValidator, Umbraco.ModelsBuilder, Version=3.0.7.99, Culture=neutral, PublicKeyToken=null
-Umbraco.ModelsBuilder.Validation.MemberTypeModelValidator, Umbraco.ModelsBuilder, Version=3.0.7.99, Culture=neutral, PublicKeyToken=null
 

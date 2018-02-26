@@ -389,6 +389,10 @@
     <Content Include="Views\BrommersVerkocht.cshtml" />
     <Content Include="Views\Onderdelen.cshtml" />
     <Content Include="Views\Parts.cshtml" />
+    <Content Include="Views\Partials\NavBarSuper.cshtml" />
+    <Content Include="Views\BaseError.cshtml" />
+    <Content Include="Views\internalError.cshtml" />
+    <Content Include="Views\notfound.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

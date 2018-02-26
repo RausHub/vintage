@@ -1,18 +1,79 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.Basepage>
-@using ClientDependency.Core.Mvc;
 @using ContentModels = Umbraco.Web.PublishedContentModels;
-
+@using VintageWheels.Models
 @{
     Layout = "Master.cshtml";
-    
-    // var childs = Model.Content.Site().Children().Where(x => x.IsVisible());
     var childs = Model.Content.Children().First().Children();
-    
-    
-    // var backgroundImage = Model.Content.HeroBackgroundImage != null ? Model.Content.HeroBackgroundImage.Url : String.Empty;
+
+    var bannerId = Umbraco.Field("homeBannerImage");
+    var bannerImage = Umbraco.Media(bannerId.ToString());
+    var bannerUrl = bannerImage.Url;
 }
+
+@{Html.RenderPartial("NavBarSuper");}
+
+<section id="home" class="home bg-mega" style="background-image: url(@bannerUrl);">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="main_home">
+                    <div class="home_text">
+                        <h1 class="text-white">@Umbraco.Field("homeBannerText")</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 @foreach(var child in childs)
 {	
 	@Html.Partial(child.GetTemplateAlias(), child)
 }
+
+<!-- Start map section -->
+<div class="main_maps text-center fix">
+    <div class="overlay"></div>
+    <div class="maps_text">
+        <h3 class="text-white" onclick="showmap()">
+            @Umbraco.GetDictionaryValue("MapPagina")
+            <i class="fa fa-angle-down"></i>
+        </h3>
+        <div id="map_canvas" class="mapheight">
+        </div>
+    </div>
+</div>
+<!-- End map section -->
+
+<!--Contact Us Section-->
+<section id="contact" class="contact bg-mega fix">
+    <div class="container">
+        <div class="row">
+            <div class="main_contact roomy-100 text-white">
+                <div class="col-md-4">
+                    <div class="rage_widget">
+                        <div class="widget_head">
+                            <h3 class="text-white">VINTAGE WHEELS</h3>
+                            <div class="separator_small"></div>
+                        </div>
+                        <p>@Umbraco.GetDictionaryValue("Contact uitleg")</p>
+
+                        <div class="widget_socail m-top-30">
+                            <ul class="list-inline">
+                                <li><a href="https://www.facebook.com/vintagewheelsbelgium/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <!-- <li><a href=""><i class="fa fa-twitter"></i></a></li> -->
+                                @*<li><a href=""><i class="fa fa-linkedin"></i></a></li>*@
+                                <!-- <li><a href=""><i class="fa fa-vimeo"></i></a></li> -->
+                                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 sm-m-top-30">
+                    @Html.Partial("ContactView", new ContactFormViewModel())
+                </div>
+            </div>
+            <!--End off row -->
+        </div>
+        <!--End off container -->
+</section>
+<!--End off Contact Section-->

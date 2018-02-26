@@ -1,15 +1,13 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.Home>
-@using ClientDependency.Core.Mvc;
 @using ContentModels = Umbraco.Web.PublishedContentModels;
-
 @{
-    Layout = "Master.cshtml";
-    
-    //var childs = Model.Content.Site().Children().Where(x => x.IsVisible());
+    Layout = "Basepage.cshtml";
+
     var childs = Model.Content.Children().Where(x => x.IsVisible());
-    
-    console.log(childs);
-    // var backgroundImage = Model.Content.HeroBackgroundImage != null ? Model.Content.HeroBackgroundImage.Url : String.Empty;
+
+    var bannerId = Umbraco.Field("homeBannerImage");
+    var bannerImage = Umbraco.Media(bannerId.ToString());
+    var bannerUrl = bannerImage.Url;
 }
 
 @foreach(var child in childs)

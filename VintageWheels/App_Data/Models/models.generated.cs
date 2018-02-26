@@ -19,55 +19,11 @@ using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "999caac76318cae0")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "b1ea1b08df9768f5")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.3")]
 
 namespace Umbraco.Web.PublishedContentModels
 {
-	/// <summary>Banner</summary>
-	[PublishedContentModel("banner")]
-	public partial class Banner : PublishedContentModel
-	{
-#pragma warning disable 0109 // new is redundant
-		public new const string ModelTypeAlias = "banner";
-		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
-#pragma warning restore 0109
-
-		public Banner(IPublishedContent content)
-			: base(content)
-		{ }
-
-#pragma warning disable 0109 // new is redundant
-		public new static PublishedContentType GetModelContentType()
-		{
-			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
-		}
-#pragma warning restore 0109
-
-		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Banner, TValue>> selector)
-		{
-			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
-		}
-
-		///<summary>
-		/// BackgroundImage
-		///</summary>
-		[ImplementPropertyType("backgroundImage")]
-		public IPublishedContent BackgroundImage
-		{
-			get { return this.GetPropertyValue<IPublishedContent>("backgroundImage"); }
-		}
-
-		///<summary>
-		/// BannerText
-		///</summary>
-		[ImplementPropertyType("bannerText")]
-		public string BannerText
-		{
-			get { return this.GetPropertyValue<string>("bannerText"); }
-		}
-	}
-
 	/// <summary>BrommersVerkocht</summary>
 	[PublishedContentModel("brommersVerkocht")]
 	public partial class BrommersVerkocht : PublishedContentModel
@@ -89,32 +45,6 @@ namespace Umbraco.Web.PublishedContentModels
 #pragma warning restore 0109
 
 		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<BrommersVerkocht, TValue>> selector)
-		{
-			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
-		}
-	}
-
-	/// <summary>Contact</summary>
-	[PublishedContentModel("contact")]
-	public partial class Contact : PublishedContentModel
-	{
-#pragma warning disable 0109 // new is redundant
-		public new const string ModelTypeAlias = "contact";
-		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
-#pragma warning restore 0109
-
-		public Contact(IPublishedContent content)
-			: base(content)
-		{ }
-
-#pragma warning disable 0109 // new is redundant
-		public new static PublishedContentType GetModelContentType()
-		{
-			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
-		}
-#pragma warning restore 0109
-
-		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Contact, TValue>> selector)
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
 		}
@@ -170,31 +100,59 @@ namespace Umbraco.Web.PublishedContentModels
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
 		}
-	}
 
-	/// <summary>NavBarMain</summary>
-	[PublishedContentModel("navBarMain")]
-	public partial class NavBarMain : PublishedContentModel
-	{
-#pragma warning disable 0109 // new is redundant
-		public new const string ModelTypeAlias = "navBarMain";
-		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
-#pragma warning restore 0109
-
-		public NavBarMain(IPublishedContent content)
-			: base(content)
-		{ }
-
-#pragma warning disable 0109 // new is redundant
-		public new static PublishedContentType GetModelContentType()
+		///<summary>
+		/// InfoPart1Text
+		///</summary>
+		[ImplementPropertyType("infoPart1Text")]
+		public string InfoPart1Text
 		{
-			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+			get { return this.GetPropertyValue<string>("infoPart1Text"); }
 		}
-#pragma warning restore 0109
 
-		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<NavBarMain, TValue>> selector)
+		///<summary>
+		/// InfoPart1Title
+		///</summary>
+		[ImplementPropertyType("infoPart1Title")]
+		public string InfoPart1Title
 		{
-			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+			get { return this.GetPropertyValue<string>("infoPart1Title"); }
+		}
+
+		///<summary>
+		/// InfoPart2Text
+		///</summary>
+		[ImplementPropertyType("infoPart2Text")]
+		public string InfoPart2Text
+		{
+			get { return this.GetPropertyValue<string>("infoPart2Text"); }
+		}
+
+		///<summary>
+		/// InfoPart2Title
+		///</summary>
+		[ImplementPropertyType("infoPart2Title")]
+		public string InfoPart2Title
+		{
+			get { return this.GetPropertyValue<string>("infoPart2Title"); }
+		}
+
+		///<summary>
+		/// InfoPart3Text
+		///</summary>
+		[ImplementPropertyType("infoPart3Text")]
+		public string InfoPart3Text
+		{
+			get { return this.GetPropertyValue<string>("infoPart3Text"); }
+		}
+
+		///<summary>
+		/// InfoPart3Title
+		///</summary>
+		[ImplementPropertyType("infoPart3Title")]
+		public string InfoPart3Title
+		{
+			get { return this.GetPropertyValue<string>("infoPart3Title"); }
 		}
 	}
 
@@ -250,38 +208,30 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
+		/// HomeBannerImage
+		///</summary>
+		[ImplementPropertyType("homeBannerImage")]
+		public IPublishedContent HomeBannerImage
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("homeBannerImage"); }
+		}
+
+		///<summary>
+		/// HomeBannerText
+		///</summary>
+		[ImplementPropertyType("homeBannerText")]
+		public string HomeBannerText
+		{
+			get { return this.GetPropertyValue<string>("homeBannerText"); }
+		}
+
+		///<summary>
 		/// Title: Title for the webpage
 		///</summary>
 		[ImplementPropertyType("title")]
 		public string Title
 		{
 			get { return this.GetPropertyValue<string>("title"); }
-		}
-	}
-
-	/// <summary>Map</summary>
-	[PublishedContentModel("map")]
-	public partial class Map : PublishedContentModel
-	{
-#pragma warning disable 0109 // new is redundant
-		public new const string ModelTypeAlias = "map";
-		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
-#pragma warning restore 0109
-
-		public Map(IPublishedContent content)
-			: base(content)
-		{ }
-
-#pragma warning disable 0109 // new is redundant
-		public new static PublishedContentType GetModelContentType()
-		{
-			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
-		}
-#pragma warning restore 0109
-
-		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Map, TValue>> selector)
-		{
-			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
 		}
 	}
 
@@ -494,6 +444,15 @@ namespace Umbraco.Web.PublishedContentModels
 		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Slider, TValue>> selector)
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Cropper
+		///</summary>
+		[ImplementPropertyType("cropper")]
+		public Umbraco.Web.Models.ImageCropDataSet Cropper
+		{
+			get { return this.GetPropertyValue<Umbraco.Web.Models.ImageCropDataSet>("cropper"); }
 		}
 
 		///<summary>

@@ -1,10 +1,13 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
     var nodeLang = Model.Content.Name;
-    if(nodeLang == null || nodeLang == string.Empty){
+    if (nodeLang == null || nodeLang == string.Empty)
+    {
         nodeLang = "En";
     }
-    @*System.Diagnostics.Debug.WriteLine(nodeLang);*@
+
+    var stores = Model.Content.Site().Children();
+    var storesList = stores.Where(x => x.ContentType.Alias == "store").ToList();
 }
 
 <nav class="navbar navbar-default navbar-fixed white no-background bootsnav">
@@ -17,8 +20,8 @@
             <a class="navbar-brand" href="/@nodeLang">
 
                 @{
-                var darklogo = Umbraco.Media(1157).UmbracoFile;
-                var brightlogo = Umbraco.Media(1154).UmbracoFile;
+                    var darklogo = Umbraco.Media(1157).UmbracoFile;
+                    var brightlogo = Umbraco.Media(1154).UmbracoFile;
                 }
                 <img src="@brightlogo" class="logo logo-display m-top-10" alt="">
                 <img src="@darklogo" class="logo logo-scrolled" alt="">
@@ -31,17 +34,43 @@
             <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                 <li><a href="#home" class="nav-item">@Umbraco.GetDictionaryValue("Home")</a></li>
                 <li><a href="#info" class="nav-item">@Umbraco.GetDictionaryValue("Info")</a></li>
-                <li class="dropdown">
-                    <span class="dropdown-toggle nav-item">@Umbraco.GetDictionaryValue("Brommers")</span>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="/@nodeLang/brommerswinkel">@Umbraco.GetDictionaryValue("Te koop")</a>
+                @if (storesList != null && storesList.Count > 0)
+                {
+                    foreach (var store in storesList)
+                    {
+                        var forsale = store.Children.FirstOrDefault(x => x.ContentType.Alias == "storeForSale");
+                        var forsalelink = forsale == null ? null : forsale.Url;
+                        var sold = store.Children.FirstOrDefault(x => x.ContentType.Alias == "storeSold");
+                        var soldlink = sold == null ? null : sold.Url;
+                        if (forsalelink != null && soldlink != null)
+                        {
+                        <li class="dropdown">
+                            <span class="dropdown-toggle nav-item">@store.Name</span>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="@forsalelink">@Umbraco.GetDictionaryValue("Te koop")</a>
+                                </li>
+                                <li>
+                                    <a href="@soldlink">@Umbraco.GetDictionaryValue("Verkocht")</a>
+                                </li>
+                            </ul>
                         </li>
-                        <li>
-                            <a href="/@nodeLang/brommersverkocht">@Umbraco.GetDictionaryValue("Verkocht")</a>
-                        </li>
-                    </ul>
-                </li>
+                        }
+                        else if (forsalelink != null)
+                        {
+                            <li>
+                                <a href="@forsalelink" class="nav-item">@store.Name</a>
+                            </li>
+                        }
+                        else if (soldlink != null)
+                        {
+                            <li>
+                                <a href="@soldlink" class="nav-item">@store.Name</a>
+                            </li>
+                        }
+                    }
+                }
+
                 <li>
                     <a href="/@nodeLang/parts" class="nav-item">@Umbraco.GetDictionaryValue("Onderdelen")</a>
                 </li>
@@ -49,11 +78,11 @@
                 <li class="dropdown">
                     <span class="dropdown-toggle nav-item">@Umbraco.GetDictionaryValue("Kies taal")</span>
                     @{
-                    var belgiumflag = Umbraco.Media(1148).UmbracoFile;
-                    var netherlandflag = Umbraco.Media(1150).UmbracoFile;
-                    var frenceflag = Umbraco.Media(1149).UmbracoFile;
-                    var britishflag = Umbraco.Media(1151).UmbracoFile;
-                    var usflag = Umbraco.Media(1152).UmbracoFile;
+                        var belgiumflag = Umbraco.Media(1148).UmbracoFile;
+                        var netherlandflag = Umbraco.Media(1150).UmbracoFile;
+                        var frenceflag = Umbraco.Media(1149).UmbracoFile;
+                        var britishflag = Umbraco.Media(1151).UmbracoFile;
+                        var usflag = Umbraco.Media(1152).UmbracoFile;
                     }
                     <ul class="dropdown-menu">
                         <li>

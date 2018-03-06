@@ -1,0 +1,2 @@
+﻿ 2018-03-01 18:59:19,040 [P18228/D2/T119] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-03-01 22:31:06,112 [P18228/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-02-28 22:31:05

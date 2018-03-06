@@ -19,37 +19,11 @@ using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "b1ea1b08df9768f5")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.3")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "7b00b7170c227b0b")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 namespace Umbraco.Web.PublishedContentModels
 {
-	/// <summary>BrommersVerkocht</summary>
-	[PublishedContentModel("brommersVerkocht")]
-	public partial class BrommersVerkocht : PublishedContentModel
-	{
-#pragma warning disable 0109 // new is redundant
-		public new const string ModelTypeAlias = "brommersVerkocht";
-		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
-#pragma warning restore 0109
-
-		public BrommersVerkocht(IPublishedContent content)
-			: base(content)
-		{ }
-
-#pragma warning disable 0109 // new is redundant
-		public new static PublishedContentType GetModelContentType()
-		{
-			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
-		}
-#pragma warning restore 0109
-
-		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<BrommersVerkocht, TValue>> selector)
-		{
-			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
-		}
-	}
-
 	/// <summary>Home</summary>
 	[PublishedContentModel("home")]
 	public partial class Home : PublishedContentModel
@@ -73,6 +47,33 @@ namespace Umbraco.Web.PublishedContentModels
 		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Home, TValue>> selector)
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// VintageAdres
+		///</summary>
+		[ImplementPropertyType("vintageAdres")]
+		public string VintageAdres
+		{
+			get { return this.GetPropertyValue<string>("vintageAdres"); }
+		}
+
+		///<summary>
+		/// VintageEmail
+		///</summary>
+		[ImplementPropertyType("vintageEmail")]
+		public string VintageEmail
+		{
+			get { return this.GetPropertyValue<string>("vintageEmail"); }
+		}
+
+		///<summary>
+		/// VintageGSM
+		///</summary>
+		[ImplementPropertyType("vintageGSM")]
+		public string VintageGsm
+		{
+			get { return this.GetPropertyValue<string>("vintageGSM"); }
 		}
 	}
 
@@ -208,7 +209,7 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// HomeBannerImage
+		/// HomeBannerImage: Afbeelding voor homepage
 		///</summary>
 		[ImplementPropertyType("homeBannerImage")]
 		public IPublishedContent HomeBannerImage
@@ -217,7 +218,7 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// HomeBannerText
+		/// HomeBannerText: Tekst voor op de banner bij de homepage
 		///</summary>
 		[ImplementPropertyType("homeBannerText")]
 		public string HomeBannerText
@@ -232,130 +233,6 @@ namespace Umbraco.Web.PublishedContentModels
 		public string Title
 		{
 			get { return this.GetPropertyValue<string>("title"); }
-		}
-	}
-
-	/// <summary>Brommers</summary>
-	[PublishedContentModel("brommers")]
-	public partial class Brommers : PublishedContentModel
-	{
-#pragma warning disable 0109 // new is redundant
-		public new const string ModelTypeAlias = "brommers";
-		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
-#pragma warning restore 0109
-
-		public Brommers(IPublishedContent content)
-			: base(content)
-		{ }
-
-#pragma warning disable 0109 // new is redundant
-		public new static PublishedContentType GetModelContentType()
-		{
-			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
-		}
-#pragma warning restore 0109
-
-		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Brommers, TValue>> selector)
-		{
-			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
-		}
-	}
-
-	/// <summary>Brommer</summary>
-	[PublishedContentModel("brommer")]
-	public partial class Brommer : PublishedContentModel
-	{
-#pragma warning disable 0109 // new is redundant
-		public new const string ModelTypeAlias = "brommer";
-		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
-#pragma warning restore 0109
-
-		public Brommer(IPublishedContent content)
-			: base(content)
-		{ }
-
-#pragma warning disable 0109 // new is redundant
-		public new static PublishedContentType GetModelContentType()
-		{
-			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
-		}
-#pragma warning restore 0109
-
-		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Brommer, TValue>> selector)
-		{
-			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
-		}
-
-		///<summary>
-		/// AndereFotos
-		///</summary>
-		[ImplementPropertyType("andereFotos")]
-		public IEnumerable<IPublishedContent> AndereFotos
-		{
-			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("andereFotos"); }
-		}
-
-		///<summary>
-		/// Bouwjaar
-		///</summary>
-		[ImplementPropertyType("bouwjaar")]
-		public string Bouwjaar
-		{
-			get { return this.GetPropertyValue<string>("bouwjaar"); }
-		}
-
-		///<summary>
-		/// ExtraTekst
-		///</summary>
-		[ImplementPropertyType("extraTekst")]
-		public string ExtraTekst
-		{
-			get { return this.GetPropertyValue<string>("extraTekst"); }
-		}
-
-		///<summary>
-		/// Fabrikant: Naam van de fabrikant
-		///</summary>
-		[ImplementPropertyType("fabrikant")]
-		public string Fabrikant
-		{
-			get { return this.GetPropertyValue<string>("fabrikant"); }
-		}
-
-		///<summary>
-		/// Model: naam van het model
-		///</summary>
-		[ImplementPropertyType("model")]
-		public string Model
-		{
-			get { return this.GetPropertyValue<string>("model"); }
-		}
-
-		///<summary>
-		/// Prijs
-		///</summary>
-		[ImplementPropertyType("prijs")]
-		public string Prijs
-		{
-			get { return this.GetPropertyValue<string>("prijs"); }
-		}
-
-		///<summary>
-		/// PrimaireFoto: Belangrijkste foto van de brommer
-		///</summary>
-		[ImplementPropertyType("primaireFoto")]
-		public IPublishedContent PrimaireFoto
-		{
-			get { return this.GetPropertyValue<IPublishedContent>("primaireFoto"); }
-		}
-
-		///<summary>
-		/// Verkocht: Is deze brommer verkocht
-		///</summary>
-		[ImplementPropertyType("verkocht")]
-		public bool Verkocht
-		{
-			get { return this.GetPropertyValue<bool>("verkocht"); }
 		}
 	}
 
@@ -385,7 +262,7 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// MorePartPictures
+		/// MorePartPictures: Laad hier extra afbeeldingen op van het onderdeel
 		///</summary>
 		[ImplementPropertyType("morePartPictures")]
 		public IEnumerable<IPublishedContent> MorePartPictures
@@ -394,7 +271,7 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// PartDescription
+		/// PartDescription: Omschrijving van het onderdeel
 		///</summary>
 		[ImplementPropertyType("partDescription")]
 		public string PartDescription
@@ -403,7 +280,7 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// PartName
+		/// PartName: Geef hier de naam van het onderdeel
 		///</summary>
 		[ImplementPropertyType("partName")]
 		public string PartName
@@ -412,12 +289,21 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// PartPicture
+		/// PartPicture: De eerste afbeelding van het onderdeel
 		///</summary>
 		[ImplementPropertyType("partPicture")]
 		public IPublishedContent PartPicture
 		{
 			get { return this.GetPropertyValue<IPublishedContent>("partPicture"); }
+		}
+
+		///<summary>
+		/// PartPrice: De prijs van het onderdeel
+		///</summary>
+		[ImplementPropertyType("partPrice")]
+		public string PartPrice
+		{
+			get { return this.GetPropertyValue<string>("partPrice"); }
 		}
 	}
 
@@ -444,15 +330,6 @@ namespace Umbraco.Web.PublishedContentModels
 		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Slider, TValue>> selector)
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
-		}
-
-		///<summary>
-		/// Cropper
-		///</summary>
-		[ImplementPropertyType("cropper")]
-		public Umbraco.Web.Models.ImageCropDataSet Cropper
-		{
-			get { return this.GetPropertyValue<Umbraco.Web.Models.ImageCropDataSet>("cropper"); }
 		}
 
 		///<summary>
@@ -488,6 +365,254 @@ namespace Umbraco.Web.PublishedContentModels
 		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Notfound, TValue>> selector)
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+	}
+
+	/// <summary>Store</summary>
+	[PublishedContentModel("store")]
+	public partial class Store : PublishedContentModel
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "store";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public Store(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Store, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// StoreName: Type the name of the items that will be sold in this store
+		///</summary>
+		[ImplementPropertyType("storeName")]
+		public string StoreName
+		{
+			get { return this.GetPropertyValue<string>("storeName"); }
+		}
+	}
+
+	/// <summary>StoreItem</summary>
+	[PublishedContentModel("storeItem")]
+	public partial class StoreItem : PublishedContentModel
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "storeItem";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public StoreItem(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<StoreItem, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// AndereFotos
+		///</summary>
+		[ImplementPropertyType("andereFotos")]
+		public IEnumerable<IPublishedContent> AndereFotos
+		{
+			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("andereFotos"); }
+		}
+
+		///<summary>
+		/// Bouwjaar
+		///</summary>
+		[ImplementPropertyType("bouwjaar")]
+		public string Bouwjaar
+		{
+			get { return this.GetPropertyValue<string>("bouwjaar"); }
+		}
+
+		///<summary>
+		/// ExtraTekst
+		///</summary>
+		[ImplementPropertyType("extraTekst")]
+		public string ExtraTekst
+		{
+			get { return this.GetPropertyValue<string>("extraTekst"); }
+		}
+
+		///<summary>
+		/// IsVerkocht: Duid aan of dit item al verkocht is of niet
+		///</summary>
+		[ImplementPropertyType("isVerkocht")]
+		public bool IsVerkocht
+		{
+			get { return this.GetPropertyValue<bool>("isVerkocht"); }
+		}
+
+		///<summary>
+		/// Merk
+		///</summary>
+		[ImplementPropertyType("merk")]
+		public string Merk
+		{
+			get { return this.GetPropertyValue<string>("merk"); }
+		}
+
+		///<summary>
+		/// Model
+		///</summary>
+		[ImplementPropertyType("model")]
+		public string Model
+		{
+			get { return this.GetPropertyValue<string>("model"); }
+		}
+
+		///<summary>
+		/// Prijs
+		///</summary>
+		[ImplementPropertyType("prijs")]
+		public string Prijs
+		{
+			get { return this.GetPropertyValue<string>("prijs"); }
+		}
+
+		///<summary>
+		/// PrimaireFoto: De eerste foto die op het overzicht getoond wordt
+		///</summary>
+		[ImplementPropertyType("primaireFoto")]
+		public IPublishedContent PrimaireFoto
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("primaireFoto"); }
+		}
+
+		///<summary>
+		/// Video: provide a youtube url
+		///</summary>
+		[ImplementPropertyType("video")]
+		public string Video
+		{
+			get { return this.GetPropertyValue<string>("video"); }
+		}
+	}
+
+	/// <summary>StoreForSale</summary>
+	[PublishedContentModel("storeForSale")]
+	public partial class StoreForSale : PublishedContentModel
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "storeForSale";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public StoreForSale(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<StoreForSale, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// PaginaEmpty: Indien deze pagina toch gepublished is maar geen items te koop bevat
+		///</summary>
+		[ImplementPropertyType("paginaEmpty")]
+		public string PaginaEmpty
+		{
+			get { return this.GetPropertyValue<string>("paginaEmpty"); }
+		}
+
+		///<summary>
+		/// PaginaTitel: De titel om op de verkoop pagia te hebben
+		///</summary>
+		[ImplementPropertyType("paginaTitel")]
+		public string PaginaTitel
+		{
+			get { return this.GetPropertyValue<string>("paginaTitel"); }
+		}
+
+		///<summary>
+		/// PaginaWelkom: Korte tekst en uitleg
+		///</summary>
+		[ImplementPropertyType("paginaWelkom")]
+		public string PaginaWelkom
+		{
+			get { return this.GetPropertyValue<string>("paginaWelkom"); }
+		}
+	}
+
+	/// <summary>StoreSold</summary>
+	[PublishedContentModel("storeSold")]
+	public partial class StoreSold : PublishedContentModel
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "storeSold";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public StoreSold(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<StoreSold, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// PaginaEmpty: Indien deze pagina toch gepublished maar er geen verkochte items zijn
+		///</summary>
+		[ImplementPropertyType("paginaEmpty")]
+		public string PaginaEmpty
+		{
+			get { return this.GetPropertyValue<string>("paginaEmpty"); }
+		}
+
+		///<summary>
+		/// PaginaTitel: Titel van deze pagina
+		///</summary>
+		[ImplementPropertyType("paginaTitel")]
+		public string PaginaTitel
+		{
+			get { return this.GetPropertyValue<string>("paginaTitel"); }
+		}
+
+		///<summary>
+		/// PaginaWelkom: Klein woordje uitleg net onder de titel
+		///</summary>
+		[ImplementPropertyType("paginaWelkom")]
+		public string PaginaWelkom
+		{
+			get { return this.GetPropertyValue<string>("paginaWelkom"); }
 		}
 	}
 

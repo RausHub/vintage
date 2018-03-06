@@ -1,0 +1,230 @@
+﻿ 2018-02-27 20:01:03,628 [P8152/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.7.6 application starting on LAPTOP-4VJ1Q7EF
+ 2018-02-27 20:01:03,662 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-02-27 20:01:03,694 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 32ms)
+ 2018-02-27 20:01:03,829 [P8152/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-02-27 20:01:03,831 [P8152/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-02-27 20:01:03,834 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-02-27 20:01:04,271 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 436ms)
+ 2018-02-27 20:01:04,271 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-02-27 20:01:04,279 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 8ms)
+ 2018-02-27 20:01:04,299 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-02-27 20:01:04,300 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-02-27 20:01:04,300 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-02-27 20:01:04,309 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 8ms)
+ 2018-02-27 20:01:04,310 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-02-27 20:01:04,310 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-02-27 20:01:04,310 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-02-27 20:01:04,317 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 7ms)
+ 2018-02-27 20:01:04,339 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-02-27 20:01:04,340 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-02-27 20:01:04,340 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-02-27 20:01:04,347 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 7ms)
+ 2018-02-27 20:01:04,348 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-02-27 20:01:04,349 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-02-27 20:01:04,349 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-02-27 20:01:04,357 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 8ms)
+ 2018-02-27 20:01:06,315 [P8152/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-27 20:01:06,760 [P8152/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-02-27 20:01:06,784 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2018-02-27 20:01:06,786 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2018-02-27 20:01:07,066 [P8152/D2/T1] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (161ms)
+ 2018-02-27 20:01:07,131 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 16
+ 2018-02-27 20:01:07,254 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = default Folder = ~/uSync/data/ Force = False
+ 2018-02-27 20:01:07,276 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2018-02-27 20:01:11,651 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 69 Items 0 changes 0 failures
+ 2018-02-27 20:01:11,652 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2018-02-27 20:01:11,653 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-02-27 20:01:11,861 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-02-27 20:01:11,865 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-02-27 20:01:11,867 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-02-27 20:01:11,868 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-02-27 20:01:11,870 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-02-27 20:01:11,871 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-02-27 20:01:11,872 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-02-27 20:01:11,873 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-02-27 20:01:11,874 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-02-27 20:01:11,875 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-02-27 20:01:11,877 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-02-27 20:01:11,878 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-02-27 20:01:11,882 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-02-27 20:01:11,883 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-02-27 20:01:11,884 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-02-27 20:01:11,929 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-02-27 20:01:11,929 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-02-27 20:01:11,930 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-02-27 20:01:11,941 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 11ms)
+ 2018-02-27 20:01:12,108 [P8152/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2018-02-27 20:01:12,108 [P8152/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2018-02-27 20:01:12,181 [P8152/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2018-02-27 20:01:12,181 [P8152/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2018-02-27 20:01:12,287 [P8152/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2018-02-27 20:01:12,288 [P8152/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2018-02-27 20:01:12,389 [P8152/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2018-02-27 20:01:12,389 [P8152/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2018-02-27 20:01:12,442 [P8152/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2018-02-27 20:01:12,442 [P8152/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2018-02-27 20:01:12,449 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 36 Items 21 changes 0 failures
+ 2018-02-27 20:01:12,450 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2018-02-27 20:01:12,450 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-02-27 20:01:12,927 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-02-27 20:01:12,929 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-02-27 20:01:12,930 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-02-27 20:01:12,931 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-02-27 20:01:12,931 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-02-27 20:01:12,932 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-02-27 20:01:12,932 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-02-27 20:01:12,933 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-02-27 20:01:12,933 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-02-27 20:01:12,934 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-02-27 20:01:12,934 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-02-27 20:01:13,814 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-02-27 20:01:13,814 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-02-27 20:01:13,814 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2018-02-27 20:01:13,825 [P8152/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 10ms)
+ 2018-02-27 20:01:15,073 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 22 Items 14 changes 0 failures
+ 2018-02-27 20:01:15,073 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2018-02-27 20:01:15,371 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2018-02-27 20:01:15,372 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2018-02-27 20:01:15,449 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2018-02-27 20:01:15,449 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2018-02-27 20:01:15,450 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDictionaryItem
+ 2018-02-27 20:01:15,514 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDictionaryItem
+ 2018-02-27 20:01:15,726 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDictionaryItem
+ 2018-02-27 20:01:15,910 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDictionaryItem
+ 2018-02-27 20:01:19,042 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 11 Items 5 changes 0 failures
+ 2018-02-27 20:01:19,042 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2018-02-27 20:01:19,316 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2018-02-27 20:01:19,390 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events default
+ 2018-02-27 20:01:19,396 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 147 items with 40 changes ###
+ 2018-02-27 20:01:19,397 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Parts1 Umbraco.Core.Models.ITemplate Not found 
+ 2018-02-27 20:01:19,398 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommerDetail Umbraco.Core.Models.ITemplate Not found 
+ 2018-02-27 20:01:19,398 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersForSale Umbraco.Core.Models.ITemplate Not found 
+ 2018-02-27 20:01:19,398 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersTeKoop Umbraco.Core.Models.ITemplate Not found 
+ 2018-02-27 20:01:19,398 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersVerkocht1 Umbraco.Core.Models.ITemplate Not found 
+ 2018-02-27 20:01:19,398 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersSold Umbraco.Core.Models.ITemplate Not found 
+ 2018-02-27 20:01:19,398 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete PartsSub Umbraco.Core.Models.ITemplate Not found 
+ 2018-02-27 20:01:19,399 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete NavBarSecond Umbraco.Core.Models.ITemplate Not found 
+ 2018-02-27 20:01:19,399 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete 404page1 Umbraco.Core.Models.ITemplate Not found 
+ 2018-02-27 20:01:19,399 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete 404Page Umbraco.Core.Models.ITemplate Not found 
+ 2018-02-27 20:01:19,399 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete notfound1 Umbraco.Core.Models.ITemplate Not found 
+ 2018-02-27 20:01:19,399 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Banner Umbraco.Core.Models.ITemplate Not found 
+ 2018-02-27 20:01:19,399 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BannerSmall Umbraco.Core.Models.ITemplate Not found 
+ 2018-02-27 20:01:19,400 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Map Umbraco.Core.Models.ITemplate Not found 
+ 2018-02-27 20:01:19,400 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Contact Umbraco.Core.Models.ITemplate Not found 
+ 2018-02-27 20:01:19,400 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete NavBarMain Umbraco.Core.Models.ITemplate Not found 
+ 2018-02-27 20:01:19,400 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import 404page Umbraco.Core.Models.ITemplate Can't get template path (are template files missing?) D:\grote test\VintageWheels\VintageWheels\uSync\data\Template\404page1\page1.config
+ 2018-02-27 20:01:19,400 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Brommers Umbraco.Core.Models.ITemplate Can't get template path (are template files missing?) D:\grote test\VintageWheels\VintageWheels\uSync\data\Template\brommersforsale\BrommersForSale.config
+ 2018-02-27 20:01:19,400 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import BrommersVerkocht Umbraco.Core.Models.ITemplate Can't get template path (are template files missing?) D:\grote test\VintageWheels\VintageWheels\uSync\data\Template\master\basepagesmallbannernavbarsecond\brommersverkocht1\BrommersVerkocht1.config
+ 2018-02-27 20:01:19,400 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import notfound Umbraco.Core.Models.ITemplate Can't get template path (are template files missing?) D:\grote test\VintageWheels\VintageWheels\uSync\data\Template\notfound1\notfound1.config
+ 2018-02-27 20:01:19,401 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import PartsSub Umbraco.Core.Models.ITemplate Can't get template path (are template files missing?) D:\grote test\VintageWheels\VintageWheels\uSync\data\Template\parts1\Parts1.config
+ 2018-02-27 20:01:19,401 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommerDetail Umbraco.Core.Models.IContentType Not found 
+ 2018-02-27 20:01:19,401 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommerForDetail Umbraco.Core.Models.IContentType Not found 
+ 2018-02-27 20:01:19,401 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommerDetail Umbraco.Core.Models.IContentType Not found 
+ 2018-02-27 20:01:19,401 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommersTeKoop Umbraco.Core.Models.IContentType Not found 
+ 2018-02-27 20:01:19,401 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommersSold Umbraco.Core.Models.IContentType Not found 
+ 2018-02-27 20:01:19,401 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete partsSub Umbraco.Core.Models.IContentType Not found 
+ 2018-02-27 20:01:19,401 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete navBarSecond Umbraco.Core.Models.IContentType Not found 
+ 2018-02-27 20:01:19,402 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete page Umbraco.Core.Models.IContentType Not found 
+ 2018-02-27 20:01:19,402 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete map Umbraco.Core.Models.IContentType Not found 
+ 2018-02-27 20:01:19,402 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete navBarMain Umbraco.Core.Models.IContentType Not found 
+ 2018-02-27 20:01:19,402 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete contact Umbraco.Core.Models.IContentType Not found 
+ 2018-02-27 20:01:19,402 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete banner Umbraco.Core.Models.IContentType Not found 
+ 2018-02-27 20:01:19,402 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Brommer Umbraco.Core.Models.IContentType  D:\grote test\VintageWheels\VintageWheels\uSync\data\DocumentType\brommer\def.config
+ 2018-02-27 20:01:19,402 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Home Umbraco.Core.Models.IContentType  D:\grote test\VintageWheels\VintageWheels\uSync\data\DocumentType\home\def.config
+ 2018-02-27 20:01:19,403 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete VintageWheels Umbraco.Core.Models.IDictionaryItem Not found 
+ 2018-02-27 20:01:19,403 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommers te koop Umbraco.Core.Models.IDictionaryItem  
+ 2018-02-27 20:01:19,403 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Geen brommers te koop Umbraco.Core.Models.IDictionaryItem  
+ 2018-02-27 20:01:19,403 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommers te koop intro tekst Umbraco.Core.Models.IDictionaryItem  
+ 2018-02-27 20:01:19,403 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import TeKoopPagina Umbraco.Core.Models.IDictionaryItem  D:\grote test\VintageWheels\VintageWheels\uSync\data\DictionaryItem\TeKoopPagina.config
+ 2018-02-27 20:01:19,405 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncActionLogger - Saving uSync Report: D:\grote test\VintageWheels\VintageWheels\App_Data\temp\uSync\20180227_200119_Startup.config
+ 2018-02-27 20:01:19,452 [P8152/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (12665ms)
+ 2018-02-27 20:01:19,592 [P8152/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-02-27 20:01:20,228 [P8152/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-02-27 20:01:20,268 [P8152/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 16754ms)
+ 2018-02-27 20:01:20,577 [P8152/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50743/umbraco (UmbracoModule request)
+ 2018-02-27 20:05:35,188 [P8152/D2/T7] INFO  umbraco.content - Load Xml from file...
+ 2018-02-27 20:05:35,564 [P8152/D2/T7] INFO  umbraco.content - Loaded Xml from file.
+ 2018-02-27 20:05:35,924 [P8152/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-02-27 20:05:35,924 [P8152/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-02-27 20:05:35,924 [P8152/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-02-27 20:05:35,933 [P8152/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 8ms)
+ 2018-02-27 20:05:40,917 [P8152/D2/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-02-27 20:05:40,917 [P8152/D2/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-02-27 20:05:40,918 [P8152/D2/T8] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2018-02-27 20:05:40,928 [P8152/D2/T8] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 10ms)
+ 2018-02-27 20:05:40,929 [P8152/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-02-27 20:05:40,930 [P8152/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-02-27 20:05:40,930 [P8152/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2018-02-27 20:05:40,931 [P8152/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 0ms)
+ 2018-02-27 20:06:35,760 [P8152/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-02-26 20:06:35
+ 2018-02-27 20:16:58,535 [P8152/D2/T55] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-02-27 20:16:58,536 [P8152/D2/T55] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-02-27 20:16:58,536 [P8152/D2/T55] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-02-27 20:16:58,545 [P8152/D2/T55] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 8ms)
+ 2018-02-27 20:16:58,709 [P8152/D2/T73] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-02-27 20:16:58,710 [P8152/D2/T73] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-02-27 20:16:58,710 [P8152/D2/T73] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2018-02-27 20:16:58,729 [P8152/D2/T73] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 18ms)
+ 2018-02-27 22:06:38,219 [P8152/D2/T41] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rausjelle@hotmail.com from IP address ::1
+ 2018-02-27 22:06:38,223 [P8152/D2/T41] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rausjelle@hotmail.com logged in from IP address ::1
+ 2018-02-27 22:06:39,047 [P8152/D2/T37] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-02-27 22:06:39,048 [P8152/D2/T37] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-02-27 22:06:39,049 [P8152/D2/T37] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2018-02-27 22:06:39,102 [P8152/D2/T37] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 53ms)
+ 2018-02-27 22:06:39,102 [P8152/D2/T36] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-02-27 22:06:39,103 [P8152/D2/T36] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-02-27 22:06:39,103 [P8152/D2/T36] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2018-02-27 22:06:39,112 [P8152/D2/T36] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 8ms)
+ 2018-02-27 22:06:39,143 [P8152/D2/T36] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-02-27 22:06:39,144 [P8152/D2/T36] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-02-27 22:06:39,144 [P8152/D2/T36] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-02-27 22:06:39,145 [P8152/D2/T36] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2018-02-27 22:06:39,150 [P8152/D2/T36] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-02-27 22:06:39,157 [P8152/D2/T36] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 7ms)
+ 2018-02-27 22:06:39,157 [P8152/D2/T36] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2018-02-27 22:06:39,180 [P8152/D2/T36] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 22ms)
+ 2018-02-27 22:18:16,457 [P8152/D2/T171] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: Store
+ 2018-02-27 22:21:15,052 [P8152/D2/T171] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: Store
+ 2018-02-27 22:37:04,643 [P8152/D2/T43] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: rausjelle@hotmail.com, IP Address: ::1
+ 2018-02-27 22:43:30,917 [P8152/D2/T48] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rausjelle@hotmail.com from IP address ::1
+ 2018-02-27 22:43:30,918 [P8152/D2/T48] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rausjelle@hotmail.com logged in from IP address ::1
+ 2018-02-27 22:44:01,135 [P8152/D2/T51] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: StoreItem
+ 2018-02-27 22:44:29,075 [P8152/D2/T67] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: StoreItem
+ 2018-02-27 22:44:55,556 [P8152/D2/T58] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: StoreItem
+ 2018-02-27 22:49:26,277 [P8152/D2/T85] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: StoreItem
+ 2018-02-27 23:03:01,568 [P8152/D2/T96] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: rausjelle@hotmail.com, IP Address: ::1
+ 2018-02-27 23:22:47,165 [P8152/D2/T62] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rausjelle@hotmail.com from IP address ::1
+ 2018-02-27 23:22:47,165 [P8152/D2/T62] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rausjelle@hotmail.com logged in from IP address ::1
+ 2018-02-27 23:25:25,160 [P8152/D2/T62] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: StoreForSale
+ 2018-02-27 23:27:00,073 [P8152/D2/T37] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: StoreSold
+ 2018-02-27 23:28:08,380 [P8152/D2/T40] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: Store
+ 2018-02-27 23:28:26,600 [P8152/D2/T40] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: StoreForSale
+ 2018-02-27 23:28:26,713 [P8152/D2/T40] INFO  Jumoo.uSync.BackOffice.Helpers.NameChecker - Managing Orphaned File: D:\grote test\VintageWheels\VintageWheels\uSync\data\Template\master\basepagesmallbannernavbarsecond\storeforsale\StoreForSale.config
+ 2018-02-27 23:28:38,237 [P8152/D2/T62] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: StoreItem
+ 2018-02-27 23:28:38,333 [P8152/D2/T62] INFO  Jumoo.uSync.BackOffice.Helpers.NameChecker - Managing Orphaned File: D:\grote test\VintageWheels\VintageWheels\uSync\data\Template\master\basepagesmallbannernavbarsecond\storeitem\StoreItem.config
+ 2018-02-27 23:28:53,412 [P8152/D2/T62] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: StoreSold
+ 2018-02-27 23:28:53,521 [P8152/D2/T62] INFO  Jumoo.uSync.BackOffice.Helpers.NameChecker - Managing Orphaned File: D:\grote test\VintageWheels\VintageWheels\uSync\data\Template\master\basepagesmallbannernavbarsecond\storesold\StoreSold.config
+ 2018-02-27 23:31:27,530 [P8152/D2/T49] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: StoreSold
+ 2018-02-27 23:35:59,053 [P8152/D2/T48] INFO  Jumoo.uSync.BackOffice.Handlers.DataTypeHandler - Save: Saving uSync file for item: StoreName
+ 2018-02-27 23:36:53,468 [P8152/D2/T39] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-02-27 23:36:53,469 [P8152/D2/T39] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-02-27 23:36:53,469 [P8152/D2/T39] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Editors.IEditorValidator
+ 2018-02-27 23:36:53,483 [P8152/D2/T39] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Editors.IEditorValidator (took 13ms)
+ 2018-02-27 23:36:54,053 [P8152/D2/T39] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Save: Saving uSync files for Item: Store
+ 2018-02-27 23:42:40,824 [P8152/D2/T53] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Save: Saving uSync files for Item: Store
+ 2018-02-27 23:42:43,776 [P8152/D2/T54] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Save: Saving uSync files for Item: Store
+ 2018-02-27 23:45:07,881 [P8152/D2/T61] INFO  Jumoo.uSync.BackOffice.Handlers.DataTypeHandler - Save: Saving uSync file for item: StoreItemMerk
+ 2018-02-27 23:48:32,179 [P8152/D2/T53] INFO  Jumoo.uSync.BackOffice.Handlers.DataTypeHandler - Save: Saving uSync file for item: StoreItemBouwjaar
+ 2018-02-27 23:49:04,973 [P8152/D2/T44] INFO  Jumoo.uSync.BackOffice.Handlers.DataTypeHandler - Save: Saving uSync file for item: StoreItemModel
+ 2018-02-27 23:49:39,821 [P8152/D2/T13] INFO  Jumoo.uSync.BackOffice.Handlers.DataTypeHandler - Save: Saving uSync file for item: StoreItemPrijs
+ 2018-02-27 23:50:35,068 [P8152/D2/T54] INFO  Jumoo.uSync.BackOffice.Handlers.DataTypeHandler - Save: Saving uSync file for item: StoreItemExtraTekst
+ 2018-02-27 23:51:52,993 [P8152/D2/T13] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-02-27 23:51:52,993 [P8152/D2/T13] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-02-27 23:51:52,994 [P8152/D2/T13] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-02-27 23:51:52,994 [P8152/D2/T13] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-02-27 23:53:32,696 [P8152/D2/T101] INFO  Jumoo.uSync.BackOffice.Handlers.DataTypeHandler - Save: Saving uSync file for item: StoreItemPrimaireFoto
+ 2018-02-27 23:58:42,000 [P8152/D2/T5] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-02-27 23:58:42,001 [P8152/D2/T5] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-02-27 23:58:42,001 [P8152/D2/T5] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-02-27 23:58:42,002 [P8152/D2/T5] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-02-27 23:59:35,725 [P8152/D2/T52] INFO  Jumoo.uSync.BackOffice.Handlers.DataTypeHandler - Save: Saving uSync file for item: StoreItemAndereFotos

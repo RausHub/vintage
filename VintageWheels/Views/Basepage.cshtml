@@ -4,7 +4,7 @@
 @{
     Layout = "Master.cshtml";
     var childs = Model.Content.Children().First().Children();
-
+    var homeContent = Model.Content.Children().First();
     var bannerId = Umbraco.Field("homeBannerImage");
     var bannerImage = Umbraco.Media(bannerId.ToString());
     var bannerUrl = bannerImage.Url;
@@ -36,7 +36,7 @@
     <div class="maps_text">
         <h3 class="text-white" onclick="showmap()">
             @Umbraco.GetDictionaryValue("MapPagina")
-            <i class="fa fa-angle-down"></i>
+            @*<i class="fa fa-angle-down"></i>*@
         </h3>
         <div id="map_canvas" class="mapheight">
         </div>
@@ -56,11 +56,13 @@
                             <div class="separator_small"></div>
                         </div>
                         <p>@Umbraco.GetDictionaryValue("Contact uitleg")</p>
-
+                        <p><i class="fa fa-map-marker"></i>&nbsp;&nbsp;@homeContent.Properties.First(x => x.PropertyTypeAlias == "vintageAdres").DataValue</p>
+                        <p><i class="fa fa-envelope"></i>&nbsp;&nbsp;@homeContent.Properties.First(x => x.PropertyTypeAlias == "vintageEmail").DataValue</p>
+                        <p><i class="fa fa-phone"></i>&nbsp;&nbsp;@homeContent.Properties.First(x => x.PropertyTypeAlias == "vintageGSM").DataValue</p>
                         <div class="widget_socail m-top-30">
                             <ul class="list-inline">
-                                <li><a href="https://www.facebook.com/vintagewheelsbelgium/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <!-- <li><a href=""><i class="fa fa-twitter"></i></a></li> -->
+                                <li><a href = "https://www.facebook.com/vintagewheelsbelgium/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <!-- <li><a href = "" >< i class="fa fa-twitter"></i></a></li> -->
                                 @*<li><a href=""><i class="fa fa-linkedin"></i></a></li>*@
                                 <!-- <li><a href=""><i class="fa fa-vimeo"></i></a></li> -->
                                 <li><a href=""><i class="fa fa-instagram"></i></a></li>

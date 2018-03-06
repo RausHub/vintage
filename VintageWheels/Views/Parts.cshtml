@@ -12,6 +12,20 @@
     }
 }
 
+<section id="home" class="home2 bg-mega">
+    @*<section id="home" class="home2 bg-mega" style="background-image: url(@bannerUrl);">*@
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="main_home2">
+                <div class="home2_text">
+                    <h1 class="text-white">@Umbraco.GetDictionaryValue("Parts")</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section id="blog" class="blog">
     <!--container Section-->
     <div class="container">
@@ -41,7 +55,7 @@
                                     </div>
                                     <div class="blog_text roomy-40">
                                         <h6>@part.Name</h6>
-                                        <p><em>@Umbraco.Truncate(@part.PartDescription, 140)</em></p>
+                                        <p><em><a href="">@Umbraco.Truncate(@part.PartDescription, 140)</a> </em></p>
                                     </div>
                                 </div>
                             </div>

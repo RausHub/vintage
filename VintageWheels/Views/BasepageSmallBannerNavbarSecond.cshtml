@@ -2,7 +2,10 @@
 @{
     Layout = "Master.cshtml";
     var nodeLang = Umbraco.TypedContentAtRoot().First().Name;
-    var location = Model.Content.Name;
+    var location = Model.Content.Url.Substring(4);
+
+    var stores = Model.Content.Site().Children();
+    var storesList = stores.Where(x => x.ContentType.Alias == "store").ToList();
 }
 
 <nav class="navbar navbar-default navbar-fixed white no-background bootsnav">
@@ -34,17 +37,42 @@
                 }
                 <li><a class="nav-item" href="/@nodeLang">@Umbraco.GetDictionaryValue("Home")</a></li>
                 <!-- <li><a href="/">Info</a></li> -->
-                <li class="dropdown">
-                    <span class="dropdown-toggle nav-item">@Umbraco.GetDictionaryValue("Brommers")</span>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="/@nodeLang/brommerswinkel">@Umbraco.GetDictionaryValue("Te koop")</a>
-                        </li>
-                        <li>
-                            <a href="/@nodeLang/brommersverkocht">@Umbraco.GetDictionaryValue("Verkocht")</a>
-                        </li>
-                    </ul>
-                </li>
+                @if (storesList != null && storesList.Count > 0)
+                {
+                    foreach (var store in storesList)
+                    {
+                        var forsale = store.Children.FirstOrDefault(x => x.ContentType.Alias == "storeForSale");
+                        var forsalelink = forsale == null ? null : forsale.Url;
+                        var sold = store.Children.FirstOrDefault(x => x.ContentType.Alias == "storeSold");
+                        var soldlink = sold == null ? null : sold.Url;
+                        if (forsalelink != null && soldlink != null)
+                        {
+                            <li class="dropdown">
+                                <span class="dropdown-toggle nav-item">@store.Name</span>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="@forsalelink">@Umbraco.GetDictionaryValue("Te koop")</a>
+                                    </li>
+                                    <li>
+                                        <a href="@soldlink">@Umbraco.GetDictionaryValue("Verkocht")</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        }
+                        else if (forsalelink != null)
+                        {
+                            <li>
+                                <a href="@forsalelink" class="nav-item">@store.Name</a>
+                            </li>
+                        }
+                        else if (soldlink != null)
+                        {
+                            <li>
+                                <a href="@soldlink" class="nav-item">@store.Name</a>
+                            </li>
+                        }
+                    }
+                }
                 <li>
                     <a class="nav-item" href="/@nodeLang/parts">@Umbraco.GetDictionaryValue("Onderdelen")</a>
                 </li>
@@ -93,18 +121,6 @@
     </div>
 </nav>
 
-<section id="home" class="home2 bg-mega">
-    @*<section id="home" class="home2 bg-mega" style="background-image: url(@bannerUrl);">*@
-    <div class="overlay"></div>
-    <div class="container">
-        <div class="row">
-            <div class="main_home2">
-                <div class="home2_text">
-                    <h1 class="text-white">@Umbraco.Field("bannerText")</h1>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 
 @RenderBody();

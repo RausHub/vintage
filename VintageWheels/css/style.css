@@ -145,6 +145,10 @@ section { overflow: hidden; }*/
 .text-warning {
 }
 
+.text-vintage {
+    color: #797979 !important;
+}
+
 .text-danger {
 }
 
@@ -170,7 +174,11 @@ section { overflow: hidden; }*/
 }
 
 .bg-grey {
-    background-color: #f5f5f5;
+    background-color: #797979;
+}
+
+.bg-vintage {
+    background-color: #b0884a;
 }
 
 .bg-black {
@@ -180,6 +188,7 @@ section { overflow: hidden; }*/
 .bg-white {
     background-color: #fff;
 }
+
 
 img {
     -moz-user-select: none;
@@ -425,21 +434,21 @@ Separator
     width: 85px;
     height: 2px;
     margin: 20px 0px;
-    background: #E7AE54;
+    background: #b0884a;
 }
 
 .separator_auto {
     width: 85px;
     height: 2px;
     margin: 20px auto;
-    background: #E7AE54;
+    background: #b0884a;
 }
 
 .separator_small {
     width: 30px;
     height: 2px;
     margin: 20px 0px;
-    background: #E7AE54;
+    background: #b0884a;
 }
 
 /*
@@ -476,16 +485,16 @@ Button
 
 .btn-primary {
     color: #fff;
-    background-color: #E7AE54;
+    background-color: #b0884a;
     border: 1px solid;
-    border-color: #E7AE54;
+    border-color: #b0884a;
     padding: 1rem 2rem;
 }
 
     .btn-primary:hover {
         background-color: #eee;
         border-color: #eee;
-        color: #E7AE54;
+        color: #b0884a;
     }
 
 .btn-success {
@@ -1295,7 +1304,7 @@ FAQ Page
 
     .faq_main_content h6 a {
         display: block;
-        color: #6a6a6a;
+        color: #ffffff;
         text-decoration: none;
         font-weight: normal;
         overflow: hidden;
@@ -1309,9 +1318,9 @@ FAQ Page
         width: 50px;
         height: 50px;
         line-height: 50px;
-        background-color: #eeeeee;
+        /*background-color: #eeeeee;*/
         text-align: center;
-        color: #444444;
+        color: #ffffff;
         margin-right: 15px;
         font-size: 1.5rem;
     }

@@ -373,26 +373,22 @@
     <Content Include="Views\Slider.cshtml" />
     <Content Include="Views\Partials\Footer.cshtml" />
     <Content Include="Views\Partials\Loading.cshtml" />
-    <Content Include="Views\Banner.cshtml" />
-    <Content Include="Views\BannerSmall.cshtml" />
     <Content Include="Views\Basepage.cshtml" />
-    <Content Include="Views\Brommer.cshtml" />
-    <Content Include="Views\Brommers.cshtml" />
-    <Content Include="Views\Contact.cshtml" />
     <Content Include="Views\Home.cshtml" />
     <Content Include="Views\Info.cshtml" />
-    <Content Include="Views\Map.cshtml" />
     <Content Include="Views\Master.cshtml" />
-    <Content Include="Views\NavBarMain.cshtml" />
     <Content Include="Views\Part.cshtml" />
     <Content Include="Views\BasepageSmallBannerNavbarSecond.cshtml" />
-    <Content Include="Views\BrommersVerkocht.cshtml" />
     <Content Include="Views\Onderdelen.cshtml" />
     <Content Include="Views\Parts.cshtml" />
     <Content Include="Views\Partials\NavBarSuper.cshtml" />
     <Content Include="Views\BaseError.cshtml" />
     <Content Include="Views\internalError.cshtml" />
     <Content Include="Views\notfound.cshtml" />
+    <Content Include="Views\Store.cshtml" />
+    <Content Include="Views\StoreForSale.cshtml" />
+    <Content Include="Views\StoreItem.cshtml" />
+    <Content Include="Views\StoreSold.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

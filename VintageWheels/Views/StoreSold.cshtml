@@ -1,0 +1,77 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@using System.Linq;
+@{
+    Layout = "Store.cshtml";
+
+    var page = CurrentPage;
+    var superpage = (ContentModels.Store)Umbraco.AssignedContentItem.Ancestor();
+
+    var listItems = Umbraco.AssignedContentItem.Ancestor().Children;
+    var forSaleList = listItems
+        .Where(x => x.ContentType.Alias == "storeItem")
+        .Select(x => (ContentModels.StoreItem)x)
+        .Where(x => x.IsVerkocht)
+        .ToList();
+}
+
+<section id="home" class="home2 bg-mega">
+    @*<section id="home" class="home2 bg-mega" style="background-image: url(@bannerUrl);">*@
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="main_home2">
+                <div class="home2_text">
+                    <h1 class="text-white">@superpage.StoreName</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--sold Section-->
+<section id="blog" class="blog">
+    <div class="container">
+        <div class="row">
+            <div class="main_blog text-center roomy-100">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <div class="head_title text-center">
+                        <h2>@page.PaginaTitel</h2>
+                        <div class="separator_auto"></div>
+                        @if (forSaleList != null && forSaleList.Count > 0)
+                        {
+                            <p>@page.PaginaWelkom</p>
+                        }
+                        else
+                        {
+                            <p>@page.PaginaEmpty</p>
+                        }
+                    </div>
+                </div>
+                @if (forSaleList != null && forSaleList.Count > 0)
+                {
+                    foreach (var item in forSaleList)
+                    {
+                        <div class="col-md-4">
+                            <div class="blog_item m-top-20">
+                                <div class="blog_item_img">
+                                    @{
+                                        var mediaItem = Umbraco.Media(item.PrimaireFoto.Id);
+                                        var file = mediaItem.UmbracoFile;
+                                        var extraText = item.ExtraTekst;
+                                    }
+                                    <img src="@file" alt="" />
+                                </div>
+                                <div class="blog_text roomy-40">
+                                    <h6>@item.Merk @item.Model</h6>
+                                    <p><em><a href="">@item.Bouwjaar</a> / @Umbraco.Truncate(extraText, 70)</em></p>
+                                </div>
+                            </div>
+                        </div>
+                                            }
+                                        }
+
+            </div>
+        </div><!--End off row -->
+    </div><!--End off container -->
+</section><!-- End off sold  section-->

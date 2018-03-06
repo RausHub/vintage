@@ -37,6 +37,10 @@ nav.bootsnav .dropdown.megamenu-fw .dropdown-menu {
     right: 0;
 }
 
+nav {
+    font-size: 16px;
+}
+
 /* Navbar
 =================================*/
 nav.navbar.bootsnav{

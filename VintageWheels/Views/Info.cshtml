@@ -1,6 +1,9 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using ContentModels = Umbraco.Web.PublishedContentModels;
 @{
-	Layout = null;
+    Layout = null;
+    var info = (ContentModels.Info)Umbraco.AssignedContentItem;
+    var interrupt = info;
 }
 
 <!--Service Section-->
@@ -19,25 +22,25 @@
                         <div class="col-md-4">
                             <div class="service_item">
                                 <i class="icofont icofont-light-bulb"></i>
-                                <h6 class="m-top-30">BRANDING</h6>
+                                <h6 class="m-top-30">@info.InfoPart1Title</h6>
                                 <div class="separator_small"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+                                <p>@info.InfoPart1Text</p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="service_item">
                                 <i class="icofont icofont-light-bulb"></i>
-                                <h6 class="m-top-30">BRANDING</h6>
+                                <h6 class="m-top-30">@info.InfoPart2Title</h6>
                                 <div class="separator_small"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+                                <p>@info.InfoPart2Text</p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="service_item">
                                 <i class="icofont icofont-video"></i>
-                                <h6 class="m-top-30">BRANDING</h6>
+                                <h6 class="m-top-30">@info.InfoPart3Title</h6>
                                 <div class="separator_small"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+                                <p>@info.InfoPart3Text</p>
                             </div>
                         </div>
                     </div>

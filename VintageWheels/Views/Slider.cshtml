@@ -29,11 +29,12 @@
                 foreach (var e in events)
                 {
                     var dynamicMediaItem = Umbraco.Media(e.Id);
+                    var cropfile = dynamicMediaItem.GetCropUrl("Event");
                     var file = dynamicMediaItem.umbracoFile;
 
                     <div>
                         <div class="featured_img">
-                        <img src="/imagegen.ashx?width=100&height=100&image=@file" />
+                        <img src="@cropfile" />
                             @*<img src="@file" alt="" />*@
                             <a href="@file" class="popup-img"></a>
                         </div>

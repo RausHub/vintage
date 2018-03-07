@@ -26,5 +26,7 @@ namespace VintageWheels.Models
         public string Message { get; set; }
 
         public string Subject { get; set; }
+
+        public string Tip { get; set; }
     }
 }

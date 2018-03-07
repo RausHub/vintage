@@ -29,6 +29,10 @@
                 @Html.TextBoxFor(model => model.Email, new { @class = "form-control", placeholder = umbracoHelper.GetDictionaryValue("Email adres") })
                 @Html.ValidationMessageFor(model => model.Email)
             </div>
+
+            <div style="display: none;">
+                @Html.TextBoxFor(model => model.Tip)
+            </div>
         </div>
 
         <div class="col-sm-12">

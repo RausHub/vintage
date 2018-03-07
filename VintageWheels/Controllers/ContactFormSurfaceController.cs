@@ -24,6 +24,11 @@ namespace VintageWheels.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult HandleContactForm(ContactFormViewModel model)
         {
+            if (!string.IsNullOrEmpty(model.Tip))
+            {
+                return CurrentUmbracoPage();
+            }
+
             //Check if the dat posted is valid (All required's & email set in email field)
             if (!ModelState.IsValid)
             {

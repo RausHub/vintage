@@ -1,4 +1,4 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.Basepage>
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @using ContentModels = Umbraco.Web.PublishedContentModels;
 @using VintageWheels.Models
 @{
@@ -65,13 +65,13 @@
                                 <!-- <li><a href = "" >< i class="fa fa-twitter"></i></a></li> -->
                                 @*<li><a href=""><i class="fa fa-linkedin"></i></a></li>*@
                                 <!-- <li><a href=""><i class="fa fa-vimeo"></i></a></li> -->
-                                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.instagram.com/vintage.wheels/"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-8 sm-m-top-30">
-                    @Html.Partial("ContactView", new ContactFormViewModel())
+                    @Html.Partial("ContactView", new ContactFormViewModel("Contact form"))
                 </div>
             </div>
             <!--End off row -->

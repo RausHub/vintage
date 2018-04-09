@@ -40,8 +40,13 @@
                 @Html.TextAreaFor(model => model.Message, new { @class = "form-control", @rows = 6, placeholder = umbracoHelper.GetDictionaryValue("Uw bericht") })
                 @Html.ValidationMessageFor(model => model.Message)
             </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="g-recaptcha" data-sitekey="6Le541EUAAAAAFC0OYuLjzan6vxIk9-0F4oWcgnH"></div>
+        </div>
+        <div class="col-sm-6">
             <div class="form-group text-center">
-                <input type="submit" class="btn btn-primary" value = "@umbracoHelper.GetDictionaryValue("Stuur bericht")" />
+                <input type="submit" class="btn btn-primary" value="@umbracoHelper.GetDictionaryValue("Stuur bericht")" />
             </div>
         </div>
     </div>

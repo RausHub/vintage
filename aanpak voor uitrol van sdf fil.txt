@@ -1,0 +1,3 @@
+de sdf file heeft als locale identifier 8193, deze is niet compatibel met andere OS
+daarom moet je sqlcecmd.exee uitvoeren om deze id aan te passen naar belgische 2067 ofzoiet na te kijken bij gebruik
+http://erikej.blogspot.be/2009/02/sqlcecmd-sql-compact-command-line-tool.html

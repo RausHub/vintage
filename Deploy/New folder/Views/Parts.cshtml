@@ -1,0 +1,78 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@using System.Linq;
+@{
+    Layout = "BasepageSmallBannerNavbarSecond.cshtml";
+
+    var forSaleList = Umbraco.AssignedContentItem.Children;
+    List<ContentModels.Part> parts = null;
+    if (forSaleList != null)
+    {
+        parts = forSaleList.Select(x => (ContentModels.Part)x).ToList();
+    }
+}
+
+<section id="home" class="home2 bg-mega">
+    @*<section id="home" class="home2 bg-mega" style="background-image: url(@bannerUrl);">*@
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="main_home2">
+                <div class="home2_text">
+                    <h1 class="text-white">@Umbraco.GetDictionaryValue("Parts")</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="blog" class="blog">
+    <!--container Section-->
+    <div class="container">
+        <!--row Section-->
+        <div class="row">
+            <div class="main_blog text-center roomy-100">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <div class="head_title text-center">
+                        <h2>@Umbraco.GetDictionaryValue("Onze onderdelen")</h2>
+                        <div class="separator_auto"></div>
+                        <p>@Umbraco.GetDictionaryValue("Onze onderdelen uitleg")</p>
+                    </div>
+                </div>
+                @if (parts != null && parts.Count > 0)
+                {
+                    foreach (ContentModels.Part part in parts)
+                    {
+                        <a href="@part.Url">
+                            <div class="col-md-4">
+                                <div class="blog_item m-top-20">
+                                    <div class="blog_item_img">
+                                        @{
+                                            var mediaItem = Umbraco.Media(part.PartPicture.Id);
+                                            var file = mediaItem.UmbracoFile;
+                                        }
+                                        <img src="@file" alt="" />
+                                    </div>
+                                    <div class="blog_text roomy-40">
+                                        <h6>@part.Name</h6>
+                                        <p><em><a href="">@Umbraco.Truncate(@part.PartDescription, 140)</a> </em></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                     }
+                 }
+                 else
+                 {
+                     <div class="col-sm-8 col-sm-offset-2">
+                         <div class="head_title text-center">
+                             <h2>@Umbraco.GetDictionaryValue("Geen onderdelen te koop")</h2>
+                         </div>
+                     </div>
+                 }
+            </div>
+        </div><!--End off row -->
+    </div><!--End off container -->
+</section><!-- End off forsale section-->
+
+<!--End off parts section -->

@@ -100,7 +100,8 @@
                     <div>
                         <div class="content bg-mega">
                             <p>
-                                @Html.Partial("ContactView", new ContactFormViewModel())
+                                @{ var subject = item.Merk + " - " + item.Model + " - " + @item.Bouwjaar; }
+                                @Html.Partial("ContactView", new ContactFormViewModel(@subject))
                             </p>
                         </div>
                     </div>

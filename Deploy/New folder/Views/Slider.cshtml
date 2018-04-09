@@ -1,0 +1,48 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+    var events = Model.Content.GetPropertyValue<IEnumerable<IPublishedContent>>("meetingMedia").ToList();
+}
+
+<div class="container">
+    <div class="row">
+        <div class="main_featured m-top-100">
+            <div class="col-sm-12">
+                <div class="head_title text-center">
+                    <h2>@Umbraco.GetDictionaryValue("Meeting Pagina Titel")</h2>
+                    <div class="separator_auto"></div>
+                    <p>
+                        @Umbraco.GetDictionaryValue("Meeting Pagina Tekst")
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (events.Count() > 0)
+{
+    <div class="featured_slider">
+        @{ var x = events.Count();
+            while (x < 5)
+            {
+                foreach (var e in events)
+                {
+                    var dynamicMediaItem = Umbraco.Media(e.Id);
+                    var cropfile = dynamicMediaItem.GetCropUrl("Event");
+                    var file = dynamicMediaItem.umbracoFile;
+
+                    <div>
+                        <div class="featured_img">
+                        <img src="@cropfile" />
+                            @*<img src="@file" alt="" />*@
+                            <a href="@file" class="popup-img"></a>
+                        </div>
+                    </div>
+                }
+                x += events.Count();
+            }
+        }
+    </div>
+}
+<!-- End off featured slider -->

@@ -43,6 +43,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <IncludeIisSettings>false</IncludeIisSettings>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AutoMapper, Version=3.3.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
@@ -258,6 +259,7 @@
     <Content Include="css\bootsnav.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\errorpagecss.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\fonticons.css" />
     <Content Include="css\fonts\slick.svg" />
@@ -269,7 +271,51 @@
     <Content Include="css\style.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\icofont.svg" />
+    <Content Include="Media\1001\belgium-flag-48.png" />
+    <Content Include="Media\1002\france-flag-48.png" />
+    <Content Include="Media\1003\netherlands-flag-48.png" />
+    <Content Include="Media\1004\united-kingdom-flag-48.png" />
+    <Content Include="Media\1005\united-states-flag-48.png" />
+    <Content Include="Media\1006\directions.png" />
+    <Content Include="Media\1006\directions_big-thumb.png" />
+    <Content Include="Media\1006\directions_thumb.png" />
+    <Content Include="Media\1007\brightlogo.png" />
+    <Content Include="Media\1008\darklogo.jpg" />
+    <Content Include="Media\1009\pluse.png" />
+    <Content Include="Media\1010\darklogo.jpg" />
+    <Content Include="Media\1011\banner.png" />
+    <Content Include="Media\1011\banner_big-thumb.png" />
+    <Content Include="Media\1011\banner_thumb.png" />
+    <Content Include="Media\1012\brommer1.jpg" />
+    <Content Include="Media\1012\brommer1_big-thumb.jpg" />
+    <Content Include="Media\1012\brommer1_thumb.jpg" />
+    <Content Include="Media\1013\21271318_1797472120543339_8785463903832326699_n.jpg" />
+    <Content Include="Media\1013\21271318_1797472120543339_8785463903832326699_n_big-thumb.jpg" />
+    <Content Include="Media\1013\21271318_1797472120543339_8785463903832326699_n_thumb.jpg" />
+    <Content Include="Media\1014\21272297_1797472067210011_1902055076136830545_n.jpg" />
+    <Content Include="Media\1014\21272297_1797472067210011_1902055076136830545_n_big-thumb.jpg" />
+    <Content Include="Media\1014\21272297_1797472067210011_1902055076136830545_n_thumb.jpg" />
+    <Content Include="Media\1015\21430302_1797472097210008_7640457216395155413_n.jpg" />
+    <Content Include="Media\1015\21430302_1797472097210008_7640457216395155413_n_big-thumb.jpg" />
+    <Content Include="Media\1015\21430302_1797472097210008_7640457216395155413_n_thumb.jpg" />
+    <Content Include="Media\1016\21317975_1797471867210031_2075967773178523927_n.jpg" />
+    <Content Include="Media\1016\21317975_1797471867210031_2075967773178523927_n_big-thumb.jpg" />
+    <Content Include="Media\1016\21317975_1797471867210031_2075967773178523927_n_thumb.jpg" />
+    <Content Include="Media\1017\21371280_1797471687210049_5740968175211296020_n.jpg" />
+    <Content Include="Media\1017\21371280_1797471687210049_5740968175211296020_n_big-thumb.jpg" />
+    <Content Include="Media\1017\21371280_1797471687210049_5740968175211296020_n_thumb.jpg" />
+    <Content Include="Media\1018\bromfietstreffen.jpg" />
+    <Content Include="Media\1018\Cached\BRO_116a6904dd882b72644ae42fa1da8dfb558cca746b82827e92d831ad478e105c.jpeg" />
+    <Content Include="Media\1018\Cached\BRO_33886c79c55d8f9cbd847ce3523608feb68859d12d1ffe260183f8324bcc98f2.jpeg" />
+    <Content Include="Media\1018\Cached\BRO_dbb1417ae9a1843bf71a6b06eaa4f6d9f3fa47953f7737f94016177a3885f926.jpeg" />
+    <Content Include="Media\1018\Cached\index.xml" />
+    <Content Include="Media\1019\Cached\FLY_52814bd2127d0e4088325216fcb69cd1f70eb2e201be80d26b966dd30015795d.png" />
+    <Content Include="Media\1019\Cached\FLY_adbebda3cea6ad08bead7a6754dd9392e7724eafde550e91812c1371d93d8e57.png" />
+    <Content Include="Media\1019\Cached\index.xml" />
+    <Content Include="Media\1019\flyer-2018.png" />
+    <Content Include="Media\1021\21317413_1797471993876685_7991246492100764392_n.jpg" />
     <Content Include="Media\directions.png" />
+    <Content Include="Media\retro_icon.png" />
     <Content Include="Media\Web.config" />
     <Content Include="config\umbracoSettings.config" />
     <Content Include="config\trees.config" />
@@ -318,57 +364,6 @@
     <Content Include="scripts\plugins.js" />
     <Content Include="scripts\slick.min.js" />
     <Content Include="Views\Web.config" />
-    <Content Include="uSync\data\DataType\approved-color\ApprovedColor.config" />
-    <Content Include="uSync\data\DataType\blog-how-many-posts-should-be-shown-slider\BlogHowManyPostsShouldBeShownSlider.config" />
-    <Content Include="uSync\data\DataType\checkbox-list\CheckboxList.config" />
-    <Content Include="uSync\data\DataType\contact-contact-intro-rich-text-editor\ContactContactIntroRichTextEditor.config" />
-    <Content Include="uSync\data\DataType\contact-pick-a-contact-form-form-picker\ContactPickAContactFormFormPicker.config" />
-    <Content Include="uSync\data\DataType\contact-your-address-terratype\ContactYourAddressTerratype.config" />
-    <Content Include="uSync\data\DataType\content-base-content-grid-layout\ContentBaseContentGridLayout.config" />
-    <Content Include="uSync\data\DataType\content-picker\ContentPicker.config" />
-    <Content Include="uSync\data\DataType\date-picker-with-time\DatePickerWithTime.config" />
-    <Content Include="uSync\data\DataType\date-picker\DatePicker.config" />
-    <Content Include="uSync\data\DataType\dropdown-multiple\DropdownMultiple.config" />
-    <Content Include="uSync\data\DataType\dropdown\Dropdown.config" />
-    <Content Include="uSync\data\DataType\employee-department-tags\EmployeeDepartmentTags.config" />
-    <Content Include="uSync\data\DataType\home-call-to-action-link-content-picker\HomeCallToActionLinkContentPicker.config" />
-    <Content Include="uSync\data\DataType\home-color-theme-radio-button-list\HomeColorThemeRadioButtonList.config" />
-    <Content Include="uSync\data\DataType\home-content-grid-layout\HomeContentGridLayout.config" />
-    <Content Include="uSync\data\DataType\home-description-rich-text-editor\HomeDescriptionRichTextEditor.config" />
-    <Content Include="uSync\data\DataType\home-design-media-picker\HomeDesignMediaPicker.config" />
-    <Content Include="uSync\data\DataType\home-font-radio-button-list\HomeFontRadioButtonList.config" />
-    <Content Include="uSync\data\DataType\image-cropper\ImageCropper.config" />
-    <Content Include="uSync\data\DataType\label\Label.config" />
-    <Content Include="uSync\data\DataType\list-view-content\ListViewContent.config" />
-    <Content Include="uSync\data\DataType\list-view-media\ListViewMedia.config" />
-    <Content Include="uSync\data\DataType\list-view-members\ListViewMembers.config" />
-    <Content Include="uSync\data\DataType\list-view-products\ListViewProducts.config" />
-    <Content Include="uSync\data\DataType\media-picker\MediaPicker.config" />
-    <Content Include="uSync\data\DataType\member-picker\MemberPicker.config" />
-    <Content Include="uSync\data\DataType\multiple-media-picker\MultipleMediaPicker.config" />
-    <Content Include="uSync\data\DataType\numeric\Numeric.config" />
-    <Content Include="uSync\data\DataType\people-featured-people-multinode-treepicker\PeopleFeaturedPeopleMultinodeTreepicker.config" />
-    <Content Include="uSync\data\DataType\person-photo-media-picker\PersonPhotoMediaPicker.config" />
-    <Content Include="uSync\data\DataType\product-features-nested-content\ProductFeaturesNestedContent.config" />
-    <Content Include="uSync\data\DataType\product-photos-media-picker\ProductPhotosMediaPicker.config" />
-    <Content Include="uSync\data\DataType\product-price-decimal\ProductPriceDecimal.config" />
-    <Content Include="uSync\data\DataType\products-default-currency-dropdown-list\ProductsDefaultCurrencyDropdownList.config" />
-    <Content Include="uSync\data\DataType\products-featured-products-multinode-treepicker\ProductsFeaturedProductsMultinodeTreepicker.config" />
-    <Content Include="uSync\data\DataType\radiobox\Radiobox.config" />
-    <Content Include="uSync\data\DataType\related-links\RelatedLinks.config" />
-    <Content Include="uSync\data\DataType\richtext-editor\RichtextEditor.config" />
-    <Content Include="uSync\data\DataType\tags\Tags.config" />
-    <Content Include="uSync\data\DataType\textarea\Textarea.config" />
-    <Content Include="uSync\data\DataType\textstring\Textstring.config" />
-    <Content Include="uSync\data\DataType\true-false\Truefalse.config" />
-    <Content Include="uSync\data\DataType\upload\Upload.config" />
-    <Content Include="uSync\data\Languages\enUS.config" />
-    <Content Include="uSync\data\macro\featuredProduct.config" />
-    <Content Include="uSync\data\macro\featuredProducts.config" />
-    <Content Include="uSync\data\macro\latestBlogposts.config" />
-    <Content Include="uSync\data\MediaType\file\def.config" />
-    <Content Include="uSync\data\MediaType\folder\def.config" />
-    <Content Include="uSync\data\MediaType\image\def.config" />
     <Content Include="Views\Partials\ContactView.cshtml" />
     <Content Include="Views\Slider.cshtml" />
     <Content Include="Views\Partials\Footer.cshtml" />
@@ -389,6 +384,7 @@
     <Content Include="Views\StoreForSale.cshtml" />
     <Content Include="Views\StoreItem.cshtml" />
     <Content Include="Views\StoreSold.cshtml" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -435,6 +431,7 @@
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Media\1020\" />
     <Folder Include="Views\ContactFormSurface\" />
   </ItemGroup>
   <PropertyGroup>

@@ -1,0 +1,48 @@
+﻿@using VintageWheels.Controllers
+@using VintageWheels.Models
+@functions
+{
+    public static Umbraco.Web.UmbracoHelper umbracoHelper = new Umbraco.Web.UmbracoHelper(Umbraco.Web.UmbracoContext.Current);
+}
+@model ContactFormViewModel
+@{
+    Html.EnableClientValidation(true);
+    Html.EnableUnobtrusiveJavaScript(true);
+}
+
+@using (Html.BeginUmbracoForm<ContactFormSurfaceController>("HandleContactForm"))
+{
+    <div class="row">
+        @Html.ValidationSummary(true)
+        @Html.AntiForgeryToken()
+
+        <div class="col-sm-6">
+            <div class="form-group">
+
+                @Html.TextBoxFor(model => model.Name, new { @class = "form-control", placeholder = umbracoHelper.GetDictionaryValue("Name placeholder") })
+                @Html.ValidationMessageFor(model => model.Name)
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <div class="form-group">
+                @Html.TextBoxFor(model => model.Email, new { @class = "form-control", placeholder = umbracoHelper.GetDictionaryValue("Email adres") })
+                @Html.ValidationMessageFor(model => model.Email)
+            </div>
+
+            <div style="display: none;">
+                @Html.TextBoxFor(model => model.Tip)
+            </div>
+        </div>
+
+        <div class="col-sm-12">
+            <div class="form-group">
+                @Html.TextAreaFor(model => model.Message, new { @class = "form-control", @rows = 6, placeholder = umbracoHelper.GetDictionaryValue("Uw bericht") })
+                @Html.ValidationMessageFor(model => model.Message)
+            </div>
+            <div class="form-group text-center">
+                <input type="submit" class="btn btn-primary" value = "@umbracoHelper.GetDictionaryValue("Stuur bericht")" />
+            </div>
+        </div>
+    </div>
+}

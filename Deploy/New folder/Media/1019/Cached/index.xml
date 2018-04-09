@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_f>
+    <image>
+      <originalFileName>flyer-2018.png</originalFileName>
+      <size>461928</size>
+      <dateLastModified>Tue, 30 Jan 2018 22:44:52 GMT</dateLastModified>
+      <width>768</width>
+      <height>545</height>
+      <cachedImage>
+        <fileName>FLY_adbebda3cea6ad08bead7a6754dd9392e7724eafde550e91812c1371d93d8e57.png</fileName>
+        <dateCreated>Fri, 16 Feb 2018 00:45:50 GMT</dateCreated>
+        <imageFormat>png</imageFormat>
+        <rotate>0</rotate>
+        <flip />
+        <colorMode />
+        <crop />
+        <width>100</width>
+        <height>100</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>False</constrain>
+        <pad>False</pad>
+      </cachedImage>
+      <cachedImage>
+        <fileName>FLY_52814bd2127d0e4088325216fcb69cd1f70eb2e201be80d26b966dd30015795d.png</fileName>
+        <dateCreated>Fri, 16 Feb 2018 01:22:06 GMT</dateCreated>
+        <imageFormat>png</imageFormat>
+        <rotate>0</rotate>
+        <flip />
+        <colorMode />
+        <crop />
+        <width>100</width>
+        <height>71</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>False</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_f>
+</imageIndex>

@@ -1,4 +1,5 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using ContentModels = Umbraco.Web.PublishedContentModels;
 @{
     var nodeLang = Model.Content.Name;
     if (nodeLang == null || nodeLang == string.Empty)
@@ -7,7 +8,9 @@
     }
 
     var stores = Model.Content.Site().Children();
-    var storesList = stores.Where(x => x.ContentType.Alias == "store").ToList();
+    var home = (ContentModels.Home)stores.Where(x => x.ContentType.Alias == "home").FirstOrDefault();
+    var isInfo = home == null ? false : home.Children().Where(x => x.ContentType.Alias =="info").Any();
+    var storesList = stores.Where(x => x.ContentType.Alias == "store").Select(x=> (ContentModels.Store)x).ToList();
 }
 
 <nav class="navbar navbar-default navbar-fixed white no-background bootsnav">
@@ -33,10 +36,13 @@
         <div class="collapse navbar-collapse" id="navbar-menu">
             <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                 <li><a href="#home" class="nav-item">@Umbraco.GetDictionaryValue("Home")</a></li>
+                @if (isInfo)
+                {
                 <li><a href="#info" class="nav-item">@Umbraco.GetDictionaryValue("Info")</a></li>
+                }
                 @if (storesList != null && storesList.Count > 0)
                 {
-                    foreach (var store in storesList)
+                    foreach (ContentModels.Store store in storesList)
                     {
                         var forsale = store.Children.FirstOrDefault(x => x.ContentType.Alias == "storeForSale");
                         var forsalelink = forsale == null ? null : forsale.Url;
@@ -45,7 +51,7 @@
                         if (forsalelink != null && soldlink != null)
                         {
                         <li class="dropdown">
-                            <span class="dropdown-toggle nav-item">@store.Name</span>
+                            <span class="dropdown-toggle nav-item">@store.StoreNav</span>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a href="@forsalelink">@Umbraco.GetDictionaryValue("Te koop")</a>
@@ -59,13 +65,13 @@
                         else if (forsalelink != null)
                         {
                             <li>
-                                <a href="@forsalelink" class="nav-item">@store.Name</a>
+                                <a href="@forsalelink" class="nav-item">@store.StoreNav</a>
                             </li>
                         }
                         else if (soldlink != null)
                         {
                             <li>
-                                <a href="@soldlink" class="nav-item">@store.Name</a>
+                                <a href="@soldlink" class="nav-item">@store.StoreNav</a>
                             </li>
                         }
                     }

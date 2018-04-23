@@ -1,0 +1,842 @@
+﻿ 2018-04-09 00:26:24,817 [P7412/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 00:26:24,817 [P7412/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-09 00:26:24,818 [P7412/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2018-04-09 00:26:24,819 [P7412/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 1ms)
+ 2018-04-09 01:50:04,044 [P13740/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.7.6 application starting on LAPTOP-4VJ1Q7EF
+ 2018-04-09 01:50:04,099 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-04-09 01:50:04,110 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 11ms)
+ 2018-04-09 01:50:04,219 [P13740/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-04-09 01:50:04,226 [P13740/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-04-09 01:50:04,229 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 01:50:04,858 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 629ms)
+ 2018-04-09 01:50:04,858 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-04-09 01:50:04,865 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 7ms)
+ 2018-04-09 01:50:04,884 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 01:50:04,884 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-09 01:50:04,885 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-04-09 01:50:04,893 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 8ms)
+ 2018-04-09 01:50:04,894 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 01:50:04,894 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-09 01:50:04,894 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-04-09 01:50:04,901 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 6ms)
+ 2018-04-09 01:50:04,918 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 01:50:04,919 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-09 01:50:04,919 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-04-09 01:50:04,927 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 7ms)
+ 2018-04-09 01:50:04,928 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 01:50:04,929 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-09 01:50:04,929 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-04-09 01:50:04,938 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 9ms)
+ 2018-04-09 01:50:06,969 [P13740/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-04-09 01:50:07,292 [P13740/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-04-09 01:50:07,329 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2018-04-09 01:50:07,332 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2018-04-09 01:50:07,609 [P13740/D2/T1] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (199ms)
+ 2018-04-09 01:50:07,661 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 16
+ 2018-04-09 01:50:07,703 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = default Folder = ~/uSync/data/ Force = False
+ 2018-04-09 01:50:07,717 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2018-04-09 01:50:07,722 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:07,740 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 01:50:07,741 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-09 01:50:07,741 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-04-09 01:50:07,759 [P13740/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 18ms)
+ 2018-04-09 01:50:07,951 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:08,006 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:08,064 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:08,113 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:08,163 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:08,244 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:08,297 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:08,346 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:08,397 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:08,453 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:08,502 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:08,557 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:08,611 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:08,661 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:08,712 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:08,761 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:08,813 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:08,864 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:08,914 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:08,963 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:09,061 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:09,116 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:09,182 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:09,248 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:09,315 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:09,380 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:09,448 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:09,500 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:09,551 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:09,609 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:09,669 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:09,721 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:09,778 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:09,829 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:09,887 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:09,943 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:09,990 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:10,060 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:10,215 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:10,305 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:10,362 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:10,418 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:10,466 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:10,537 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:10,600 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:10,685 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:10,748 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:10,809 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:10,864 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:10,927 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 01:50:13,296 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 92 Items 51 changes 0 failures
+ 2018-04-09 01:50:13,297 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2018-04-09 01:50:13,297 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 01:50:13,394 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 01:50:13,395 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 01:50:13,395 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 01:50:13,395 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 01:50:13,396 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 01:50:13,396 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 01:50:13,396 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 01:50:13,396 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 01:50:13,396 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 01:50:13,397 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 01:50:13,397 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 01:50:13,397 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 01:50:13,397 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 01:50:13,397 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 01:50:13,397 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 01:50:13,398 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 01:50:13,398 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 01:50:13,398 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 01:50:13,410 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 35 Items 19 changes 0 failures
+ 2018-04-09 01:50:13,411 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2018-04-09 01:50:13,411 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 01:50:13,917 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 01:50:13,923 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 01:50:13,924 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 01:50:13,924 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 01:50:13,925 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 01:50:13,926 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 01:50:13,927 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 01:50:13,928 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 01:50:13,928 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 01:50:13,929 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 01:50:13,930 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 01:50:13,930 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 01:50:13,931 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 01:50:13,932 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 01:50:13,986 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 26 Items 15 changes 0 failures
+ 2018-04-09 01:50:13,987 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2018-04-09 01:50:13,987 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IMediaType
+ 2018-04-09 01:50:14,197 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 4 Items 1 changes 0 failures
+ 2018-04-09 01:50:14,198 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2018-04-09 01:50:14,286 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2018-04-09 01:50:14,286 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2018-04-09 01:50:14,287 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDictionaryItem
+ 2018-04-09 01:50:14,355 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDictionaryItem
+ 2018-04-09 01:50:14,405 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDictionaryItem
+ 2018-04-09 01:50:14,451 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDictionaryItem
+ 2018-04-09 01:50:16,670 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 11 Items 4 changes 0 failures
+ 2018-04-09 01:50:16,671 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2018-04-09 01:50:17,106 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2018-04-09 01:50:17,126 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events default
+ 2018-04-09 01:50:17,134 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 174 items with 90 changes ###
+ 2018-04-09 01:50:17,136 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete List View - parts Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,136 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Textbox Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,137 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Textbox (1) Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,137 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Home - VintageGSM - Textbox Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,138 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Home_Banner_Image Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,138 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete HomeBannerImage Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,138 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete HomeBannerText Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,138 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete HomeBannerText (1) Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,139 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete InfoPart1Text Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,139 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete InfoPart1Title Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,139 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete InfoPart2Text Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,140 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete InfoPart2Title Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,140 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete InfoPart3Text Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,140 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete InfoPart3Title Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,140 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - Andere fotos - Media Picker Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,141 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - ExtraTekst - Textarea Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,141 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - MeerTekst - Textarea Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,141 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - MeerTekst - Textarea (1) Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,141 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - MeerTekstEn - Textarea Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,146 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - MeerTekstFr - Textarea Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,147 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - MeerTekstNl - Textarea Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,147 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - Prijs - Textbox Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,148 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - Primaire foto - Media Picker Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,148 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - Url Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,148 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - Url (1) Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,148 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersVerkocht - Titel - Textbox Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,149 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete List View - products Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,149 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Part - PartPrice - Textbox Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,149 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete People - Featured People - Multinode Treepicker Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,149 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Person - Photo - Media Picker Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,149 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Product - Features - Nested Content Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,150 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Product - Photos - Media Picker Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,150 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Product - Price - Decimal Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,150 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Products - Default Currency - Dropdown list Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,150 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Products - Featured Products - Multinode Treepicker Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,150 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Slider - Image Cropper Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,151 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreForSalePaginaEmpty Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,151 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreForSalePaginaTitel Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,151 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreSoldPaginaWelkom Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,151 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreForSalePaginaWelkom Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,151 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemAndereFotos Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,152 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemBouwjaar Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,152 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemExtraTekst Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,152 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemMerk Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,152 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemModel Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,152 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemPrijs Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,153 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemPrimaireFoto Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,153 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemVideo Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,153 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreName Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,153 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreSoldPaginaEmpty Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,154 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreSoldPaginaTitel Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 01:50:17,154 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Parts1 Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 01:50:17,154 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommerDetail Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 01:50:17,154 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersForSale Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 01:50:17,155 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersTeKoop Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 01:50:17,155 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersVerkocht1 Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 01:50:17,155 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersSold Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 01:50:17,155 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete PartsSub Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 01:50:17,162 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete NavBarSecond Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 01:50:17,162 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete 404page1 Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 01:50:17,162 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete 404Page Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 01:50:17,162 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete notfound1 Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 01:50:17,163 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Banner Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 01:50:17,163 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BannerSmall Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 01:50:17,163 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Map Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 01:50:17,164 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Contact Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 01:50:17,164 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete NavBarMain Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 01:50:17,164 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 01:50:17,164 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommers Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 01:50:17,164 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersVerkocht Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 01:50:17,165 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommerDetail Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 01:50:17,165 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommerForDetail Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 01:50:17,165 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommerDetail Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 01:50:17,165 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommersTeKoop Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 01:50:17,165 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommersSold Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 01:50:17,165 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete partsSub Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 01:50:17,166 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete navBarSecond Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 01:50:17,166 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete page Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 01:50:17,166 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete map Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 01:50:17,166 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete navBarMain Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 01:50:17,166 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete contact Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 01:50:17,167 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete banner Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 01:50:17,167 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommer Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 01:50:17,168 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommers Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 01:50:17,168 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommersVerkocht Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 01:50:17,168 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete meeting Umbraco.Core.Models.IMediaType Not found 
+ 2018-04-09 01:50:17,169 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete VintageWheels Umbraco.Core.Models.IDictionaryItem Not found 
+ 2018-04-09 01:50:17,169 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommers te koop Umbraco.Core.Models.IDictionaryItem Not found 
+ 2018-04-09 01:50:17,169 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Geen brommers te koop Umbraco.Core.Models.IDictionaryItem Not found 
+ 2018-04-09 01:50:17,169 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommers te koop intro tekst Umbraco.Core.Models.IDictionaryItem Not found 
+ 2018-04-09 01:50:17,174 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncActionLogger - Saving uSync Report: D:\Work\Proper work\VintageWheels\VintageWheels\App_Data\temp\uSync\20180409_015017_Startup.config
+ 2018-04-09 01:50:17,295 [P13740/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (9963ms)
+ 2018-04-09 01:50:17,542 [P13740/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-04-09 01:50:17,919 [P13740/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-04-09 01:50:17,933 [P13740/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 13988ms)
+ 2018-04-09 01:50:18,236 [P13740/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50743/umbraco (UmbracoModule request)
+ 2018-04-09 01:50:35,825 [P13740/D2/T7] INFO  umbraco.content - Load Xml from file...
+ 2018-04-09 01:50:35,828 [P13740/D2/T7] INFO  umbraco.content - Loaded Xml from file.
+ 2018-04-09 01:50:36,105 [P13740/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 01:50:36,105 [P13740/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-09 01:50:36,105 [P13740/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-04-09 01:50:36,120 [P13740/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 14ms)
+ 2018-04-09 01:50:47,141 [P13740/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 01:50:47,141 [P13740/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-09 01:50:47,142 [P13740/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2018-04-09 01:50:47,153 [P13740/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 10ms)
+ 2018-04-09 01:51:36,008 [P13740/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-04-08 01:51:35
+ 2018-04-09 01:52:57,122 [P13740/D2/T10] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): d:\Work\Proper work\VintageWheels\VintageWheels\Views\StoreItem.cshtml(103): error CS0019: Operator '-' cannot be applied to operands of type 'string' and 'string'
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-04-09 02:20:20,997 [P8800/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.7.6 application starting on LAPTOP-4VJ1Q7EF
+ 2018-04-09 02:20:21,024 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-04-09 02:20:21,038 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 13ms)
+ 2018-04-09 02:20:21,121 [P8800/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-04-09 02:20:21,122 [P8800/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-04-09 02:20:21,125 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 02:20:21,607 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 481ms)
+ 2018-04-09 02:20:21,608 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-04-09 02:20:21,618 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 10ms)
+ 2018-04-09 02:20:21,637 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 02:20:21,638 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-09 02:20:21,638 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-04-09 02:20:21,647 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 9ms)
+ 2018-04-09 02:20:21,648 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 02:20:21,648 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-09 02:20:21,648 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-04-09 02:20:21,656 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 7ms)
+ 2018-04-09 02:20:21,675 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 02:20:21,676 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-09 02:20:21,676 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-04-09 02:20:21,685 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 9ms)
+ 2018-04-09 02:20:21,686 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 02:20:21,686 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-09 02:20:21,686 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-04-09 02:20:21,693 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 6ms)
+ 2018-04-09 02:20:23,481 [P8800/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-04-09 02:20:23,812 [P8800/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-04-09 02:20:23,837 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2018-04-09 02:20:23,841 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2018-04-09 02:20:24,079 [P8800/D2/T1] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (165ms)
+ 2018-04-09 02:20:24,136 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 16
+ 2018-04-09 02:20:24,214 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = default Folder = ~/uSync/data/ Force = False
+ 2018-04-09 02:20:24,225 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2018-04-09 02:20:24,230 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:24,239 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 02:20:24,240 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-09 02:20:24,240 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-04-09 02:20:24,251 [P8800/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 10ms)
+ 2018-04-09 02:20:24,421 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:24,475 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:24,526 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:24,581 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:24,636 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:24,682 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:24,727 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:24,785 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:24,836 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:24,882 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:24,929 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:24,975 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:25,027 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:25,077 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:25,126 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:25,175 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:25,229 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:25,283 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:25,335 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:25,383 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:25,439 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:25,491 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:25,542 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:25,595 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:25,684 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:25,740 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:25,800 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:25,859 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:25,915 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:25,969 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:26,021 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:26,072 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:26,124 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:26,169 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:26,218 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:26,269 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:26,319 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:26,368 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:26,418 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:26,471 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:26,525 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:26,575 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:26,622 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:26,671 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:26,736 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:26,787 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:26,844 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:26,903 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:26,959 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:27,015 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:20:29,409 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 92 Items 51 changes 0 failures
+ 2018-04-09 02:20:29,410 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2018-04-09 02:20:29,410 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:20:29,510 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:20:29,511 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:20:29,512 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:20:29,512 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:20:29,512 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:20:29,512 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:20:29,512 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:20:29,513 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:20:29,513 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:20:29,513 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:20:29,514 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:20:29,514 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:20:29,514 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:20:29,514 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:20:29,514 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:20:29,514 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:20:29,515 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:20:29,515 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:20:29,526 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 35 Items 19 changes 0 failures
+ 2018-04-09 02:20:29,527 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2018-04-09 02:20:29,527 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:20:29,950 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:20:29,952 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:20:29,953 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:20:29,954 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:20:29,954 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:20:29,955 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:20:29,955 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:20:29,956 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:20:29,957 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:20:29,957 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:20:29,957 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:20:29,958 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:20:29,958 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:20:29,958 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:20:30,005 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 26 Items 15 changes 0 failures
+ 2018-04-09 02:20:30,005 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2018-04-09 02:20:30,006 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IMediaType
+ 2018-04-09 02:20:30,272 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 4 Items 1 changes 0 failures
+ 2018-04-09 02:20:30,273 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2018-04-09 02:20:30,347 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2018-04-09 02:20:30,348 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2018-04-09 02:20:30,349 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDictionaryItem
+ 2018-04-09 02:20:30,426 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDictionaryItem
+ 2018-04-09 02:20:30,480 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDictionaryItem
+ 2018-04-09 02:20:30,534 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDictionaryItem
+ 2018-04-09 02:20:32,384 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 11 Items 4 changes 0 failures
+ 2018-04-09 02:20:32,384 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2018-04-09 02:20:32,590 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2018-04-09 02:20:32,597 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events default
+ 2018-04-09 02:20:32,602 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 174 items with 90 changes ###
+ 2018-04-09 02:20:32,603 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete List View - parts Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,604 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Textbox Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,604 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Textbox (1) Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,604 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Home - VintageGSM - Textbox Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,605 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Home_Banner_Image Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,605 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete HomeBannerImage Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,605 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete HomeBannerText Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,605 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete HomeBannerText (1) Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,605 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete InfoPart1Text Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,605 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete InfoPart1Title Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,606 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete InfoPart2Text Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,606 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete InfoPart2Title Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,606 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete InfoPart3Text Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,606 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete InfoPart3Title Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,606 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - Andere fotos - Media Picker Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,607 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - ExtraTekst - Textarea Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,607 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - MeerTekst - Textarea Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,607 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - MeerTekst - Textarea (1) Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,607 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - MeerTekstEn - Textarea Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,608 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - MeerTekstFr - Textarea Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,608 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - MeerTekstNl - Textarea Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,608 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - Prijs - Textbox Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,608 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - Primaire foto - Media Picker Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,608 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - Url Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,609 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - Url (1) Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,609 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersVerkocht - Titel - Textbox Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,609 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete List View - products Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,609 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Part - PartPrice - Textbox Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,609 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete People - Featured People - Multinode Treepicker Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,610 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Person - Photo - Media Picker Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,610 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Product - Features - Nested Content Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,610 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Product - Photos - Media Picker Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,610 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Product - Price - Decimal Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,610 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Products - Default Currency - Dropdown list Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,611 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Products - Featured Products - Multinode Treepicker Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,611 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Slider - Image Cropper Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,611 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreForSalePaginaEmpty Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,611 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreForSalePaginaTitel Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,611 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreSoldPaginaWelkom Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,612 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreForSalePaginaWelkom Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,612 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemAndereFotos Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,612 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemBouwjaar Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,612 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemExtraTekst Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,612 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemMerk Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,613 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemModel Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,613 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemPrijs Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,613 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemPrimaireFoto Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,613 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemVideo Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,613 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreName Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,613 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreSoldPaginaEmpty Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,614 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreSoldPaginaTitel Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:20:32,614 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Parts1 Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:20:32,614 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommerDetail Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:20:32,614 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersForSale Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:20:32,614 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersTeKoop Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:20:32,614 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersVerkocht1 Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:20:32,614 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersSold Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:20:32,614 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete PartsSub Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:20:32,615 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete NavBarSecond Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:20:32,615 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete 404page1 Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:20:32,615 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete 404Page Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:20:32,615 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete notfound1 Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:20:32,615 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Banner Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:20:32,615 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BannerSmall Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:20:32,615 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Map Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:20:32,616 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Contact Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:20:32,616 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete NavBarMain Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:20:32,616 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:20:32,616 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommers Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:20:32,616 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersVerkocht Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:20:32,616 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommerDetail Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:20:32,616 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommerForDetail Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:20:32,616 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommerDetail Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:20:32,617 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommersTeKoop Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:20:32,617 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommersSold Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:20:32,617 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete partsSub Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:20:32,617 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete navBarSecond Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:20:32,617 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete page Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:20:32,617 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete map Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:20:32,617 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete navBarMain Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:20:32,618 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete contact Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:20:32,618 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete banner Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:20:32,618 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommer Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:20:32,618 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommers Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:20:32,618 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommersVerkocht Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:20:32,619 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete meeting Umbraco.Core.Models.IMediaType Not found 
+ 2018-04-09 02:20:32,619 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete VintageWheels Umbraco.Core.Models.IDictionaryItem Not found 
+ 2018-04-09 02:20:32,619 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommers te koop Umbraco.Core.Models.IDictionaryItem Not found 
+ 2018-04-09 02:20:32,619 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Geen brommers te koop Umbraco.Core.Models.IDictionaryItem Not found 
+ 2018-04-09 02:20:32,619 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommers te koop intro tekst Umbraco.Core.Models.IDictionaryItem Not found 
+ 2018-04-09 02:20:32,624 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncActionLogger - Saving uSync Report: D:\Work\Proper work\VintageWheels\VintageWheels\App_Data\temp\uSync\20180409_022032_Startup.config
+ 2018-04-09 02:20:32,635 [P8800/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (8794ms)
+ 2018-04-09 02:20:32,776 [P8800/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-04-09 02:20:33,056 [P8800/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-04-09 02:20:33,068 [P8800/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 12149ms)
+ 2018-04-09 02:20:33,454 [P8800/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50743/umbraco (UmbracoModule request)
+ 2018-04-09 02:20:33,860 [P8800/D2/T6] INFO  umbraco.content - Load Xml from file...
+ 2018-04-09 02:20:33,863 [P8800/D2/T6] INFO  umbraco.content - Loaded Xml from file.
+ 2018-04-09 02:20:34,046 [P8800/D2/T6] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 02:20:34,047 [P8800/D2/T6] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-09 02:20:34,047 [P8800/D2/T6] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-04-09 02:20:34,055 [P8800/D2/T6] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 8ms)
+ 2018-04-09 02:21:44,785 [P8800/D2/T6] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 02:21:44,786 [P8800/D2/T6] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-09 02:21:44,786 [P8800/D2/T6] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2018-04-09 02:21:44,838 [P8800/D2/T6] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 51ms)
+ 2018-04-09 02:29:21,941 [P8800/D2/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-04-09 02:29:21,942 [P8800/D2/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-04-09 02:29:21,955 [P8800/D2/T30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-04-09 02:29:21,961 [P8800/D2/T34] INFO  Umbraco.Core.MainDom - Stopping...
+ 2018-04-09 02:29:21,965 [P8800/D2/T34] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2018-04-09 02:29:21,966 [P8800/D2/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-04-09 02:29:21,966 [P8800/D2/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-04-09 02:29:21,967 [P8800/D2/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
+ 2018-04-09 02:29:21,967 [P8800/D2/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
+ 2018-04-09 02:29:21,967 [P8800/D2/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
+ 2018-04-09 02:29:21,968 [P8800/D2/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-04-09 02:29:21,968 [P8800/D2/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-04-09 02:29:21,968 [P8800/D2/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-04-09 02:29:21,968 [P8800/D2/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-04-09 02:29:21,968 [P8800/D2/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-04-09 02:29:21,969 [P8800/D2/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-04-09 02:29:21,967 [P8800/D2/T30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-04-09 02:29:21,970 [P8800/D2/T30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-04-09 02:29:21,971 [P8800/D2/T30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2018-04-09 02:29:21,972 [P8800/D2/T42] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2018-04-09 02:29:52,039 [P8800/D2/T30] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2018-04-09 02:39:41,886 [P2524/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.7.6 application starting on LAPTOP-4VJ1Q7EF
+ 2018-04-09 02:39:41,913 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-04-09 02:39:41,930 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 17ms)
+ 2018-04-09 02:39:42,006 [P2524/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-04-09 02:39:42,010 [P2524/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-04-09 02:39:42,013 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 02:39:42,606 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 593ms)
+ 2018-04-09 02:39:42,607 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-04-09 02:39:42,623 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 16ms)
+ 2018-04-09 02:39:42,663 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 02:39:42,664 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-04-09 02:39:42,665 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-04-09 02:39:42,678 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 13ms)
+ 2018-04-09 02:39:42,679 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 02:39:42,680 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-09 02:39:42,680 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-04-09 02:39:42,694 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 14ms)
+ 2018-04-09 02:39:42,723 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 02:39:42,724 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-09 02:39:42,724 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-04-09 02:39:42,734 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 9ms)
+ 2018-04-09 02:39:42,735 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 02:39:42,735 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-09 02:39:42,735 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-04-09 02:39:42,748 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 12ms)
+ 2018-04-09 02:39:46,380 [P2524/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-04-09 02:39:46,947 [P2524/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-04-09 02:39:46,991 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2018-04-09 02:39:46,995 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2018-04-09 02:39:47,541 [P2524/D2/T1] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (309ms)
+ 2018-04-09 02:39:47,625 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 16
+ 2018-04-09 02:39:47,696 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = default Folder = ~/uSync/data/ Force = False
+ 2018-04-09 02:39:47,740 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2018-04-09 02:39:47,744 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:47,807 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 02:39:47,808 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-09 02:39:47,809 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-04-09 02:39:47,846 [P2524/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 37ms)
+ 2018-04-09 02:39:48,265 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:48,360 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:48,454 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:48,520 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:48,606 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:48,680 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:48,857 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:48,953 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:49,017 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:49,106 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:49,177 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:49,256 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:49,328 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:49,409 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:49,498 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:49,585 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:49,660 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:49,741 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:49,820 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:49,886 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:49,976 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:50,038 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:50,112 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:50,196 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:50,293 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:50,438 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:50,584 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:50,663 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:50,740 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:50,837 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:50,911 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:50,980 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:51,072 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:51,132 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:51,214 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:51,292 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:51,361 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:51,455 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:51,541 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:51,621 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:51,698 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:51,775 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:51,868 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:51,951 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:52,029 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:52,192 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:52,282 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:52,357 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:52,461 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:52,552 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDataTypeDefinition
+ 2018-04-09 02:39:56,090 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 92 Items 51 changes 0 failures
+ 2018-04-09 02:39:56,091 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2018-04-09 02:39:56,093 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:39:56,228 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:39:56,230 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:39:56,230 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:39:56,230 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:39:56,230 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:39:56,231 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:39:56,231 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:39:56,231 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:39:56,231 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:39:56,231 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:39:56,232 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:39:56,232 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:39:56,232 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:39:56,232 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:39:56,232 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:39:56,233 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:39:56,233 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:39:56,233 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.ITemplate
+ 2018-04-09 02:39:56,247 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 35 Items 19 changes 0 failures
+ 2018-04-09 02:39:56,248 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2018-04-09 02:39:56,248 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:39:57,347 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:39:57,349 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:39:57,350 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:39:57,351 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:39:57,351 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:39:57,352 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:39:57,352 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:39:57,353 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:39:57,354 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:39:57,355 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:39:57,355 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:39:57,356 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:39:57,356 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:39:57,359 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2018-04-09 02:39:57,412 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 26 Items 15 changes 0 failures
+ 2018-04-09 02:39:57,413 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2018-04-09 02:39:57,414 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IMediaType
+ 2018-04-09 02:39:57,704 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 4 Items 1 changes 0 failures
+ 2018-04-09 02:39:57,704 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2018-04-09 02:39:57,808 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2018-04-09 02:39:57,808 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2018-04-09 02:39:57,810 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDictionaryItem
+ 2018-04-09 02:39:57,901 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDictionaryItem
+ 2018-04-09 02:39:57,967 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDictionaryItem
+ 2018-04-09 02:39:58,022 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IDictionaryItem
+ 2018-04-09 02:40:02,385 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 11 Items 4 changes 0 failures
+ 2018-04-09 02:40:02,386 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2018-04-09 02:40:03,271 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2018-04-09 02:40:03,288 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events default
+ 2018-04-09 02:40:03,321 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 174 items with 90 changes ###
+ 2018-04-09 02:40:03,327 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete List View - parts Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,330 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Textbox Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,331 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Textbox (1) Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,332 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Home - VintageGSM - Textbox Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,332 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Home_Banner_Image Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,332 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete HomeBannerImage Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,333 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete HomeBannerText Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,333 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete HomeBannerText (1) Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,333 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete InfoPart1Text Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,333 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete InfoPart1Title Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,334 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete InfoPart2Text Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,334 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete InfoPart2Title Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,334 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete InfoPart3Text Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,335 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete InfoPart3Title Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,335 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - Andere fotos - Media Picker Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,335 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - ExtraTekst - Textarea Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,335 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - MeerTekst - Textarea Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,336 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - MeerTekst - Textarea (1) Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,336 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - MeerTekstEn - Textarea Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,336 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - MeerTekstFr - Textarea Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,336 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - MeerTekstNl - Textarea Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,337 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - Prijs - Textbox Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,337 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - Primaire foto - Media Picker Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,337 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - Url Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,337 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer - Url (1) Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,337 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersVerkocht - Titel - Textbox Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,338 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete List View - products Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,355 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Part - PartPrice - Textbox Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,355 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete People - Featured People - Multinode Treepicker Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,355 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Person - Photo - Media Picker Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,361 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Product - Features - Nested Content Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,362 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Product - Photos - Media Picker Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,364 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Product - Price - Decimal Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,365 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Products - Default Currency - Dropdown list Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,365 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Products - Featured Products - Multinode Treepicker Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,365 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Slider - Image Cropper Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,366 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreForSalePaginaEmpty Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,366 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreForSalePaginaTitel Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,366 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreSoldPaginaWelkom Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,366 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreForSalePaginaWelkom Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,366 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemAndereFotos Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,367 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemBouwjaar Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,367 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemExtraTekst Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,367 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemMerk Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,368 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemModel Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,368 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemPrijs Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,371 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemPrimaireFoto Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,372 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreItemVideo Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,381 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreName Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,382 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreSoldPaginaEmpty Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,382 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete StoreSoldPaginaTitel Umbraco.Core.Models.IDataTypeDefinition Not found 
+ 2018-04-09 02:40:03,383 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Parts1 Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:40:03,383 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommerDetail Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:40:03,383 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersForSale Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:40:03,384 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersTeKoop Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:40:03,384 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersVerkocht1 Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:40:03,385 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersSold Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:40:03,385 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete PartsSub Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:40:03,385 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete NavBarSecond Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:40:03,385 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete 404page1 Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:40:03,386 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete 404Page Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:40:03,386 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete notfound1 Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:40:03,386 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Banner Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:40:03,386 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BannerSmall Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:40:03,387 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Map Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:40:03,388 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Contact Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:40:03,388 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete NavBarMain Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:40:03,388 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommer Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:40:03,389 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommers Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:40:03,389 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete BrommersVerkocht Umbraco.Core.Models.ITemplate Not found 
+ 2018-04-09 02:40:03,389 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommerDetail Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:40:03,392 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommerForDetail Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:40:03,392 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommerDetail Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:40:03,393 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommersTeKoop Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:40:03,395 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommersSold Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:40:03,395 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete partsSub Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:40:03,397 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete navBarSecond Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:40:03,438 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete page Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:40:03,439 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete map Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:40:03,446 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete navBarMain Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:40:03,449 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete contact Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:40:03,450 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete banner Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:40:03,451 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommer Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:40:03,452 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommers Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:40:03,453 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete brommersVerkocht Umbraco.Core.Models.IContentType Not found 
+ 2018-04-09 02:40:03,453 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete meeting Umbraco.Core.Models.IMediaType Not found 
+ 2018-04-09 02:40:03,453 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete VintageWheels Umbraco.Core.Models.IDictionaryItem Not found 
+ 2018-04-09 02:40:03,453 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommers te koop Umbraco.Core.Models.IDictionaryItem Not found 
+ 2018-04-09 02:40:03,454 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Geen brommers te koop Umbraco.Core.Models.IDictionaryItem Not found 
+ 2018-04-09 02:40:03,454 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete Brommers te koop intro tekst Umbraco.Core.Models.IDictionaryItem Not found 
+ 2018-04-09 02:40:03,485 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncActionLogger - Saving uSync Report: D:\Work\Proper work\VintageWheels\VintageWheels\App_Data\temp\uSync\20180409_024003_Startup.config
+ 2018-04-09 02:40:03,543 [P2524/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (16548ms)
+ 2018-04-09 02:40:03,918 [P2524/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-04-09 02:40:05,020 [P2524/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-04-09 02:40:05,047 [P2524/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 23241ms)
+ 2018-04-09 02:40:06,095 [P2524/D2/T5] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50743/umbraco (UmbracoModule request)
+ 2018-04-09 02:40:08,425 [P2524/D2/T5] INFO  umbraco.content - Load Xml from file...
+ 2018-04-09 02:40:08,482 [P2524/D2/T5] INFO  umbraco.content - Loaded Xml from file.
+ 2018-04-09 02:40:09,101 [P2524/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 02:40:09,101 [P2524/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-09 02:40:09,101 [P2524/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-04-09 02:40:09,130 [P2524/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 29ms)
+ 2018-04-09 02:40:24,706 [P2524/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-09 02:40:24,707 [P2524/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-09 02:40:24,707 [P2524/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2018-04-09 02:40:24,753 [P2524/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 45ms)
+ 2018-04-09 02:41:08,801 [P2524/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-04-08 02:41:08

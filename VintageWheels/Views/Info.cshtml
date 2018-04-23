@@ -7,46 +7,60 @@
 }
 
 <!--Service Section-->
-        <section id="info" class="service">
-            <div class="container">
-                <div class="row">
-                    <div class="main_service roomy-100">
-                        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                            <div class="head_title text-center">
-                                <h2>@Umbraco.GetDictionaryValue("Onze diensten")</h2>
-                                <div class="separator_auto"></div>
-                                <p>@Umbraco.GetDictionaryValue("Onze diensten uitleg")</p>
-                            </div>
-                        </div>
+<section id="info" class="service">
+    <div class="container">
+        <div class="row">
+            <div class="main_service roomy-100">
+                <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                    <div class="head_title text-center">
+                        <h2>@Umbraco.GetDictionaryValue("Onze diensten")</h2>
+                        <div class="separator_auto"></div>
+                        <p>@Umbraco.GetDictionaryValue("Onze diensten uitleg")</p>
+                    </div>
+                </div>
+                @{
+                    var count = 0;
+                    if (!string.IsNullOrEmpty(info.InfoPart1Title)) { count++; }
+                    if (!string.IsNullOrEmpty(info.InfoPart2Title)) { count++; }
+                    if (!string.IsNullOrEmpty(info.InfoPart3Title)) { count++; }
+                    var offsetString = "";
+                    if (count == 1) { offsetString = "col-md-offset-4"; }
+                    if (count == 2) { offsetString = "col-md-offset-2"; }
+                }
 
-                        <div class="col-md-4">
-                            <div class="service_item">
-                                <i class="icofont icofont-light-bulb"></i>
-                                <h6 class="m-top-30">@info.InfoPart1Title</h6>
-                                <div class="separator_small"></div>
-                                <p>@info.InfoPart1Text</p>
-                            </div>
+                <div class="@offsetString">
+
+
+                    <div class="col-md-4">
+                        <div class="service_item">
+                            <i class="icofont icofont-light-bulb"></i>
+                            <h6 class="m-top-30">@info.InfoPart1Title</h6>
+                            <div class="separator_small"></div>
+                            <p>@info.InfoPart1Text</p>
                         </div>
-                        <div class="col-md-4">
-                            <div class="service_item">
-                                <i class="icofont icofont-light-bulb"></i>
-                                <h6 class="m-top-30">@info.InfoPart2Title</h6>
-                                <div class="separator_small"></div>
-                                <p>@info.InfoPart2Text</p>
-                            </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service_item">
+                            <i class="icofont icofont-light-bulb"></i>
+                            <h6 class="m-top-30">@info.InfoPart2Title</h6>
+                            <div class="separator_small"></div>
+                            <p>@info.InfoPart2Text</p>
                         </div>
-                        <div class="col-md-4">
-                            <div class="service_item">
-                                <i class="icofont icofont-video"></i>
-                                <h6 class="m-top-30">@info.InfoPart3Title</h6>
-                                <div class="separator_small"></div>
-                                <p>@info.InfoPart3Text</p>
-                            </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service_item">
+                            <i class="icofont icofont-video"></i>
+                            <h6 class="m-top-30">@info.InfoPart3Title</h6>
+                            <div class="separator_small"></div>
+                            <p>@info.InfoPart3Text</p>
                         </div>
                     </div>
                 </div>
-                <!--End off row -->
+
             </div>
-            <!--End off container -->
-        </section>
-        <!--End off Featured section-->
+        </div>
+        <!--End off row -->
+    </div>
+    <!--End off container -->
+</section>
+<!--End off Featured section-->

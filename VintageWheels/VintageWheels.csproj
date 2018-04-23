@@ -286,34 +286,6 @@
     <Content Include="Media\1011\banner.png" />
     <Content Include="Media\1011\banner_big-thumb.png" />
     <Content Include="Media\1011\banner_thumb.png" />
-    <Content Include="Media\1012\brommer1.jpg" />
-    <Content Include="Media\1012\brommer1_big-thumb.jpg" />
-    <Content Include="Media\1012\brommer1_thumb.jpg" />
-    <Content Include="Media\1013\21271318_1797472120543339_8785463903832326699_n.jpg" />
-    <Content Include="Media\1013\21271318_1797472120543339_8785463903832326699_n_big-thumb.jpg" />
-    <Content Include="Media\1013\21271318_1797472120543339_8785463903832326699_n_thumb.jpg" />
-    <Content Include="Media\1014\21272297_1797472067210011_1902055076136830545_n.jpg" />
-    <Content Include="Media\1014\21272297_1797472067210011_1902055076136830545_n_big-thumb.jpg" />
-    <Content Include="Media\1014\21272297_1797472067210011_1902055076136830545_n_thumb.jpg" />
-    <Content Include="Media\1015\21430302_1797472097210008_7640457216395155413_n.jpg" />
-    <Content Include="Media\1015\21430302_1797472097210008_7640457216395155413_n_big-thumb.jpg" />
-    <Content Include="Media\1015\21430302_1797472097210008_7640457216395155413_n_thumb.jpg" />
-    <Content Include="Media\1016\21317975_1797471867210031_2075967773178523927_n.jpg" />
-    <Content Include="Media\1016\21317975_1797471867210031_2075967773178523927_n_big-thumb.jpg" />
-    <Content Include="Media\1016\21317975_1797471867210031_2075967773178523927_n_thumb.jpg" />
-    <Content Include="Media\1017\21371280_1797471687210049_5740968175211296020_n.jpg" />
-    <Content Include="Media\1017\21371280_1797471687210049_5740968175211296020_n_big-thumb.jpg" />
-    <Content Include="Media\1017\21371280_1797471687210049_5740968175211296020_n_thumb.jpg" />
-    <Content Include="Media\1018\bromfietstreffen.jpg" />
-    <Content Include="Media\1018\Cached\BRO_116a6904dd882b72644ae42fa1da8dfb558cca746b82827e92d831ad478e105c.jpeg" />
-    <Content Include="Media\1018\Cached\BRO_33886c79c55d8f9cbd847ce3523608feb68859d12d1ffe260183f8324bcc98f2.jpeg" />
-    <Content Include="Media\1018\Cached\BRO_dbb1417ae9a1843bf71a6b06eaa4f6d9f3fa47953f7737f94016177a3885f926.jpeg" />
-    <Content Include="Media\1018\Cached\index.xml" />
-    <Content Include="Media\1019\Cached\FLY_52814bd2127d0e4088325216fcb69cd1f70eb2e201be80d26b966dd30015795d.png" />
-    <Content Include="Media\1019\Cached\FLY_adbebda3cea6ad08bead7a6754dd9392e7724eafde550e91812c1371d93d8e57.png" />
-    <Content Include="Media\1019\Cached\index.xml" />
-    <Content Include="Media\1019\flyer-2018.png" />
-    <Content Include="Media\1021\21317413_1797471993876685_7991246492100764392_n.jpg" />
     <Content Include="Media\directions.png" />
     <Content Include="Media\retro_icon.png" />
     <Content Include="Media\Web.config" />
@@ -431,7 +403,6 @@
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Media\1020\" />
     <Folder Include="Views\ContactFormSurface\" />
   </ItemGroup>
   <PropertyGroup>
